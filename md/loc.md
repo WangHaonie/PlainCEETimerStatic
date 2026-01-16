@@ -1,17 +1,17 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.29 s (511.0 files/s, 44993.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.24 s (619.9 files/s, 54597.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|109|0|752
-src\PlainCEETimer\UI\Forms\MainForm.cs|109|10|592
+src\PlainCEETimer\UI\Forms\MainForm.cs|108|10|591
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
 src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|329
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\App.cs|34|0|266
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|245
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|38|0|231
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|38|0|237
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2115|291|10449
+SUM:|2114|291|10454
