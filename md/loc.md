@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.28 s (528.7 files/s, 46561.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.29 s (511.0 files/s, 44993.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -76,9 +76,9 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Interop\Enums.cs|5|0|35
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
-src\PlainCEETimer\UI\Dialogs\RulesManager.cs|8|0|34
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|33
+src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|33
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|12|5|32
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|31
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|7|0|30
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2116|291|10450
+SUM:|2115|291|10449
