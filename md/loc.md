@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.24 s (619.9 files/s, 54597.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (351.0 files/s, 31060.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|109|0|752
-src\PlainCEETimer\UI\Forms\MainForm.cs|108|10|591
+src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
 src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|329
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
@@ -23,6 +23,7 @@ src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|174
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\UI\AppMessageBox.cs|42|16|147
+src\PlainCEETimer\Modules\Startup.cs|23|7|143
 src\PlainCEETimer\UI\HotKeyService.cs|37|7|138
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|28|6|133
 src\PlainCEETimer.Natives\Win32\IATHook.h|28|9|127
@@ -32,7 +33,6 @@ src\PlainCEETimer\UI\Extensions\Extensions.cs|25|0|124
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|113
 src\PlainCEETimer\Countdown\Exam.cs|23|0|111
-src\PlainCEETimer\Modules\Startup.cs|19|7|111
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Updater.cs|18|0|106
 src\PlainCEETimer\Modules\OptimizationHelper.cs|16|0|105
@@ -45,13 +45,13 @@ src\PlainCEETimer\Modules\Configuration\AppConfig.cs|20|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\UI\ThemeManager.cs|22|9|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
+src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|73
 src\PlainCEETimer.Natives\Utils.h|23|8|69
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
 src\PlainCEETimer\UI\Enums.cs|8|0|64
-src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|11|0|62
 src\PlainCEETimer\Countdown\Ph.cs|9|3|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
@@ -97,13 +97,13 @@ src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\Colors.cs|2|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\Countdown\ExamSettings.cs|6|0|21
+src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Countdown\Enums.cs|2|0|19
 src\PlainCEETimer\Interop\DisplayHelper.cs|5|0|19
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|7|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
-src\PlainCEETimer\Interop\Win32TaskScheduler.cs|7|3|18
 src\PlainCEETimer\Modules\HashCode.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|10|7|16
@@ -121,8 +121,8 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|11
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|11
+src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\Countdown\ICountdownService.cs|6|0|10
-src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|9
 src\PlainCEETimer\Countdown\CountdownUpdatedEventArgs.cs|4|0|9
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|2|0|9
 src\PlainCEETimer\UI\Controls\PlainRadioButton.cs|2|0|9
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2114|291|10454
+SUM:|2123|291|10505
