@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.27 s (536.0 files/s, 47513.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.28 s (518.3 files/s, 45934.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -23,7 +23,7 @@ src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|174
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
-src\PlainCEETimer\UI\AppMessageBox.cs|42|16|147
+src\PlainCEETimer\UI\AppMessageBox.cs|41|16|145
 src\PlainCEETimer\UI\HotKeyService.cs|37|7|138
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|28|6|133
 src\PlainCEETimer.Natives\Win32\IATHook.h|28|9|127
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2127|291|10523
+SUM:|2126|291|10521
