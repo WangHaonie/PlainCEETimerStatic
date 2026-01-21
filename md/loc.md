@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.28 s (528.1 files/s, 46784.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.23 s (632.8 files/s, 56067.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|109|0|752
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
-src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|329
+src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|332
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\App.cs|34|0|266
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
@@ -62,7 +62,7 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|15|0|50
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
-src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
+src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|42
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2126|291|10518
+SUM:|2126|291|10520
