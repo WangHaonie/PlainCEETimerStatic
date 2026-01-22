@@ -1,9 +1,9 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.23 s (632.8 files/s, 56067.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.28 s (516.2 files/s, 45680.3 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|109|0|752
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|106|0|737
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
 src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|332
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2126|291|10520
+SUM:|2123|291|10505
