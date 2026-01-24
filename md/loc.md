@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.28 s (524.6 files/s, 46416.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (401.9 files/s, 35529.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,10 +8,10 @@ src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
 src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|332
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
-src\PlainCEETimer\Modules\App.cs|34|0|266
+src\PlainCEETimer\Modules\App.cs|33|0|262
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|245
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|38|0|237
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|37|0|236
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -43,8 +43,8 @@ src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|90
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|85
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|20|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
-src\PlainCEETimer\UI\ThemeManager.cs|22|9|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
+src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|73
 src\PlainCEETimer.Natives\Utils.h|23|8|69
@@ -150,4 +150,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2123|291|10505
+SUM:|2120|291|10496
