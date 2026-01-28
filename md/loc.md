@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.29 s (494.6 files/s, 43967.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (426.0 files/s, 37842.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,8 +16,8 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\UI\Controls\NavigationView.cs|27|0|193
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|39|0|188
+src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|174
@@ -149,4 +149,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2118|290|10481
+SUM:|2117|290|10474
