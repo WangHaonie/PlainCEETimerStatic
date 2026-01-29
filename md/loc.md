@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (426.0 files/s, 37842.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (430.1 files/s, 38250.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -30,9 +30,9 @@ src\PlainCEETimer\Interop\Win32UI.cs|50|5|127
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|25|0|124
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
-src\PlainCEETimer.Natives\Win32\IATHook.h|26|9|115
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|113
 src\PlainCEETimer\Countdown\Exam.cs|23|0|111
+src\PlainCEETimer.Natives\Win32\IATHook.h|25|9|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Updater.cs|18|0|106
 src\PlainCEETimer\Modules\OptimizationHelper.cs|16|0|105
@@ -40,6 +40,7 @@ src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|19|0|99
 src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|90
+src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|85
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|20|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
@@ -47,7 +48,6 @@ src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|73
-src\PlainCEETimer.Natives\Utils.h|23|8|69
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
@@ -149,4 +149,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2117|290|10474
+SUM:|2120|290|10485
