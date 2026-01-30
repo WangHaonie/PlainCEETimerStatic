@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (431.4 files/s, 38371.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (421.7 files/s, 37500.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|106|0|737
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|79|6|425
-src\PlainCEETimer\UI\Controls\AppForm.cs|75|59|332
+src\PlainCEETimer\UI\Controls\AppForm.cs|73|59|321
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\App.cs|33|0|262
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
@@ -19,8 +19,8 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|39|0|188
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|174
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\AppMessageBox.cs|41|16|145
@@ -149,4 +149,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2122|290|10486
+SUM:|2122|290|10481
