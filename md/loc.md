@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (429.1 files/s, 38231.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (425.8 files/s, 37938.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,7 +11,7 @@ src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\App.cs|33|0|262
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|245
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|37|0|236
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|37|0|235
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -30,7 +30,7 @@ src\PlainCEETimer\Interop\Win32UI.cs|50|5|127
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|25|0|124
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
-src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|113
+src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\Countdown\Exam.cs|23|0|111
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
@@ -149,4 +149,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2129|302|10489
+SUM:|2129|302|10487
