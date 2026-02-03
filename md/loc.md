@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (423.4 files/s, 37722.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (389.7 files/s, 34494.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -143,10 +143,11 @@ src\PlainCEETimer.Natives\Win32\User.h|2|0|4
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.h|2|0|4
 src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
 src\PlainCEETimer.Natives\framework.h|0|0|3
+src\PlainCEETimer\UI\ControlsBuilder.cs|2|0|3
 src\PlainCEETimer\UI\MenuItemBuilder.cs|2|0|3
 src\PlainCEETimer\Countdown\CountdownUpdatedEventHandler.cs|1|0|2
 src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2129|302|10487
+SUM:|2131|302|10490
