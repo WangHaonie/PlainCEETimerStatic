@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (419.9 files/s, 37254.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (421.7 files/s, 37453.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -14,21 +14,21 @@ src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|245
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|37|0|235
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|45|0|206
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|39|0|188
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
+src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
 src\PlainCEETimer\UI\AppMessageBox.cs|41|16|145
-src\PlainCEETimer\UI\HotKeyService.cs|35|7|145
 src\PlainCEETimer\Interop\Win32UI.cs|54|5|135
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|28|6|133
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
-src\PlainCEETimer\UI\Extensions\Extensions.cs|25|0|124
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|26|6|125
+src\PlainCEETimer\UI\Extensions\Extensions.cs|25|0|125
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
@@ -115,9 +115,9 @@ src\PlainCEETimer.Natives\Win32\DisplayHelper.h|4|0|15
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
 src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|15
 src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|15
-src\PlainCEETimer.Natives\Win32UI\Control.h|3|0|14
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
+src\PlainCEETimer.Natives\Win32UI\Control.h|3|0|13
 src\PlainCEETimer\Modules\WindowsBuilds.cs|1|0|12
 src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
@@ -152,4 +152,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2166|302|10663
+SUM:|2170|302|10674
