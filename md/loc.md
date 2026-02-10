@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (425.4 files/s, 37958.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (418.1 files/s, 37346.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|111|0|781
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|82|6|426
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|81|6|426
 src\PlainCEETimer\UI\Controls\AppForm.cs|73|59|321
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|286
@@ -60,6 +60,7 @@ src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
 src\PlainCEETimer\Modules\UacHelper.cs|19|7|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
+src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|53
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
@@ -69,7 +70,6 @@ src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|42
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|15|5|41
-src\PlainCEETimer\UI\ListViewItemSet.cs|10|0|41
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
@@ -153,4 +153,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2190|302|10803
+SUM:|2192|302|10817
