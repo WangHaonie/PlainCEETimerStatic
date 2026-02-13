@@ -1,17 +1,17 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (412.4 files/s, 36863.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (429.3 files/s, 38416.7 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|110|0|776
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|786
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|82|6|432
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|431
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
 src\PlainCEETimer\Modules\App.cs|33|0|266
+src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
-src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|245
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|227
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|45|0|206
@@ -75,15 +75,15 @@ src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
-src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
+src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
+src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|33
-src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|7|0|30
 src\PlainCEETimer\Modules\Enums.cs|4|0|30
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
@@ -155,4 +155,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2221|302|10973
+SUM:|2226|302|10986
