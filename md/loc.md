@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (429.3 files/s, 38416.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (421.7 files/s, 37862.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -54,6 +54,7 @@ src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
 src\PlainCEETimer\Countdown\Ph.cs|9|3|62
+src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
@@ -89,7 +90,6 @@ src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
-src\PlainCEETimer\UI\Controls\PlainButton.cs|5|0|26
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|25
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
@@ -155,4 +155,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2226|302|10986
+SUM:|2235|302|11022
