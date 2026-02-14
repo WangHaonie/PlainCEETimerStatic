@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (421.7 files/s, 37862.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (426.3 files/s, 38283.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -20,7 +20,7 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
-src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|176
+src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|177
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
@@ -52,9 +52,9 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|73
 src\PlainCEETimer\UI\Enums.cs|12|12|72
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
+src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
 src\PlainCEETimer\Countdown\Ph.cs|9|3|62
-src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
@@ -155,4 +155,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2235|302|11022
+SUM:|2235|302|11025
