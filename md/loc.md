@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (411.8 files/s, 36975.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (429.9 files/s, 38642.8 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|786
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|595
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|82|6|432
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|436
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
@@ -20,7 +20,7 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
-src\PlainCEETimer\UI\Controls\PlainListView.cs|42|10|177
+src\PlainCEETimer\UI\Controls\PlainListView.cs|46|10|181
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|24|0|167
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
@@ -155,4 +155,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2235|302|11023
+SUM:|2240|302|11031
