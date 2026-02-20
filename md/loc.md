@@ -1,18 +1,18 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (433.1 files/s, 38572.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (431.9 files/s, 38427.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|786
 src\PlainCEETimer\UI\Forms\MainForm.cs|110|10|596
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|436
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
 src\PlainCEETimer\Modules\App.cs|33|0|267
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
-src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|227
+src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|212
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|45|0|206
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -43,7 +43,7 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|21|0|85
-src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|85
+src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
@@ -64,13 +64,14 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|53
+src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|18|5|53
+src\PlainCEETimer\Modules\CliOption.cs|12|0|52
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
-src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|15|5|41
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
@@ -157,4 +158,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2247|302|11078
+SUM:|2262|302|11139
