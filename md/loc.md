@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (427.0 files/s, 38050.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (426.1 files/s, 37100.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\Modules\App.cs|37|0|253
+src\PlainCEETimer\Modules\App.cs|38|0|262
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
@@ -79,6 +79,7 @@ src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
+src\PlainCEETimer\Modules\ConsoleHelper.cs|6|0|34
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
@@ -107,8 +108,11 @@ src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Countdown\Enums.cs|2|0|19
 src\PlainCEETimer\Interop\DisplayHelper.cs|5|0|19
+src\PlainCEETimer\Interop\Win32.cs|3|0|19
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|7|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
+src\PlainCEETimer.Appcom\App.cpp|4|0|18
+src\PlainCEETimer.Natives\Win32\Win32.cpp|5|0|18
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\HashCode.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -153,9 +157,10 @@ src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
 src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\UI\ControlsBuilder.cs|2|0|3
 src\PlainCEETimer\UI\MenuItemBuilder.cs|2|0|3
+src\PlainCEETimer.Natives\Win32\Win32.h|1|0|2
 src\PlainCEETimer\Countdown\CountdownUpdatedEventHandler.cs|1|0|2
 src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2271|302|11150
+SUM:|2291|302|11250
