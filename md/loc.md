@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (431.9 files/s, 38427.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (427.0 files/s, 38050.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\Modules\App.cs|33|0|267
+src\PlainCEETimer\Modules\App.cs|37|0|253
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
@@ -48,6 +48,7 @@ src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
+src\PlainCEETimer\Modules\CliOption.cs|17|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Enums.cs|12|12|72
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -60,12 +61,11 @@ src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
 src\PlainCEETimer\Modules\UacHelper.cs|19|7|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
+src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|18|5|56
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|53
-src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|18|5|53
-src\PlainCEETimer\Modules\CliOption.cs|12|0|52
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
@@ -158,4 +158,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2262|302|11139
+SUM:|2271|302|11150
