@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (428.5 files/s, 37677.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.38 s (419.1 files/s, 36797.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\Modules\App.cs|38|0|262
+src\PlainCEETimer\Modules\App.cs|38|0|265
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
@@ -49,8 +49,10 @@ src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
+src\PlainCEETimer\Modules\UacHelper.cs|20|7|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Enums.cs|12|12|72
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|68
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
@@ -59,28 +61,27 @@ src\PlainCEETimer\Countdown\Ph.cs|9|3|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
-src\PlainCEETimer\Modules\UacHelper.cs|19|7|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|53
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|17|5|52
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
+src\PlainCEETimer\Modules\ConsoleHelper.cs|10|0|44
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer.Natives\Win32\Win32.cpp|9|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
+src\PlainCEETimer\Modules\Enums.cs|5|0|36
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
-src\PlainCEETimer\Modules\ConsoleHelper.cs|6|0|34
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|34
@@ -89,7 +90,6 @@ src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
-src\PlainCEETimer\Modules\Enums.cs|4|0|30
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
@@ -144,6 +144,7 @@ src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
+src\PlainCEETimer\Interop\CStd.cs|2|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -163,4 +164,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2317|309|11356
+SUM:|2327|309|11411
