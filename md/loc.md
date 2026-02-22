@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (427.7 files/s, 37240.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (431.0 files/s, 37593.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -46,7 +46,7 @@ src\PlainCEETimer\Modules\Configuration\AppConfig.cs|21|0|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
-src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
+src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\Modules\CliOption.cs|17|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
@@ -72,6 +72,7 @@ src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
+src\PlainCEETimer.Natives\Win32\Win32.cpp|9|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
@@ -81,13 +82,13 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\Modules\ConsoleHelper.cs|6|0|34
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
+src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
-src\PlainCEETimer\Modules\SystemVersion.cs|6|0|33
 src\PlainCEETimer\Modules\Enums.cs|4|0|30
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
@@ -112,7 +113,6 @@ src\PlainCEETimer\Interop\Win32.cs|3|0|19
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|7|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Appcom\App.cpp|4|0|18
-src\PlainCEETimer.Natives\Win32\Win32.cpp|5|0|18
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\HashCode.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -163,4 +163,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2291|302|11250
+SUM:|2295|302|11272
