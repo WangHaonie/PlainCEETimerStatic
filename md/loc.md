@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (434.3 files/s, 38355.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (429.8 files/s, 37999.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,10 +10,10 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
 src\PlainCEETimer\Modules\App.cs|40|0|277
+src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|36|0|261
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
-src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|28|0|216
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|45|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|52|10|204
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -22,12 +22,12 @@ src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
 src\PlainCEETimer\Modules\CliOption.cs|43|7|178
+src\PlainCEETimer\UI\Extensions\Extensions.cs|29|0|156
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
 src\PlainCEETimer\UI\AppMessageBox.cs|41|16|141
 src\PlainCEETimer\Interop\Win32UI.cs|54|5|135
-src\PlainCEETimer\UI\Extensions\Extensions.cs|26|0|132
 src\PlainCEETimer\Modules\Update\Updater.cs|22|0|129
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|26|6|125
@@ -41,7 +41,7 @@ src\PlainCEETimer\UI\SystemMenu.cs|23|0|102
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|20|0|99
 src\PlainCEETimer\Modules\OptimizationHelper.cs|14|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
-src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|90
+src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|91
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|21|0|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
@@ -106,6 +106,7 @@ src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\Countdown\ExamSettings.cs|6|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
+src\PlainCEETimer\UI\Controls\PlainToolTip.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Countdown\Enums.cs|2|0|19
 src\PlainCEETimer\Interop\DisplayHelper.cs|5|0|19
@@ -164,4 +165,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2340|309|11481
+SUM:|2355|309|11571
