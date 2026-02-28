@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.39 s (416.8 files/s, 36906.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.38 s (427.6 files/s, 37858.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -66,8 +66,8 @@ src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
-src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|17|5|52
 src\PlainCEETimer\Modules\ConsoleHelper.cs|11|0|50
+src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|16|5|50
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
@@ -165,4 +165,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2357|309|11591
+SUM:|2356|309|11589
