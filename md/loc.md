@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (430.6 files/s, 38145.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.39 s (415.4 files/s, 36793.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\UI\Controls\AppForm.cs|94|59|429
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\Modules\App.cs|40|0|277
+src\PlainCEETimer\Modules\App.cs|39|0|273
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
@@ -65,8 +65,8 @@ src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
+src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\Interop\Enums.cs|6|0|53
-src\PlainCEETimer\Modules\ConsoleHelper.cs|11|0|50
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|16|5|50
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
