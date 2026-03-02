@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (430.2 files/s, 38110.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.38 s (426.7 files/s, 37897.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -22,13 +22,13 @@ src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
 src\PlainCEETimer\Modules\CliOption.cs|43|7|178
+src\PlainCEETimer\Modules\Update\Updater.cs|27|0|159
 src\PlainCEETimer\UI\Extensions\Extensions.cs|29|0|156
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
 src\PlainCEETimer\UI\AppMessageBox.cs|41|16|141
 src\PlainCEETimer\Interop\Win32UI.cs|54|5|135
-src\PlainCEETimer\Modules\Update\Updater.cs|22|0|129
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|26|6|125
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
@@ -81,10 +81,10 @@ src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\Enums.cs|5|0|36
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
+src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
-src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
@@ -93,8 +93,8 @@ src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
+src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
-src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
@@ -165,4 +165,4 @@ src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2357|309|11595
+SUM:|2362|309|11628
