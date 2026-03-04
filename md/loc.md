@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (421.5 files/s, 37815.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (419.6 files/s, 37667.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,12 +7,12 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|792
 src\PlainCEETimer\UI\Forms\MainForm.cs|111|10|614
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|95|6|529
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\UI\Controls\AppForm.cs|96|59|434
+src\PlainCEETimer\UI\Controls\AppForm.cs|95|59|431
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\Modules\App.cs|40|0|281
+src\PlainCEETimer\Modules\App.cs|37|0|267
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|52|0|257
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|51|0|250
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
@@ -51,12 +51,12 @@ src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|77
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Enums.cs|12|12|71
 src\PlainCEETimer\Interop\Enums.cs|12|0|70
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -71,6 +71,7 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|16|5|50
+src\PlainCEETimer\UI\WindowManager.cs|12|0|49
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
 src\PlainCEETimer\WPF\Models\FontModel.cs|10|0|47
@@ -115,7 +116,6 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|22
 src\PlainCEETimer\Countdown\ExamSettings.cs|6|0|21
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
-src\PlainCEETimer\UI\WindowManager.cs|8|0|21
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|8|0|20
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|4|0|20
@@ -179,4 +179,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2592|315|12793
+SUM:|2592|315|12802
