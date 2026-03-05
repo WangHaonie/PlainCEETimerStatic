@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (431.7 files/s, 38267.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (423.3 files/s, 37432.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -93,6 +93,7 @@ src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
+src\PlainCEETimer\WPF\Models\FontSizeModel.cs|10|0|34
 src\PlainCEETimer\Interop\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
@@ -101,13 +102,13 @@ src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
+src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|8|5|28
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\Modules\JsonConverters\DipPointFormatConverter.cs|6|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Internal\Command.cs|6|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
-src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|8|5|24
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
@@ -183,4 +184,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2620|323|12926
+SUM:|2630|323|12964
