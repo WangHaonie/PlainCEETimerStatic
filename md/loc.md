@@ -1,14 +1,14 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (422.3 files/s, 37958.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (428.5 files/s, 38533.4 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|792
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|796
 src\PlainCEETimer\UI\Forms\MainForm.cs|111|10|614
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|96|5|540
-src\PlainCEETimer\UI\Controls\AppForm.cs|99|59|442
+src\PlainCEETimer\UI\Controls\AppForm.cs|99|59|443
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|69|0|336
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|69|0|337
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
 src\PlainCEETimer\Modules\App.cs|37|0|267
@@ -186,4 +186,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2696|322|13342
+SUM:|2696|322|13348
