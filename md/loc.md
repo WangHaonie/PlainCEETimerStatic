@@ -1,26 +1,26 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.35 s (519.1 files/s, 46172.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (425.9 files/s, 38290.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|792
 src\PlainCEETimer\UI\Forms\MainForm.cs|111|10|614
-src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|95|6|528
+src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|96|5|540
 src\PlainCEETimer\UI\Controls\AppForm.cs|99|59|442
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|69|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|60|0|287
-src\PlainCEETimer\Modules\App.cs|37|0|267
+src\PlainCEETimer\Modules\App.cs|37|0|268
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
+src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|208
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|45|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|52|10|204
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|43|5|188
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
@@ -30,12 +30,12 @@ src\PlainCEETimer\UI\Extensions\Extensions.cs|29|0|156
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\UI\HotKeyService.cs|35|7|146
+src\PlainCEETimer\Interop\Win32UI.cs|57|5|141
 src\PlainCEETimer\UI\AppMessageBox.cs|41|16|141
-src\PlainCEETimer\Interop\Win32UI.cs|56|5|139
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
-src\PlainCEETimer\WPF\Views\FontDialog.xaml|6|0|113
+src\PlainCEETimer\WPF\Views\FontDialog.xaml|6|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\Countdown\Exam.cs|23|0|111
@@ -43,10 +43,10 @@ src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|23|0|102
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|20|0|99
-src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|99
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
-src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|93
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|18|0|87
+src\PlainCEETimer\Modules\OptimizationHelper.cs|11|0|95
+src\PlainCEETimer\Modules\Configuration\AppConfig.cs|22|0|90
 src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
@@ -64,11 +64,11 @@ src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
 src\PlainCEETimer\Countdown\Ph.cs|9|3|62
+src\PlainCEETimer\WPF\Models\FontModel.cs|13|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
-src\PlainCEETimer\WPF\Models\FontModel.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
@@ -81,12 +81,12 @@ src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
+src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\Enums.cs|5|0|36
-src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|8|0|36
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|35
@@ -95,18 +95,18 @@ src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
-src\PlainCEETimer\WPF\Models\FontSizeModel.cs|10|0|34
 src\PlainCEETimer\Interop\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
-src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|31
+src\PlainCEETimer\WPF\Models\FontSizeModel.cs|9|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
+src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
-src\PlainCEETimer\Modules\JsonConverters\DipPointFormatConverter.cs|6|0|25
+src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|6|3|26
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Internal\Command.cs|6|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
@@ -118,7 +118,6 @@ src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\Colors.cs|2|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|22
-src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|4|3|22
 src\PlainCEETimer\Countdown\ExamSettings.cs|6|0|21
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
@@ -187,4 +186,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2685|323|13270
+SUM:|2696|322|13343
