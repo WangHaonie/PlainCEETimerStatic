@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (424.2 files/s, 38142.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (367.2 files/s, 33274.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,8 +9,8 @@ src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|96|5|540
 src\PlainCEETimer\UI\Controls\AppForm.cs|99|59|443
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|69|0|337
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|295
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|294
 src\PlainCEETimer\Modules\App.cs|37|0|267
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
@@ -26,6 +26,7 @@ src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
 src\PlainCEETimer\Modules\CliOption.cs|43|7|178
 src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
+src\PlainCEETimer\Countdown\CountdownRule.cs|39|0|162
 src\PlainCEETimer\UI\Extensions\Extensions.cs|29|0|156
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
@@ -35,10 +36,10 @@ src\PlainCEETimer\UI\AppMessageBox.cs|41|16|141
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|31|8|116
+src\PlainCEETimer\Countdown\Exam.cs|24|0|115
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|6|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
-src\PlainCEETimer\Countdown\Exam.cs|23|0|111
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|23|0|102
@@ -51,7 +52,6 @@ src\PlainCEETimer\Modules\ProcessHelper.cs|19|5|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\HotKey.cs|20|0|82
-src\PlainCEETimer\Countdown\CountdownRule.cs|23|0|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|74
@@ -59,25 +59,26 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Enums.cs|12|12|71
 src\PlainCEETimer\Interop\Enums.cs|12|0|70
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
+src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|64
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|12|0|64
 src\PlainCEETimer\Countdown\Ph.cs|9|3|62
-src\PlainCEETimer\WPF\Models\FontModel.cs|13|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|56
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
+src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|14|0|52
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|16|5|50
 src\PlainCEETimer\UI\WindowManager.cs|12|0|49
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|10|0|48
-src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|46
+src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
@@ -91,7 +92,6 @@ src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
-src\PlainCEETimer\Modules\CountdownRuleComparer.cs|6|0|34
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
@@ -99,6 +99,7 @@ src\PlainCEETimer\Interop\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
+src\PlainCEETimer\Modules\HashCode.cs|8|0|31
 src\PlainCEETimer\WPF\Models\FontSizeModel.cs|9|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|30
@@ -118,7 +119,6 @@ src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\Colors.cs|2|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|22
-src\PlainCEETimer\Countdown\ExamSettings.cs|6|0|21
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
@@ -128,7 +128,6 @@ src\PlainCEETimer\Countdown\Enums.cs|2|0|19
 src\PlainCEETimer\Interop\DisplayHelper.cs|5|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
-src\PlainCEETimer\Modules\HashCode.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|17
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|10|7|16
@@ -184,6 +183,7 @@ src\PlainCEETimer\Countdown\CountdownUpdatedEventHandler.cs|1|0|2
 src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
+src\PlainCEETimer\Modules\Internal\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2696|322|13348
+SUM:|2718|322|13454
