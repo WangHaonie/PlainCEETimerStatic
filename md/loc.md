@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (367.2 files/s, 33274.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (421.0 files/s, 38142.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -26,7 +26,7 @@ src\PlainCEETimer\Interop\Structs.cs|39|0|183
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|41|5|183
 src\PlainCEETimer\Modules\CliOption.cs|43|7|178
 src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
-src\PlainCEETimer\Countdown\CountdownRule.cs|39|0|162
+src\PlainCEETimer\Countdown\CountdownRule.cs|38|0|159
 src\PlainCEETimer\UI\Extensions\Extensions.cs|29|0|156
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
@@ -186,4 +186,4 @@ src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2718|322|13454
+SUM:|2717|322|13451
