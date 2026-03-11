@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (425.6 files/s, 38562.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (434.5 files/s, 39366.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -114,11 +114,11 @@ src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
+src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\Colors.cs|2|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
-src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|22
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
@@ -186,4 +186,4 @@ src\PlainCEETimer\Modules\Internal\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internal\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2717|322|13451
+SUM:|2717|322|13452
