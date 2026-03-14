@@ -1,13 +1,13 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (437.3 files/s, 33510.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.49 s (443.1 files/s, 33840.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|98|0|589
-src\PlainCEETimer\UI\Controls\AppForm.cs|101|59|455
+src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|73|0|360
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|74|0|362
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|296
 src\PlainCEETimer\Modules\App.cs|37|0|267
@@ -165,6 +165,7 @@ src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|11
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|3|0|11
+src\PlainCEETimer\UI\Core\WPFScreenHelper.cs|2|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
@@ -222,4 +223,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2794|310|13602
+SUM:|2798|310|13617
