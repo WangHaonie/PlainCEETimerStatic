@@ -1,15 +1,15 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (436.1 files/s, 33513.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (436.2 files/s, 33423.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|114|0|796
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|98|0|589
 src\PlainCEETimer\UI\Controls\AppForm.cs|101|59|454
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|73|0|361
+src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|296
-src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|294
 src\PlainCEETimer\Modules\App.cs|37|0|267
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
@@ -55,7 +55,7 @@ src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
-src\PlainCEETimer\UI\Enums.cs|12|12|71
+src\PlainCEETimer\UI\Enums.cs|12|12|72
 src\PlainCEETimer\Interop\Enums.cs|12|0|70
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|17|0|70
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
@@ -141,19 +141,21 @@ src\PlainCEETimer\Interop\DisplayHelper.cs|5|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
-src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|17
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|10|7|16
+src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|3|16
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|4|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
+src\PlainCEETimer\UI\Core\WinFormsBorderColorService.cs|3|0|16
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|4|0|15
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
-src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|15
-src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|15
 src\PlainCEETimer\WPF\WPFApp.cs|4|0|15
 src\PlainCEETimer.Natives\Win32UI\Control.h|3|0|14
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
+src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|9|0|14
+src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|13
+src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|13
 src\PlainCEETimer\Modules\Configuration\WindowSizeObject.cs|3|0|12
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|12
 src\PlainCEETimer\Modules\WindowsBuilds.cs|1|0|12
@@ -164,7 +166,6 @@ src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|11
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
-src\PlainCEETimer\UI\Core\WinFormsBorderColorService.cs|2|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\Countdown\ICountdownService.cs|6|0|10
@@ -221,4 +222,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2788|307|13581
+SUM:|2794|310|13599
