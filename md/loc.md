@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (439.2 files/s, 33656.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.40 s (545.3 files/s, 41785.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -88,9 +88,9 @@ src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
+src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|9|0|39
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
-src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|9|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\Enums.cs|5|0|36
@@ -98,9 +98,9 @@ src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|5|0|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
+src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
-src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Interop\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
@@ -222,4 +222,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2794|310|13600
+SUM:|2794|310|13602
