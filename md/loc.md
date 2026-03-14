@@ -1,13 +1,13 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (436.2 files/s, 33423.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (439.2 files/s, 33656.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|98|0|589
-src\PlainCEETimer\UI\Controls\AppForm.cs|101|59|454
+src\PlainCEETimer\UI\Controls\AppForm.cs|101|59|455
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|73|0|361
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|73|0|360
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|296
 src\PlainCEETimer\Modules\App.cs|37|0|267
@@ -123,10 +123,10 @@ src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|4|0|24
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
+src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
-src\PlainCEETimer\UI\Colors.cs|2|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
@@ -222,4 +222,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2794|310|13599
+SUM:|2794|310|13600
