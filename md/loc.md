@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (540.7 files/s, 41405.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (428.2 files/s, 32624.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|74|0|362
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|296
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|298
 src\PlainCEETimer\Modules\App.cs|37|0|267
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|246
@@ -83,6 +83,7 @@ src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
+src\PlainCEETimer.Fody\ModuleWeaver.cs|11|0|45
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|9|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
@@ -210,6 +211,7 @@ src\PlainCEETimer.Natives\Win32\MemoryCleaner.h|2|0|4
 src\PlainCEETimer.Natives\Win32\User.h|2|0|4
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.h|2|0|4
 src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
+src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
@@ -223,4 +225,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2809|310|13651
+SUM:|2822|313|13702
