@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (436.3 files/s, 32982.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (555.9 files/s, 41976.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|101|59|453
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|73|0|360
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|298
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|50|0|299
 src\PlainCEETimer\Modules\App.cs|37|0|269
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|248
@@ -32,6 +32,7 @@ src\PlainCEETimer\UI\HotKeyService.cs|35|7|144
 src\PlainCEETimer\UI\AppMessageBox.cs|42|16|142
 src\PlainCEETimer\Interop\Win32UI.cs|57|5|141
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
+src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|121
 src\PlainCEETimer\Countdown\Exam.cs|24|0|115
@@ -46,7 +47,6 @@ src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|20|0|99
 src\PlainCEETimer\Modules\OptimizationHelper.cs|11|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
-src\PlainCEETimer.Fody\ModuleWeaver.cs|22|0|91
 src\PlainCEETimer\Interop\NativeConstants.cs|18|0|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
@@ -215,6 +215,7 @@ src\PlainCEETimer.Natives\Win32\User.h|2|0|4
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.h|2|0|4
 src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
 src\PlainCEETimer\Modules\Fody\CompilerRemoveAttribute.cs|2|3|4
+src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
@@ -229,4 +230,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2837|316|13854
+SUM:|2849|319|13897
