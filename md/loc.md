@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (442.1 files/s, 33223.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (536.1 files/s, 40287.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -32,6 +32,7 @@ src\PlainCEETimer\UI\HotKeyService.cs|34|7|144
 src\PlainCEETimer\UI\AppMessageBox.cs|42|16|142
 src\PlainCEETimer\Interop\Win32UI.cs|57|5|141
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
+src\PlainCEETimer\Interop\Constants.cs|21|0|135
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|121
@@ -47,7 +48,6 @@ src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|20|0|99
 src\PlainCEETimer\Modules\OptimizationHelper.cs|11|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
-src\PlainCEETimer\Interop\NativeConstants.cs|18|0|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
@@ -58,7 +58,6 @@ src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
-src\PlainCEETimer\Interop\Enums.cs|12|0|70
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
@@ -115,6 +114,7 @@ src\PlainCEETimer\Modules\HashCode.cs|8|0|31
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
+src\PlainCEETimer\Interop\Enums.cs|4|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|6|0|29
@@ -232,4 +232,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2857|319|13959
+SUM:|2852|319|13963
