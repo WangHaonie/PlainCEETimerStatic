@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (440.2 files/s, 33169.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (439.7 files/s, 33126.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -28,7 +28,7 @@ src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
 src\PlainCEETimer\Countdown\CountdownRule.cs|38|0|159
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
-src\PlainCEETimer\UI\HotKeyService.cs|35|7|144
+src\PlainCEETimer\UI\HotKeyService.cs|34|7|144
 src\PlainCEETimer\UI\AppMessageBox.cs|42|16|142
 src\PlainCEETimer\Interop\Win32UI.cs|57|5|141
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
@@ -91,9 +91,9 @@ src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
-src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|9|0|39
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|9|0|39
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
+src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\Enums.cs|5|0|36
@@ -111,7 +111,7 @@ src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\Modules\HashCode.cs|8|0|31
-src\PlainCEETimer\WPF\Models\FontSizeModel.cs|9|0|31
+src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
@@ -197,7 +197,7 @@ src\PlainCEETimer\Interop\CStd.cs|2|0|7
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
-src\PlainCEETimer\WPF\Models\FontWeightModel.cs|3|0|7
+src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
 src\PlainCEETimer\Interop\FunctionPointers.cs|5|0|6
 src\PlainCEETimer\UI\ComboData.cs|2|0|6
@@ -231,4 +231,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2855|319|13929
+SUM:|2853|319|13928
