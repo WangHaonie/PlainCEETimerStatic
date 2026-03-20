@@ -1,14 +1,14 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (455.3 files/s, 33855.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (541.7 files/s, 40323.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|590
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|592
 src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|353
-src\PlainCEETimer\Countdown\DefaultCountdownService.cs|48|0|304
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|365
+src\PlainCEETimer\Countdown\DefaultCountdownService.cs|47|0|300
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|50|0|299
 src\PlainCEETimer\Modules\App.cs|37|0|267
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
@@ -24,8 +24,8 @@ src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Modules\CliOption.cs|43|7|180
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|46|10|178
+src\PlainCEETimer\WPF\Appearance\Default.xaml|11|0|165
 src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
-src\PlainCEETimer\WPF\Themes\Default.xaml|10|0|161
 src\PlainCEETimer\Countdown\CountdownRule.cs|38|0|159
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
@@ -87,8 +87,8 @@ src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\UI\WindowManager.cs|11|0|44
+src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|9|0|43
-src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
@@ -115,13 +115,13 @@ src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\Modules\HashCode.cs|8|0|31
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
-src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Interop\Enums.cs|4|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
+src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
+src\PlainCEETimer\WPF\WPFApp.cs|6|0|28
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
-src\PlainCEETimer\WPF\WPFApp.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|6|0|26
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
@@ -136,15 +136,15 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
+src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
 src\PlainCEETimer\Interop\Win32.cs|4|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
-src\PlainCEETimer\WPF\Themes\Default.Dark.xaml|3|0|21
-src\PlainCEETimer\WPF\Themes\Default.Light.xaml|3|0|21
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|4|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|4|0|20
+src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Countdown\Enums.cs|2|0|19
@@ -153,11 +153,11 @@ src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
+src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|10|7|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|3|16
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|4|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
-src\PlainCEETimer\UI\Core\WinFormsBorderColorService.cs|3|0|16
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|4|0|15
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
 src\PlainCEETimer\Modules\WindowsBuilds.cs|2|0|15
@@ -197,6 +197,7 @@ src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
+src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|0|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\Interop\CStd.cs|2|0|7
@@ -212,11 +213,11 @@ src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
 src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
-src\PlainCEETimer\WPF\Modules\StaticStyles.cs|2|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\UI\Core\IWindowMessageService.cs|1|0|5
 src\PlainCEETimer\UI\Core\WindowMessageService.cs|1|0|5
 src\PlainCEETimer\UI\TopMostStateChangedEventArgs.cs|1|0|5
+src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|5
 src\PlainCEETimer\WPF\Modules\IConfirmClose.cs|1|0|5
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.h|2|0|4
 src\PlainCEETimer.Natives\Win32\User.h|2|0|4
@@ -225,7 +226,6 @@ src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
 src\PlainCEETimer\Modules\Fody\CompilerRemoveAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
-src\PlainCEETimer\WPF\Themes\Appearance.xaml|0|0|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2888|316|14271
+SUM:|2888|316|14290
