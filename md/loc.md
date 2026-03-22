@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (442.3 files/s, 33014.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (442.1 files/s, 33009.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -73,11 +73,11 @@ src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|11|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
+src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|6|0|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|19|5|55
-src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2896|316|14330
+SUM:|2897|316|14334
