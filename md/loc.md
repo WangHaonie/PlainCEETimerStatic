@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (455.1 files/s, 34265.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (555.4 files/s, 41907.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -36,11 +36,12 @@ src\PlainCEETimer\Interop\Win32UI.cs|57|5|141
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
-src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|33|9|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|121
 src\PlainCEETimer\Countdown\Exam.cs|24|0|114
+src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|26|0|113
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
+src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|104
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|30|8|104
@@ -113,13 +114,13 @@ src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
-src\PlainCEETimer\Modules\HashCode.cs|8|0|31
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Interop\Enums.cs|4|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
+src\PlainCEETimer\Modules\HashCode.cs|7|0|28
 src\PlainCEETimer\WPF\WPFApp.cs|6|0|28
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
@@ -239,4 +240,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2932|316|14445
+SUM:|2953|316|14539
