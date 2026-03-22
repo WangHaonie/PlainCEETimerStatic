@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (442.1 files/s, 33009.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (442.2 files/s, 33020.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -24,7 +24,7 @@ src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Modules\CliOption.cs|43|7|180
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|46|10|178
-src\PlainCEETimer\WPF\Appearance\Default.xaml|11|0|169
+src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
 src\PlainCEETimer\Countdown\CountdownRule.cs|38|0|159
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
@@ -183,6 +183,7 @@ src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\Countdown\ICountdownService.cs|6|0|10
 src\PlainCEETimer\UI\Core\IScreenService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
+src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
 src\PlainCEETimer\Countdown\CountdownUpdatedEventArgs.cs|4|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
@@ -197,7 +198,6 @@ src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
-src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|0|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\Interop\CStd.cs|2|0|7
