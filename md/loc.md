@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (457.5 files/s, 34523.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (431.3 files/s, 32550.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -38,7 +38,7 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|135
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|121
 src\PlainCEETimer\Countdown\Exam.cs|24|0|114
-src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|26|0|113
+src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
@@ -240,4 +240,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2953|316|14539
+SUM:|2954|316|14540
