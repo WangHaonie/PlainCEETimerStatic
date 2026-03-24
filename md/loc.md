@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (430.3 files/s, 32470.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (540.8 files/s, 40894.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -107,7 +107,6 @@ src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
-src\PlainCEETimer\UI\Core\WPFScreenHelper.cs|4|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Interop\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
@@ -240,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2952|316|14540
+SUM:|2948|316|14506
