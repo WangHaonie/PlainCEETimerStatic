@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (540.8 files/s, 40894.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (455.6 files/s, 34506.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,10 +11,10 @@ src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|365
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|47|0|300
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|50|0|299
 src\PlainCEETimer\Modules\App.cs|37|0|269
+src\PlainCEETimer\Interop\Structs.cs|57|0|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
-src\PlainCEETimer\Interop\Structs.cs|55|0|248
-src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|246
+src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -50,17 +50,18 @@ src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer\Modules\OptimizationHelper.cs|11|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
+src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
-src\PlainCEETimer\UI\HotKey.cs|20|0|82
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
+src\PlainCEETimer\Countdown\ColorPair.cs|19|12|68
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|68
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
@@ -70,7 +71,6 @@ src\PlainCEETimer\Countdown\Ph.cs|10|3|64
 src\PlainCEETimer\Interop\MemoryCleaner.cs|13|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
-src\PlainCEETimer\Countdown\ColorPair.cs|17|12|60
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|11|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2948|316|14506
+SUM:|2954|316|14529
