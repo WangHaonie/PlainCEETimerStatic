@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (455.6 files/s, 34506.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (533.0 files/s, 40391.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|592
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|582
 src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|365
@@ -57,6 +57,7 @@ src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
+src\PlainCEETimer\Interop\MemoryCleaner.cs|15|0|78
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
@@ -68,7 +69,6 @@ src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\Ph.cs|10|3|64
-src\PlainCEETimer\Interop\MemoryCleaner.cs|13|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|11|0|60
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2954|316|14529
+SUM:|2956|316|14535
