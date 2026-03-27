@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (546.5 files/s, 41710.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (429.3 files/s, 33010.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,7 +11,7 @@ src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|365
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|47|0|300
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|50|0|299
 src\PlainCEETimer\Modules\App.cs|37|0|269
-src\PlainCEETimer\Interop\Structs.cs|57|0|256
+src\PlainCEETimer\Interop\Structs.cs|60|12|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
@@ -23,7 +23,7 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\Modules\CliOption.cs|43|7|180
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
-src\PlainCEETimer\UI\Controls\PlainListView.cs|46|10|178
+src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Modules\Update\Updater.cs|27|0|163
@@ -75,7 +75,7 @@ src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|11|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
 src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
-src\PlainCEETimer\Interop\ConstStructs.cs|6|0|58
+src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|19|5|55
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|2983|316|14637
+SUM:|3011|423|14637
