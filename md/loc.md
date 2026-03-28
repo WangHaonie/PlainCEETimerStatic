@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (429.3 files/s, 33010.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (539.3 files/s, 41528.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -48,13 +48,14 @@ src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|30|8|104
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
-src\PlainCEETimer\Modules\OptimizationHelper.cs|11|0|97
+src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
+src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
@@ -62,8 +63,8 @@ src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|69
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|68
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|68
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
@@ -71,7 +72,6 @@ src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\Ph.cs|10|3|64
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
-src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|11|0|60
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
 src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3011|423|14637
+SUM:|3014|423|14660
