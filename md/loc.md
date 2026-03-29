@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (429.5 files/s, 33095.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (429.7 files/s, 33109.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -65,8 +65,8 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|69
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|69
-src\PlainCEETimer\Countdown\ColorPair.cs|19|12|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
+src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\Ph.cs|10|3|64
@@ -239,4 +239,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3016|423|14671
+SUM:|3015|423|14669
