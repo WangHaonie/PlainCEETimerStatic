@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (429.7 files/s, 33109.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.1 files/s, 33245.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,8 +8,8 @@ src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|582
 src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|360
-src\PlainCEETimer\Countdown\DefaultCountdownService.cs|47|0|300
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|50|0|299
+src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|280
 src\PlainCEETimer\Modules\App.cs|37|0|269
 src\PlainCEETimer\Interop\Structs.cs|60|12|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
@@ -62,14 +62,14 @@ src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|70
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|69
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|69
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
-src\PlainCEETimer\Countdown\Ph.cs|10|3|64
+src\PlainCEETimer\Countdown\PhTokenParser.cs|11|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
@@ -78,6 +78,7 @@ src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
+src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|19|5|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
@@ -103,6 +104,7 @@ src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\Enums.cs|5|0|36
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
+src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
@@ -149,7 +151,6 @@ src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|4|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
-src\PlainCEETimer\Countdown\Enums.cs|2|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
@@ -208,6 +209,7 @@ src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
+src\PlainCEETimer\Countdown\PhParsedToken.cs|1|0|6
 src\PlainCEETimer\UI\ComboData.cs|2|0|6
 src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
@@ -228,6 +230,7 @@ src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
+src\PlainCEETimer\Countdown\PhParsedTokenCollection.cs|2|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
 src\PlainCEETimer\UI\ControlsBuilder.cs|2|0|3
 src\PlainCEETimer\UI\MenuItemBuilder.cs|2|0|3
@@ -239,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3015|423|14669
+SUM:|3025|423|14737
