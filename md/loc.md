@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (448.0 files/s, 34261.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.1 files/s, 33279.5 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|582
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
 src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|360
@@ -58,10 +58,10 @@ src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
+src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|76
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
-src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|70
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
@@ -242,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3029|423|14749
+SUM:|3029|423|14752
