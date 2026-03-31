@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.1 files/s, 33279.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.56 s (423.0 files/s, 32351.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -21,7 +21,7 @@ src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|213
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
-src\PlainCEETimer\Modules\CliOption.cs|43|7|180
+src\PlainCEETimer\Modules\Arguments.cs|43|7|180
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
