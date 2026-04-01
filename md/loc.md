@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.56 s (423.0 files/s, 32351.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.1 files/s, 33300.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,7 +10,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|360
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|280
-src\PlainCEETimer\Modules\App.cs|37|0|269
+src\PlainCEETimer\Modules\App.cs|40|0|277
 src\PlainCEETimer\Interop\Structs.cs|60|12|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
@@ -242,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3029|423|14752
+SUM:|3032|423|14760
