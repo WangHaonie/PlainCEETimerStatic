@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.1 files/s, 33300.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (434.5 files/s, 33281.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,8 +9,8 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|360
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
+src\PlainCEETimer\Modules\App.cs|41|0|280
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|280
-src\PlainCEETimer\Modules\App.cs|40|0|277
 src\PlainCEETimer\Interop\Structs.cs|60|12|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
@@ -56,6 +56,7 @@ src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|80
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|76
@@ -63,7 +64,6 @@ src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|70
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|69
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
@@ -242,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3032|423|14760
+SUM:|3035|423|14773
