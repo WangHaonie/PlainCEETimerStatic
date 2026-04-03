@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (434.5 files/s, 33281.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (642.1 files/s, 49178.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,7 +7,7 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
 src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|360
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
 src\PlainCEETimer\Modules\App.cs|41|0|280
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|280
@@ -91,8 +91,8 @@ src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
+src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
-src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|43
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
@@ -128,7 +128,6 @@ src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|6|0|26
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
-src\PlainCEETimer\Modules\Internals\Command.cs|6|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|4|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
@@ -138,6 +137,7 @@ src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
+src\PlainCEETimer\Modules\Internals\Command.cs|6|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
@@ -242,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3035|423|14773
+SUM:|3035|423|14771
