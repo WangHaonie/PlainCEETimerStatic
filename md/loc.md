@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.2 files/s, 33354.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (445.9 files/s, 34316.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,7 +8,7 @@ src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
 src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|449
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
-src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
+src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|309
 src\PlainCEETimer\Modules\App.cs|41|0|280
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|280
 src\PlainCEETimer\Interop\Structs.cs|60|12|256
@@ -59,7 +59,7 @@ src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|80
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
-src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|76
+src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
@@ -230,7 +230,6 @@ src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
-src\PlainCEETimer\Countdown\PhParsedTokenCollection.cs|2|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
 src\PlainCEETimer\UI\ControlsBuilder.cs|2|0|3
 src\PlainCEETimer\UI\MenuItemBuilder.cs|2|0|3
@@ -242,4 +241,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3036|423|14782
+SUM:|3034|423|14782
