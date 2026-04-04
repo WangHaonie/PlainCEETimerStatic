@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.37 s (642.1 files/s, 49178.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (435.2 files/s, 33354.6 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
-src\PlainCEETimer\UI\Controls\AppForm.cs|103|59|457
+src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|449
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|308
@@ -76,6 +76,7 @@ src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
 src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
+src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
@@ -96,7 +97,6 @@ src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
-src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|9|0|39
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|14|7|38
@@ -242,4 +242,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3035|423|14771
+SUM:|3036|423|14782
