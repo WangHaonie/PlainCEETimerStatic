@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (434.7 files/s, 33352.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (548.7 files/s, 41936.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -17,7 +17,7 @@ src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|47|0|230
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|33|0|226
-src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|213
+src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
@@ -65,7 +65,7 @@ src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
-src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|69
+src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
@@ -207,6 +207,7 @@ src\PlainCEETimer\Interop\CStd.cs|2|0|7
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
+src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|3|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -242,4 +243,4 @@ src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3038|423|14799
+SUM:|3041|423|14804
