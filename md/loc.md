@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.56 s (423.9 files/s, 32469.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.9 files/s, 33501.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -138,9 +138,9 @@ src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
-src\PlainCEETimer\Modules\Internals\Command.cs|6|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
+src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|5|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
@@ -179,6 +179,7 @@ src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|11
+src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
@@ -230,6 +231,7 @@ src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
 src\PlainCEETimer\Modules\Fody\CompilerRemoveAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
+src\PlainCEETimer\Modules\Internals\Delegates.cs|0|0|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
@@ -239,8 +241,7 @@ src\PlainCEETimer\UI\WndProcCallback.cs|2|0|3
 src\PlainCEETimer\Countdown\CountdownUpdatedEventHandler.cs|1|0|2
 src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
-src\PlainCEETimer\Modules\Internals\Delegates.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3048|423|14836
+SUM:|3049|423|14849
