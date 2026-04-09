@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.9 files/s, 33501.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.9 files/s, 33500.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -140,9 +140,9 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
-src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|5|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
+src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|5|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|4|0|21
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|5|0|20
@@ -244,4 +244,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3049|423|14849
+SUM:|3049|423|14848
