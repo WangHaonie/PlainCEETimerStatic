@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.7 files/s, 33486.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.4 files/s, 33464.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -117,12 +117,12 @@ src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
+src\PlainCEETimer\Modules\HashCode.cs|7|0|30
 src\PlainCEETimer\UI\PlainButtonBase.cs|5|0|30
 src\PlainCEETimer\Interop\Enums.cs|4|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|6|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
-src\PlainCEETimer\Modules\HashCode.cs|7|0|28
 src\PlainCEETimer\WPF\WPFApp.cs|6|0|28
 src\PlainCEETimer\Interop\Win32.cs|7|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
@@ -244,4 +244,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3049|423|14848
+SUM:|3049|423|14850
