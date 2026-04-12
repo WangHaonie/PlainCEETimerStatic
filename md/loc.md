@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.4 files/s, 33464.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (513.1 files/s, 39191.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -20,8 +20,8 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|32|0|214
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
+src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
-src\PlainCEETimer\Modules\Arguments.cs|43|7|180
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
@@ -172,13 +172,13 @@ src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\Win32ColorFormatConverter.cs|3|0|13
 src\PlainCEETimer\Modules\Configuration\WindowSizeObject.cs|3|0|12
+src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|12
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|12
 src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
-src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|11
 src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
@@ -244,4 +244,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3049|423|14850
+SUM:|3051|423|14859
