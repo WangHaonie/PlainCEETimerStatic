@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (438.7 files/s, 33555.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (549.0 files/s, 41997.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -49,6 +49,7 @@ src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
+src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|31|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer.Natives\Utils.h|27|8|85
@@ -58,8 +59,8 @@ src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|80
 src\PlainCEETimer\UI\Enums.cs|13|12|80
+src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
-src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
@@ -81,7 +82,6 @@ src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
-src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|19|5|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|11|0|53
@@ -153,6 +153,7 @@ src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|4|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
+src\PlainCEETimer\Modules\ArrayCache.cs|5|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
@@ -202,13 +203,13 @@ src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
+src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|4|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\Interop\CStd.cs|2|0|7
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
-src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|3|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -244,4 +245,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3054|423|14879
+SUM:|3072|423|14942
