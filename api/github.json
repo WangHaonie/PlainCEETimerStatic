@@ -1,1 +1,1 @@
-{"name":"5.0.10","published_at":"2026-03-01T21:50:53Z","body":"\r\n· 支持快捷导入导出配置\r\n· 可调整 ListViewDialog 窗口大小\r\n· 修复 ListViewDialog 添加项逻辑丢失\r\n· 默认取消顶置所有窗口\r\n· 部分命令行选项改为控制台交互\r\n· /fr 选项可指定更新源\r\n· 升级 Newtonsoft.Json 13.0.1 -> 13.0.4\r\n· 支持强行退出 ConsoleWindow\r\n· 更改了一些样式\r\n· 其他方面的优化","size":371265,"commit":"4af6da6"}
+{"name":"5.0.11","published_at":"2026-04-14T21:48:05Z","body":"\r\n· 主窗口支持 WPF 渲染\r\n· 字体对话框中消息框的深色模式\r\n· 优化倒计时\r\n· 修复更改考试自定义选项无法点击保存\r\n· 完善 ListViewDialog 交互\r\n· 修复无显卡驱动时获取显示器失败\r\n· 提升程序退出速度\r\n· 更改了一些样式\r\n· 其他方面的优化","size":613436,"commit":"b9e0740"}
