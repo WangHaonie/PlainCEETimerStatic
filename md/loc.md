@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.46 s (521.9 files/s, 39929.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (442.1 files/s, 33720.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -25,8 +25,8 @@ src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
 src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
+src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
-src\PlainCEETimer\Countdown\CountdownRule.cs|39|0|162
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
@@ -37,7 +37,7 @@ src\PlainCEETimer\UI\HotKeyService.cs|34|7|144
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|125
-src\PlainCEETimer\Countdown\Exam.cs|24|0|114
+src\PlainCEETimer\Countdown\Exam.cs|25|0|116
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
@@ -76,9 +76,9 @@ src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
-src\PlainCEETimer\UI\ListViewItemSet.cs|14|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
+src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
@@ -193,6 +193,7 @@ src\PlainCEETimer.Fody\Extensions.cs|2|0|9
 src\PlainCEETimer\Countdown\CountdownUpdatedEventArgs.cs|4|0|9
 src\PlainCEETimer\Interop\FunctionPointers.cs|6|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
+src\PlainCEETimer\Modules\StringHashCodeProvider.cs|2|0|9
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|2|0|9
 src\PlainCEETimer\UI\Controls\PlainRadioButton.cs|2|0|9
 src\PlainCEETimer\UI\Core\ITrayIconLoader.cs|4|0|9
@@ -245,4 +246,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3072|423|14942
+SUM:|3075|423|14961
