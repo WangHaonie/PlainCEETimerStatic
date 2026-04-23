@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (442.1 files/s, 33720.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (523.4 files/s, 39760.1 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|789
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|118|0|814
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
-src\PlainCEETimer\UI\Controls\AppForm.cs|102|59|449
+src\PlainCEETimer\UI\Controls\AppForm.cs|105|62|453
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|309
@@ -22,7 +22,7 @@ src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\UI\Controls\NavigationView.cs|26|0|186
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|180
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|39|5|181
 src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
@@ -56,8 +56,8 @@ src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|82
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|80
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
@@ -71,6 +71,7 @@ src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
+src\PlainCEETimer\UI\Controls\AppDialog.cs|13|0|63
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
@@ -87,7 +88,6 @@ src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|11|0|53
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
-src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
@@ -215,6 +215,7 @@ src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
 src\PlainCEETimer\Countdown\PhParsedToken.cs|1|0|6
+src\PlainCEETimer\Modules\Internals\CallerArgumentExpressionAttribute.cs|1|0|6
 src\PlainCEETimer\UI\ComboData.cs|2|0|6
 src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
@@ -223,6 +224,7 @@ src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\UI\Core\IWindowMessageService.cs|1|0|5
 src\PlainCEETimer\UI\Core\WindowMessageService.cs|1|0|5
+src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
 src\PlainCEETimer\UI\TopMostStateChangedEventArgs.cs|1|0|5
 src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|5
 src\PlainCEETimer\WPF\Modules\IConfirmClose.cs|1|0|5
@@ -246,4 +248,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3075|423|14961
+SUM:|3089|426|15019
