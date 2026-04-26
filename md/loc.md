@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (445.8 files/s, 33969.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (519.7 files/s, 39602.4 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|814
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|593
 src\PlainCEETimer\UI\Controls\AppForm.cs|108|62|468
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
@@ -43,11 +43,11 @@ src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
-src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|104
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|30|8|104
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
+src\PlainCEETimer\Modules\Configuration\AppConfig.cs|22|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|31|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
@@ -55,11 +55,11 @@ src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
-src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
+src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|15|0|79
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
@@ -81,6 +81,7 @@ src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\UI\WindowManager.cs|12|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
+src\PlainCEETimer\UI\HotKeyManager.cs|15|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
@@ -248,4 +249,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3096|426|15070
+SUM:|3115|426|15127
