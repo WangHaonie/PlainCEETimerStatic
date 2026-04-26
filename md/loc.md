@@ -1,18 +1,18 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (446.2 files/s, 33999.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (445.8 files/s, 33969.3 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|118|0|814
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|814
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|97|0|583
-src\PlainCEETimer\UI\Controls\AppForm.cs|109|62|469
+src\PlainCEETimer\UI\Controls\AppForm.cs|108|62|468
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|309
 src\PlainCEETimer\Modules\App.cs|43|0|297
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|279
-src\PlainCEETimer\Interop\Structs.cs|60|12|256
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
+src\PlainCEETimer\Interop\Structs.cs|59|12|254
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|44|0|251
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|47|0|230
@@ -52,11 +52,11 @@ src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|31|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|12|0|84
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|18|0|82
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
@@ -248,4 +248,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3100|426|15068
+SUM:|3096|426|15070
