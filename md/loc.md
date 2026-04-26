@@ -1,14 +1,14 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (519.7 files/s, 39602.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.40 s (606.6 files/s, 46331.6 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|814
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|593
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|101|0|600
 src\PlainCEETimer\UI\Controls\AppForm.cs|108|62|468
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
-src\PlainCEETimer\Countdown\DefaultCountdownService.cs|44|0|309
+src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
 src\PlainCEETimer\Modules\App.cs|43|0|297
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|49|0|279
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
@@ -109,6 +109,7 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|5|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
+src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|5|0|35
 src\PlainCEETimer\Modules\SystemVersion.cs|6|0|34
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
@@ -129,9 +130,9 @@ src\PlainCEETimer\Interop\Win32.cs|7|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|6|0|26
+src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
-src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|4|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
@@ -150,7 +151,6 @@ src\PlainCEETimer.Natives\Win32\DisplayHelper.h|5|0|20
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|4|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
-src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|4|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
@@ -180,12 +180,12 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
+src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
 src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
-src\PlainCEETimer\Countdown\ICountdownService.cs|6|0|10
 src\PlainCEETimer\UI\Core\IScreenService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\UI\IDialogService.cs|6|0|10
@@ -202,13 +202,13 @@ src\PlainCEETimer\Modules\Http\DownloadReport.cs|1|0|8
 src\PlainCEETimer\Modules\Update\UpdateSource.cs|1|0|8
 src\PlainCEETimer\UI\Core\CountdownModel.cs|3|0|8
 src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
+src\PlainCEETimer\UI\Core\IWindowStyles.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
 src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|4|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\Interop\CStd.cs|2|0|7
-src\PlainCEETimer\UI\Core\IWindowStyles.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\IListViewChildDialog.cs|2|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
@@ -249,4 +249,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3115|426|15127
+SUM:|3122|426|15165
