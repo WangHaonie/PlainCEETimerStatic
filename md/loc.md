@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (447.8 files/s, 34193.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (557.1 files/s, 42542.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|814
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|101|0|600
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|101|0|603
 src\PlainCEETimer\UI\Controls\AppForm.cs|108|62|468
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
@@ -249,4 +249,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3122|426|15158
+SUM:|3122|426|15161
