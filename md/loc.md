@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (448.0 files/s, 34213.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.48 s (507.6 files/s, 38883.1 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|814
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|101|0|603
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|577
 src\PlainCEETimer\UI\Controls\AppForm.cs|108|62|468
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
@@ -36,6 +36,7 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|145
 src\PlainCEETimer\Interop\Win32UI.cs|59|5|145
 src\PlainCEETimer\UI\HotKeyService.cs|34|7|144
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
+src\PlainCEETimer\UI\HotKeyManager.cs|37|0|130
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|125
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
@@ -43,11 +44,11 @@ src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
+src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|104
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|30|8|104
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
-src\PlainCEETimer\Modules\Configuration\AppConfig.cs|22|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|31|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
@@ -59,8 +60,8 @@ src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
-src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|15|0|79
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
+src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|15|0|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
@@ -70,7 +71,6 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
-src\PlainCEETimer\UI\HotKeyManager.cs|17|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
@@ -249,4 +249,4 @@ src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3123|426|15162
+SUM:|3138|426|15204
