@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (433.8 files/s, 32716.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.49 s (514.5 files/s, 38797.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -114,7 +114,6 @@ src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|5|0|35
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
-src\PlainCEETimer\Interop\Extensions\Extensions.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\FileDialogHelper.cs|4|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
@@ -141,6 +140,7 @@ src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
+src\PlainCEETimer\Interop\Extensions\Extensions.cs|4|0|22
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
@@ -157,6 +157,7 @@ src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
+src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|5|0|19
 src\PlainCEETimer\Modules\ArrayCache.cs|5|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
@@ -193,7 +194,6 @@ src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
 src\PlainCEETimer\Countdown\CountdownUpdatedEventArgs.cs|4|0|9
-src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|2|0|9
 src\PlainCEETimer\Interop\FunctionPointers.cs|6|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|2|0|9
@@ -255,4 +255,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3164|434|15331
+SUM:|3163|434|15330
