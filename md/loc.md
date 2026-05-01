@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.56 s (440.9 files/s, 33379.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (428.3 files/s, 32459.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -63,6 +63,7 @@ src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|15|0|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
+src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
@@ -75,7 +76,6 @@ src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
-src\PlainCEETimer\Modules\Http\NetworkedAction.cs|8|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|12|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
@@ -252,4 +252,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3138|426|15212
+SUM:|3141|426|15229
