@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (435.7 files/s, 32941.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (435.7 files/s, 32939.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -27,7 +27,7 @@ src\PlainCEETimer\UI\Controls\PlainListView.cs|45|10|178
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
-src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|171
+src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
@@ -158,7 +158,7 @@ src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|5|0|19
-src\PlainCEETimer\Modules\ArrayCache.cs|5|0|19
+src\PlainCEETimer\Modules\ArrayCache.cs|4|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -256,4 +256,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3189|434|15431
+SUM:|3188|434|15429
