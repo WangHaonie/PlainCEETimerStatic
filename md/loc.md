@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (435.7 files/s, 32939.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (435.9 files/s, 32962.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|110|62|477
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|70|0|355
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
-src\PlainCEETimer\Modules\App.cs|43|0|297
+src\PlainCEETimer\Modules\App.cs|44|0|303
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\Interop\Structs.cs|59|12|255
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|255
@@ -85,8 +85,8 @@ src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|11|0|53
-src\PlainCEETimer\UI\WindowManager.cs|12|0|52
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
+src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
@@ -130,10 +130,10 @@ src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Interop\Win32.cs|7|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
-src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|6|0|26
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
+src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|7|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
@@ -256,4 +256,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3188|434|15429
+SUM:|3190|434|15432
