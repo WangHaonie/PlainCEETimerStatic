@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (435.6 files/s, 33142.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (436.9 files/s, 33273.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -39,7 +39,7 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|145
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
 src\PlainCEETimer.Fody\ModuleWeaver.cs|30|0|129
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|126
-src\PlainCEETimer\UI\DpiHelper.cs|23|5|116
+src\PlainCEETimer\UI\DpiHelper.cs|23|5|117
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
@@ -61,8 +61,8 @@ src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
-src\PlainCEETimer\UI\ThemeManager.cs|21|9|79
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|15|0|78
+src\PlainCEETimer\UI\ThemeManager.cs|21|9|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
@@ -93,15 +93,15 @@ src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
+src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|11|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|6|46
 src\PlainCEETimer\Modules\Enums.cs|6|0|44
+src\PlainCEETimer\Modules\SystemVersion.cs|13|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
-src\PlainCEETimer\Modules\SystemVersion.cs|6|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
-src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|40
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
@@ -256,4 +256,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3207|434|15533
+SUM:|3216|434|15541
