@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (601.1 files/s, 45657.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.49 s (518.8 files/s, 39402.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -45,11 +45,11 @@ src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|30|8|105
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|104
-src\PlainCEETimer.Fody\ModuleWeaver.cs|25|0|102
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|31|18|102
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
+src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\UI\DpiHelper.cs|23|5|98
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
@@ -256,4 +256,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3211|434|15495
+SUM:|3212|434|15493
