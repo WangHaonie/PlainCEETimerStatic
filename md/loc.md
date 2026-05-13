@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (439.3 files/s, 33160.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (512.8 files/s, 38797.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -30,13 +30,14 @@ src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\Interop\Win32UI.cs|66|5|159
+src\PlainCEETimer\Interop\Win32UI.cs|67|5|161
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|145
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
+src\PlainCEETimer\UI\DpiHelper.cs|28|5|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|126
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
@@ -51,11 +52,10 @@ src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
-src\PlainCEETimer\UI\DpiHelper.cs|23|5|98
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer.Natives\Utils.h|27|8|85
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Forms\MainForm.cs|15|0|84
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|13|0|81
@@ -166,10 +166,10 @@ src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer.Natives\Win32UI\Control.h|5|0|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|3|16
-src\PlainCEETimer\Modules\WindowsBuilds.cs|2|0|16
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|4|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
+src\PlainCEETimer\Modules\WindowsVersions.cs|11|0|15
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
@@ -258,4 +258,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3217|434|15520
+SUM:|3232|434|15551
