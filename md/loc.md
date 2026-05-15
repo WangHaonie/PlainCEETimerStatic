@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (608.9 files/s, 46089.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (536.9 files/s, 40642.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|577
-src\PlainCEETimer\UI\Controls\AppForm.cs|110|62|477
+src\PlainCEETimer\UI\Controls\AppForm.cs|111|62|478
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|83|6|435
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|70|0|355
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
@@ -37,8 +37,8 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|27|6|145
 src\PlainCEETimer\Interop\Constants.cs|21|0|136
-src\PlainCEETimer\UI\DpiHelper.cs|31|11|126
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|126
+src\PlainCEETimer\UI\DpiHelper.cs|31|11|125
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
@@ -258,4 +258,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3235|440|15551
+SUM:|3236|440|15551
