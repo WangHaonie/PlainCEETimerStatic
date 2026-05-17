@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (515.6 files/s, 39528.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (513.3 files/s, 39355.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -31,7 +31,7 @@ src\PlainCEETimer\Interop\Win32UI.cs|72|5|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\UI\DpiManager.cs|38|11|159
+src\PlainCEETimer\UI\DpiHelperEx.cs|38|11|159
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Interop\Constants.cs|23|0|152
