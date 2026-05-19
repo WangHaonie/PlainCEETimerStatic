@@ -1,20 +1,20 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.47 s (554.8 files/s, 42807.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (509.7 files/s, 39335.4 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|574
-src\PlainCEETimer\UI\Controls\AppForm.cs|125|62|546
+src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|358
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
 src\PlainCEETimer\Modules\App.cs|44|0|306
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|51|1|279
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
+src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
 src\PlainCEETimer\Interop\Structs.cs|59|12|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|42|0|251
-src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|5|251
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|34|0|225
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -267,4 +267,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3397|464|16431
+SUM:|3397|464|16436
