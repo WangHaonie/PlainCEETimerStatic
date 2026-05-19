@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (442.8 files/s, 34197.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (480.9 files/s, 37149.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|123|67|545
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
-src\PlainCEETimer\Modules\App.cs|44|0|306
+src\PlainCEETimer\Modules\App.cs|44|0|303
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\Interop\Structs.cs|62|12|262
@@ -34,7 +34,7 @@ src\PlainCEETimer\UI\ThemeManager.cs|41|9|169
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|30|6|168
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\UI\DpiHelperEx.cs|38|11|158
+src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
@@ -173,9 +173,9 @@ src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|3|16
+src\PlainCEETimer\Modules\WindowsVersions.cs|12|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
-src\PlainCEETimer\Modules\WindowsVersions.cs|11|0|15
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
@@ -267,4 +267,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3398|463|16450
+SUM:|3400|463|16454
