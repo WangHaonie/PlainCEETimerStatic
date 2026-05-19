@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.48 s (548.6 files/s, 42421.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (602.3 files/s, 46547.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,19 +7,19 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|574
 src\PlainCEETimer\UI\Controls\AppForm.cs|123|67|545
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|358
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
 src\PlainCEETimer\Modules\App.cs|44|0|306
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|280
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
+src\PlainCEETimer\Interop\Structs.cs|62|12|262
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
-src\PlainCEETimer\Interop\Structs.cs|59|12|255
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|253
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|34|0|225
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|44|5|209
-src\PlainCEETimer\UI\Controls\PlainListView.cs|48|10|204
+src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\Controls\NavigationView.cs|30|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
@@ -29,19 +29,19 @@ src\PlainCEETimer\Interop\Win32UI.cs|75|5|177
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|31|6|170
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
 src\PlainCEETimer\UI\ThemeManager.cs|41|9|169
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|30|6|168
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\UI\DpiHelperEx.cs|38|11|159
+src\PlainCEETimer\UI\DpiHelperEx.cs|38|11|158
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|124
-src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|28|8|123
+src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|26|8|118
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|35|18|113
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|23|5|112
@@ -71,15 +71,15 @@ src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\Interop\ConstStructs.cs|38|113|69
-src\PlainCEETimer\UI\Controls\PlainButton.cs|15|0|69
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|16|0|64
+src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|64
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|10|6|63
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|15|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
@@ -94,13 +94,13 @@ src\PlainCEETimer\UI\Controls\PlainLabel.cs|8|0|51
 src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
+src\PlainCEETimer\WPF\WPFApp.cs|9|0|49
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
-src\PlainCEETimer\WPF\WPFApp.cs|9|0|46
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|7|0|45
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
@@ -267,4 +267,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3400|463|16475
+SUM:|3396|463|16465
