@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (525.8 files/s, 40592.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.48 s (542.8 files/s, 41905.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,11 +10,11 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
 src\PlainCEETimer\Modules\App.cs|44|0|303
-src\PlainCEETimer\Interop\Structs.cs|63|12|272
+src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
-src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|253
+src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|252
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|34|0|225
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -24,7 +24,7 @@ src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
 src\PlainCEETimer\UI\Controls\NavigationView.cs|30|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
-src\PlainCEETimer\Interop\Constants.cs|27|0|180
+src\PlainCEETimer\Interop\Constants.cs|27|0|181
 src\PlainCEETimer\Interop\Win32UI.cs|75|5|177
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -60,8 +60,8 @@ src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
-src\PlainCEETimer\UI\AppMessageFilter.cs|14|0|83
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
+src\PlainCEETimer\UI\AppMessageFilter.cs|14|0|82
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
