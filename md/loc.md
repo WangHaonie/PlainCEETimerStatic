@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (495.0 files/s, 38218.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (444.1 files/s, 34327.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -64,6 +64,7 @@ src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\UI\AppMessageFilter.cs|14|0|82
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
+src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|78
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
@@ -144,6 +145,7 @@ src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|7|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
+src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|6|0|23
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
@@ -166,7 +168,6 @@ src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\Control.h|5|0|19
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
-src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|5|0|19
 src\PlainCEETimer\Modules\ArrayCache.cs|4|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
@@ -267,4 +268,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3397|445|16464
+SUM:|3417|445|16546
