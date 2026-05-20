@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (431.8 files/s, 33367.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.48 s (549.2 files/s, 42452.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -125,6 +125,7 @@ src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
+src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|7|0|30
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|7|0|30
@@ -132,7 +133,6 @@ src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
-src\PlainCEETimer\UI\ThemeHelper.cs|6|0|28
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Interop\Win32.cs|7|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
@@ -267,4 +267,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3401|463|16459
+SUM:|3402|463|16463
