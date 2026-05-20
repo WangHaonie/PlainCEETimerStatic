@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (444.1 files/s, 34327.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (482.7 files/s, 37310.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -64,7 +64,7 @@ src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\UI\AppMessageFilter.cs|14|0|82
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
-src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|78
+src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|77
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
@@ -268,4 +268,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3417|445|16546
+SUM:|3417|445|16545
