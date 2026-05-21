@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (443.8 files/s, 34318.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (530.0 files/s, 41030.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,8 +16,8 @@ src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|49|5|233
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|34|0|225
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|220
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
@@ -37,7 +37,7 @@ src\PlainCEETimer\UI\ThemeManager.cs|38|9|166
 src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
-src\PlainCEETimer\Modules\Startup.cs|26|7|151
+src\PlainCEETimer\Modules\Startup.cs|26|7|152
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
 src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|124
@@ -64,8 +64,8 @@ src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\UI\AppMessageFilter.cs|14|0|82
 src\PlainCEETimer\UI\Enums.cs|13|12|80
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
+src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
-src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
@@ -87,15 +87,17 @@ src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
+src\PlainCEETimer\UI\Controls\PlainLabel.cs|9|0|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
+src\PlainCEETimer\Modules\Debouncer.cs|9|0|54
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|16|7|53
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
-src\PlainCEETimer\UI\Controls\PlainLabel.cs|8|0|51
 src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
+src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
@@ -119,7 +121,6 @@ src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
-src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|5|0|35
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
@@ -139,7 +140,7 @@ src\PlainCEETimer\Interop\Win32.cs|7|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
-src\PlainCEETimer\Modules\Throttler.cs|4|0|25
+src\PlainCEETimer\Modules\Throttler.cs|4|0|26
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
@@ -268,4 +269,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3416|445|16552
+SUM:|3431|445|16641
