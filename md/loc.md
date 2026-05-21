@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.49 s (537.1 files/s, 41582.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.40 s (657.6 files/s, 50777.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,11 +16,11 @@ src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|49|5|233
-src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|34|0|225
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
+src\PlainCEETimer\UI\ControlBuilder.cs|37|0|206
+src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
-src\PlainCEETimer\UI\ControlBuilder.cs|36|0|200
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|43|5|201
 src\PlainCEETimer\UI\Controls\NavigationView.cs|30|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
@@ -82,12 +82,13 @@ src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|10|6|63
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
+src\PlainCEETimer\UI\Controls\PlainLabel.cs|10|0|60
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
+src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
-src\PlainCEETimer\UI\Controls\PlainLabel.cs|9|0|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
 src\PlainCEETimer\Modules\Debouncer.cs|9|0|54
@@ -269,4 +270,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3431|445|16642
+SUM:|3434|445|16660
