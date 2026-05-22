@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (655.4 files/s, 50521.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (439.7 files/s, 33800.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -13,15 +13,15 @@ src\PlainCEETimer\Modules\App.cs|44|0|304
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
-src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
+src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|212
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|37|0|206
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|43|5|201
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\Interop\Constants.cs|27|0|182
@@ -229,6 +229,7 @@ src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\IListViewChildDialog.cs|2|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
+src\PlainCEETimer\UI\PreferredColors.cs|3|0|7
 src\PlainCEETimer\UI\ThemeChangedEventArgs.cs|3|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
@@ -271,4 +272,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3441|445|16696
+SUM:|3446|445|16712
