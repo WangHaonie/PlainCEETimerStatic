@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.40 s (657.6 files/s, 50777.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (515.7 files/s, 39852.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,15 +16,15 @@ src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|256
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
+src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|37|0|206
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|43|5|201
-src\PlainCEETimer\UI\Controls\NavigationView.cs|30|0|200
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
-src\PlainCEETimer\Interop\Constants.cs|27|0|181
+src\PlainCEETimer\Interop\Constants.cs|27|0|182
 src\PlainCEETimer\Interop\Win32UI.cs|75|5|177
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -270,4 +270,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3434|445|16660
+SUM:|3436|445|16674
