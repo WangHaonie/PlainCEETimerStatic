@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (517.5 files/s, 39867.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (654.6 files/s, 50462.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -87,6 +87,7 @@ src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
+src\PlainCEETimer\WPF\WPFApp.cs|9|0|57
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
@@ -105,7 +106,6 @@ src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|7|0|45
-src\PlainCEETimer\WPF\WPFApp.cs|8|0|45
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
@@ -271,4 +271,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3440|445|16684
+SUM:|3441|445|16696
