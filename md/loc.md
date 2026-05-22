@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (436.0 files/s, 33692.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (517.5 files/s, 39867.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|574
-src\PlainCEETimer\UI\Controls\AppForm.cs|123|67|545
+src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
@@ -209,6 +209,7 @@ src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|2|0|9
+src\PlainCEETimer\UI\ControlDebounceHelper.cs|3|0|9
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|2|0|9
 src\PlainCEETimer\UI\Controls\PlainRadioButton.cs|2|0|9
 src\PlainCEETimer\UI\Core\ITrayIconLoader.cs|4|0|9
@@ -270,4 +271,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3436|445|16674
+SUM:|3440|445|16684
