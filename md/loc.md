@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (519.3 files/s, 39943.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (446.3 files/s, 34676.8 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|96|0|574
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|571
 src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
@@ -177,8 +177,8 @@ src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|3|16
 src\PlainCEETimer\Modules\WindowsVersions.cs|12|0|16
-src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
+src\PlainCEETimer\UI\Core\MainServiceHub.cs|11|0|15
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
 src\PlainCEETimer\Interop\FunctionPointers.cs|7|0|14
@@ -243,8 +243,6 @@ src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
 src\PlainCEETimer\UI\IAppMessageFilter.cs|2|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
-src\PlainCEETimer\UI\Core\IWindowMessageService.cs|1|0|5
-src\PlainCEETimer\UI\Core\WindowMessageService.cs|1|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
 src\PlainCEETimer\UI\IHasParentWindow.cs|1|0|5
 src\PlainCEETimer\UI\IMessageBox.cs|1|0|5
@@ -264,7 +262,6 @@ src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
 src\PlainCEETimer\UI\ControlsBuilder.cs|2|0|3
 src\PlainCEETimer\UI\MenuItemBuilder.cs|2|0|3
-src\PlainCEETimer\UI\WndProcCallback.cs|2|0|3
 src\PlainCEETimer\Countdown\CountdownUpdatedEventHandler.cs|1|0|2
 src\PlainCEETimer\Countdown\ExamSwitchedEventHandler.cs|1|0|2
 src\PlainCEETimer\Modules\Http\DownloadingEventHandler.cs|1|0|2
@@ -272,4 +269,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3450|445|16719
+SUM:|3444|445|16702
