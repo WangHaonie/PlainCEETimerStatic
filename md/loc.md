@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (515.6 files/s, 40322.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (658.6 files/s, 51650.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,6 +16,7 @@ src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
+src\PlainCEETimer\UI\FullScreenTracker.cs|47|0|225
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|212
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -26,7 +27,6 @@ src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\Interop\Win32UI.cs|80|5|187
-src\PlainCEETimer\UI\FullScreenTracker.cs|38|0|181
 src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
@@ -139,6 +139,7 @@ src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
+src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
@@ -155,7 +156,6 @@ src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|4|0|22
-src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|9|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
@@ -271,4 +271,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3498|445|16936
+SUM:|3508|445|16985
