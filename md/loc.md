@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.41 s (658.6 files/s, 51650.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (438.1 files/s, 34372.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,10 +9,10 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
-src\PlainCEETimer\Modules\App.cs|44|0|304
+src\PlainCEETimer\Modules\App.cs|45|0|314
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|272
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
@@ -271,4 +271,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3508|445|16985
+SUM:|3509|445|16993
