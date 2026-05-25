@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (511.9 files/s, 39655.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.62 s (435.2 files/s, 33814.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|115|0|815
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|95|0|574
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|612
 src\PlainCEETimer\UI\Controls\AppForm.cs|120|67|529
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
@@ -16,7 +16,7 @@ src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
-src\PlainCEETimer\UI\FullScreenTracker.cs|47|0|227
+src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|232
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|212
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -60,9 +60,9 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
+src\PlainCEETimer\UI\Enums.cs|16|21|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
-src\PlainCEETimer\UI\Enums.cs|14|12|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|79
@@ -97,9 +97,9 @@ src\PlainCEETimer\UI\Controls\PlainComboBox.cs|16|7|53
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
 src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
+src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
-src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|12|0|49
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
@@ -140,7 +140,6 @@ src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
-src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
@@ -152,6 +151,7 @@ src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|7|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|6|0|23
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
+src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Colors.cs|2|0|23
@@ -225,6 +225,7 @@ src\PlainCEETimer\Modules\Http\DownloadReport.cs|1|0|8
 src\PlainCEETimer\Modules\Internals\Delegates.cs|4|0|8
 src\PlainCEETimer\Modules\Update\UpdateSource.cs|1|0|8
 src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
+src\PlainCEETimer\UI\Core\IWindowScreenChangeService.cs|3|0|8
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IDialogService.cs|4|0|8
@@ -247,7 +248,6 @@ src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
 src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
-src\PlainCEETimer\UI\Core\IWindowScreenChangeService.cs|2|0|6
 src\PlainCEETimer\UI\IAppMessageFilter.cs|2|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
@@ -276,4 +276,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3535|445|17093
+SUM:|3544|454|17136
