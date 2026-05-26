@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (446.2 files/s, 34755.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (642.1 files/s, 50075.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -20,8 +20,8 @@ src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|232
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|212
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
+src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
 src\PlainCEETimer\Interop\Constants.cs|30|0|206
-src\PlainCEETimer\UI\ControlBuilder.cs|37|0|206
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
@@ -159,6 +159,7 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|4|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
+src\PlainCEETimer\UI\ComboData.cs|7|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
@@ -243,7 +244,6 @@ src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
 src\PlainCEETimer\Countdown\PhParsedToken.cs|1|0|6
 src\PlainCEETimer\Modules\Internals\CallerArgumentExpressionAttribute.cs|1|0|6
-src\PlainCEETimer\UI\ComboData.cs|2|0|6
 src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
 src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
@@ -276,4 +276,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3544|454|17190
+SUM:|3550|454|17210
