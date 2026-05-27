@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.42 s (642.1 files/s, 50075.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.63 s (435.0 files/s, 33989.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -64,6 +64,7 @@ src\PlainCEETimer\UI\Enums.cs|16|21|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
+src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|16|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
@@ -100,7 +101,6 @@ src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
-src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|9|0|48
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
@@ -276,4 +276,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3550|454|17210
+SUM:|3557|454|17244
