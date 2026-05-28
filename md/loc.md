@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (547.1 files/s, 43079.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.46 s (586.3 files/s, 46182.4 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|111|0|851
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|612
-src\PlainCEETimer\UI\Controls\AppForm.cs|120|67|529
+src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|548
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
@@ -28,7 +28,6 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|37|0|194
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\Interop\Win32UI.cs|80|5|187
-src\PlainCEETimer\UI\AppMessageBox.cs|52|16|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
@@ -36,6 +35,7 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|30|6|168
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer\UI\ThemeManager.cs|38|9|166
+src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
 src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
@@ -61,9 +61,9 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
-src\PlainCEETimer\UI\Enums.cs|16|21|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
+src\PlainCEETimer\UI\Enums.cs|16|21|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|16|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
@@ -101,11 +101,11 @@ src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
-src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\Debouncer.cs|9|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
+src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|45
@@ -230,12 +230,12 @@ src\PlainCEETimer\UI\Core\IWindowScreenChangeService.cs|3|0|8
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|4|0|8
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|3|0|8
 src\PlainCEETimer\UI\IDialogService.cs|4|0|8
+src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer.Natives\pch.h|0|0|7
 src\PlainCEETimer\UI\Core\ScreenChangedEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
-src\PlainCEETimer\UI\IListViewChildDialog.cs|2|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\PreferredColors.cs|3|0|7
 src\PlainCEETimer\UI\ThemeChangedEventArgs.cs|3|0|7
@@ -276,4 +276,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3584|454|17378
+SUM:|3587|454|17385
