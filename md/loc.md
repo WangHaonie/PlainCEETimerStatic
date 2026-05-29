@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.78 s (347.6 files/s, 27422.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (546.0 files/s, 43072.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,7 +9,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|129|67|570
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
-src\PlainCEETimer\Modules\App.cs|45|0|313
+src\PlainCEETimer\Modules\App.cs|45|0|314
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
@@ -83,9 +83,9 @@ src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|64
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|10|6|63
+src\PlainCEETimer\WPF\WPFApp.cs|11|0|63
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
-src\PlainCEETimer\WPF\WPFApp.cs|11|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
@@ -276,4 +276,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3593|454|17408
+SUM:|3593|454|17410
