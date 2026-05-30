@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.45 s (604.3 files/s, 47466.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.63 s (436.7 files/s, 34360.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,7 +7,7 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|111|0|851
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|612
 src\PlainCEETimer\UI\Controls\AppForm.cs|121|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|74|0|376
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
 src\PlainCEETimer\Modules\App.cs|45|0|314
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
@@ -20,14 +20,14 @@ src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|232
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
+src\PlainCEETimer\Interop\Constants.cs|30|0|211
 src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
-src\PlainCEETimer\Interop\Constants.cs|30|0|207
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|39|0|191
+src\PlainCEETimer\Interop\Win32UI.cs|81|5|189
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
-src\PlainCEETimer\Interop\Win32UI.cs|80|5|187
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
@@ -47,10 +47,10 @@ src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|26|8|118
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|35|18|113
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
+src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
-src\PlainCEETimer\UI\SystemMenu.cs|22|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|100
@@ -277,4 +277,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3590|454|17399
+SUM:|3596|454|17431
