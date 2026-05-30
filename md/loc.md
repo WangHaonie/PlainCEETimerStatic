@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.63 s (436.7 files/s, 34360.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (528.5 files/s, 41585.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,7 +16,7 @@ src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
-src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|232
+src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|234
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -108,8 +108,8 @@ src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
-src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|45
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
+src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|9|0|43
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
@@ -277,4 +277,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3596|454|17431
+SUM:|3596|454|17432
