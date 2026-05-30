@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (513.8 files/s, 40409.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.45 s (604.3 files/s, 47466.3 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|111|0|851
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|612
-src\PlainCEETimer\UI\Controls\AppForm.cs|129|67|570
+src\PlainCEETimer\UI\Controls\AppForm.cs|121|67|546
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|359
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
@@ -18,7 +18,7 @@ src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\FullScreenTracker.cs|48|0|232
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|212
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
 src\PlainCEETimer\Interop\Constants.cs|30|0|207
@@ -277,4 +277,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3597|454|17422
+SUM:|3590|454|17399
