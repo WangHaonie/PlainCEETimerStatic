@@ -1,9 +1,9 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (502.8 files/s, 39419.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (502.8 files/s, 39432.6 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|854
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|868
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|100|0|616
 src\PlainCEETimer\UI\Controls\AppForm.cs|122|67|550
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
@@ -47,9 +47,9 @@ src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|35|18|113
 src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
-src\PlainCEETimer\UI\Extensions\Extensions.cs|21|0|108
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
+src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|102
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3606|454|17501
+SUM:|3605|454|17509
