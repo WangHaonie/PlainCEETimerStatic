@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (551.9 files/s, 43192.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (532.1 files/s, 41632.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -16,7 +16,7 @@ src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|43|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
-src\PlainCEETimer\UI\FullScreenTracker.cs|47|0|230
+src\PlainCEETimer\UI\FullScreenTracker.cs|46|0|226
 src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3600|454|17466
+SUM:|3599|454|17462
