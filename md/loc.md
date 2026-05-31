@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.63 s (438.3 files/s, 34418.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.46 s (603.6 files/s, 47251.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,8 +8,8 @@ src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|99|0|612
 src\PlainCEETimer\UI\Controls\AppForm.cs|122|67|550
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|74|0|376
+src\PlainCEETimer\Modules\App.cs|46|0|324
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|45|0|322
-src\PlainCEETimer\Modules\App.cs|46|0|321
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
@@ -36,13 +36,12 @@ src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer\UI\ThemeManager.cs|38|9|166
 src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
-src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|165
+src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|152
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
-src\PlainCEETimer\UI\Extensions\Extensions.cs|23|0|124
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|26|8|118
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|35|18|113
@@ -50,6 +49,7 @@ src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
+src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|102
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
@@ -118,6 +118,7 @@ src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
+src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\RandomUID.cs|8|0|36
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|36
@@ -135,7 +136,6 @@ src\PlainCEETimer\Interop\Win32.cs|9|0|31
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|5|0|31
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|7|0|30
-src\PlainCEETimer\UI\Controls\PlainToolTip.cs|7|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
@@ -167,6 +167,7 @@ src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
+src\PlainCEETimer\UI\Extensions\ScreenExtensions.cs|1|0|21
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|5|0|20
 src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|20
@@ -278,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3602|454|17462
+SUM:|3601|454|17471
