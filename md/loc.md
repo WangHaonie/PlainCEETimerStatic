@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (502.8 files/s, 39432.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (429.0 files/s, 33662.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -29,12 +29,12 @@ src\PlainCEETimer\Interop\Win32UI.cs|82|5|191
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|39|0|191
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
+src\PlainCEETimer\UI\ThemeManager.cs|39|9|173
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|30|6|168
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\UI\ThemeManager.cs|38|9|166
 src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
 src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3605|454|17509
+SUM:|3606|454|17516
