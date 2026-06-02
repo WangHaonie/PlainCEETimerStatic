@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (517.6 files/s, 40758.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (451.3 files/s, 35535.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -137,10 +137,10 @@ src\PlainCEETimer\Interop\Win32.cs|9|0|31
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|5|0|31
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|31
 src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|7|0|30
+src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
-src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|27
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3620|454|17579
+SUM:|3620|454|17580
