@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (429.0 files/s, 33662.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (517.6 files/s, 40758.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -32,8 +32,9 @@ src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\UI\ThemeManager.cs|39|9|173
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|53|5|169
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|30|6|168
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|31|6|167
 src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
+src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
 src\PlainCEETimer\UI\DpiHelperEx.cs|39|11|164
@@ -42,10 +43,9 @@ src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|152
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|39|18|122
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|26|8|118
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|35|18|113
-src\PlainCEETimer.Natives\Win32\IATHook.h|27|9|111
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3606|454|17516
+SUM:|3620|454|17579
