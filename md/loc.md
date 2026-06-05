@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.62 s (440.0 files/s, 34819.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (517.7 files/s, 40963.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -102,11 +102,11 @@ src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
-src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
+src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|9|0|46
 src\PlainCEETimer\Modules\Debouncer.cs|9|0|45
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
@@ -208,7 +208,7 @@ src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
 src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
-src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|3|0|11
+src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|2|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\UI\Core\IScreenService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
@@ -279,4 +279,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3633|454|17675
+SUM:|3631|454|17673
