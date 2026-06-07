@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (553.8 files/s, 43655.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.63 s (442.2 files/s, 34859.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -101,7 +101,7 @@ src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|51
 src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
-src\PlainCEETimer\Modules\Debouncer.cs|10|0|49
+src\PlainCEETimer\Modules\Debouncer.cs|10|0|48
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
@@ -281,4 +281,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3640|454|17742
+SUM:|3640|454|17741
