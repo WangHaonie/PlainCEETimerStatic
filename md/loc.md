@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (527.0 files/s, 41743.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (553.8 files/s, 43655.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -17,9 +17,9 @@ src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\UI\FullScreenTracker.cs|47|0|234
+src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|215
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|215
 src\PlainCEETimer\Interop\Constants.cs|30|0|213
-src\PlainCEETimer\UI\Controls\NavigationView.cs|32|0|213
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
@@ -74,10 +74,10 @@ src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
+src\PlainCEETimer\UI\Controls\PlainComboBox.cs|18|7|68
 src\PlainCEETimer\WPF\Models\FontModel.cs|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer\Countdown\ColorPair.cs|18|12|66
-src\PlainCEETimer\UI\Controls\PlainComboBox.cs|18|7|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer\WPF\WPFApp.cs|12|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -95,19 +95,19 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
+src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
+src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|51
 src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
-src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|50
 src\PlainCEETimer\UI\PlainButtonBase.cs|8|0|50
-src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
+src\PlainCEETimer\Modules\Debouncer.cs|10|0|49
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|11|0|48
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|9|0|46
-src\PlainCEETimer\Modules\Debouncer.cs|9|0|45
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
@@ -166,6 +166,7 @@ src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
+src\PlainCEETimer\Modules\DebounceState.cs|5|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
 src\PlainCEETimer\UI\Extensions\ScreenExtensions.cs|1|0|21
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|5|0|20
@@ -215,6 +216,7 @@ src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|10
 src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
+src\PlainCEETimer\Modules\IDebounceState.cs|2|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|2|0|9
 src\PlainCEETimer\UI\ControlDebounceHelper.cs|3|0|9
@@ -279,4 +281,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3632|454|17698
+SUM:|3640|454|17742
