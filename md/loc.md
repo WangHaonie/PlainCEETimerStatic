@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (431.7 files/s, 34095.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.50 s (553.6 files/s, 43712.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -187,9 +187,9 @@ src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\Modules\WindowsVersions.cs|12|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
-src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|15
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
+src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|14
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
 src\PlainCEETimer\Modules\SystemInformationEx.cs|2|0|14
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|9|0|14
@@ -281,4 +281,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3647|451|17777
+SUM:|3647|451|17776
