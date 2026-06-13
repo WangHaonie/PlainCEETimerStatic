@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (435.3 files/s, 34281.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.43 s (648.1 files/s, 51084.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -25,9 +25,9 @@ src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\Interop\Win32UI.cs|82|5|191
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|39|0|191
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
+src\PlainCEETimer\Interop\Win32UI.cs|80|5|187
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|175
@@ -95,6 +95,7 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
+src\PlainCEETimer\Modules\SafeExecutionContext.cs|9|0|54
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|12|0|51
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
@@ -130,7 +131,6 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
-src\PlainCEETimer\Modules\SafeExecutionContext.cs|6|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
@@ -283,4 +283,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3663|451|17860
+SUM:|3664|451|17875
