@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (628.0 files/s, 49523.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (435.3 files/s, 34281.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,8 +11,8 @@ src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|371
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\Modules\App.cs|46|0|323
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|278
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|254
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
@@ -124,6 +124,7 @@ src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|6|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
+src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|36
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|7|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
@@ -282,4 +283,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3653|451|17817
+SUM:|3663|451|17860
