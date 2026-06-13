@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (508.1 files/s, 40059.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.44 s (628.0 files/s, 49523.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,7 +10,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|371
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
-src\PlainCEETimer\Modules\App.cs|46|0|324
+src\PlainCEETimer\Modules\App.cs|46|0|323
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|48|0|271
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
@@ -49,7 +49,7 @@ src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
-src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|102
+src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|105
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
@@ -184,13 +184,13 @@ src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\Extensions\ActionInvokerExtensions.cs|2|0|16
+src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\Modules\WindowsVersions.cs|12|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
-src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|5|0|14
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
 src\PlainCEETimer\Modules\SystemInformationEx.cs|2|0|14
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|9|0|14
@@ -282,4 +282,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3652|451|17813
+SUM:|3653|451|17817
