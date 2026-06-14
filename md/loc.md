@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (435.4 files/s, 34447.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (436.7 files/s, 34254.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|868
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|100|0|617
-src\PlainCEETimer\UI\Controls\AppForm.cs|122|67|568
+src\PlainCEETimer\UI\Controls\AppForm.cs|123|67|572
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|371
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
@@ -25,7 +25,6 @@ src\PlainCEETimer\UI\ControlBuilder.cs|38|0|210
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|206
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\UI\Controls\PlainLabel.cs|39|0|191
 src\PlainCEETimer\Modules\Arguments.cs|45|7|188
 src\PlainCEETimer\Interop\Win32UI.cs|80|5|187
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
@@ -83,6 +82,7 @@ src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\ColorPair.cs|16|12|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|64
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|10|6|63
+src\PlainCEETimer\UI\Controls\PlainLabel.cs|10|0|63
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|15|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxErrorActionHelper.cs|11|0|62
@@ -131,6 +131,7 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
+src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
@@ -139,7 +140,6 @@ src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|10|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
 src\PlainCEETimer\Interop\Win32.cs|9|0|31
-src\PlainCEETimer\Modules\Reflection\DelegateHelper.cs|7|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
@@ -162,6 +162,7 @@ src\PlainCEETimer\UI\Colors.cs|2|0|23
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|5|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|4|0|22
+src\PlainCEETimer\Modules\Internals\LabelInternals.cs|5|0|22
 src\PlainCEETimer\Modules\JsonConverters\ColorPairConverter.cs|5|0|22
 src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
 src\PlainCEETimer\UI\ComboData.cs|7|0|22
@@ -232,7 +233,7 @@ src\PlainCEETimer\UI\FullScreenWindowEventArgs.cs|4|0|9
 src\PlainCEETimer\Countdown\CountdownBasicInfo.cs|4|0|8
 src\PlainCEETimer\Interop\CStd.cs|2|0|8
 src\PlainCEETimer\Modules\Http\DownloadReport.cs|1|0|8
-src\PlainCEETimer\Modules\Internals\Delegates.cs|4|0|8
+src\PlainCEETimer\Modules\Internals\Delegates.cs|6|0|8
 src\PlainCEETimer\Modules\Update\UpdateSource.cs|1|0|8
 src\PlainCEETimer\UI\Core\DragEndEventArgs.cs|4|0|8
 src\PlainCEETimer\UI\Core\IWindowScreenChangeService.cs|3|0|8
@@ -283,4 +284,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3678|451|17946
+SUM:|3658|451|17853
