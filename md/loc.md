@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (426.4 files/s, 33602.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (436.3 files/s, 34395.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -62,13 +62,13 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|18|0|93
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
+src\PlainCEETimer\Interop\NativeStringUni.cs|22|0|86
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Enums.cs|16|21|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
-src\PlainCEETimer\Interop\NativeStringUni.cs|19|0|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|20|7|76
@@ -284,4 +284,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3678|451|17935
+SUM:|3681|451|17942
