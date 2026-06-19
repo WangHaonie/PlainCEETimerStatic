@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (429.8 files/s, 33727.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.56 s (501.0 files/s, 39322.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -37,9 +37,9 @@ src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
+src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|154
-src\PlainCEETimer\Modules\Update\Updater.cs|25|0|153
 src\PlainCEETimer\Modules\Startup.cs|26|7|152
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|148
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
@@ -149,6 +149,7 @@ src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|27
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
+src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\UI\Colors.cs|2|0|24
@@ -168,7 +169,6 @@ src\PlainCEETimer\Modules\ObjectComparer.cs|5|0|22
 src\PlainCEETimer\UI\ComboData.cs|7|0|22
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\UI\ControlRenderer.cs|6|6|22
-src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|22
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
@@ -286,4 +286,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3690|451|17987
+SUM:|3690|451|17993
