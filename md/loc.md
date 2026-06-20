@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.64 s (440.1 files/s, 34572.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (546.9 files/s, 42976.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -80,6 +80,7 @@ src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer\WPF\WPFApp.cs|12|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\ColorPair.cs|16|12|64
+src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|64
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|19|7|62
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|15|0|62
@@ -95,7 +96,6 @@ src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\ConsoleHelper.cs|12|0|54
-src\PlainCEETimer\Modules\SafeExecutionContext.cs|9|0|54
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|0|54
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|12|0|51
@@ -286,4 +286,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3692|451|18007
+SUM:|3693|451|18017
