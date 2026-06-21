@@ -1,19 +1,19 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (428.9 files/s, 33761.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (429.3 files/s, 33831.8 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|627
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|628
 src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|582
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|371
+src\PlainCEETimer\Modules\App.cs|50|0|348
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
-src\PlainCEETimer\Modules\App.cs|47|0|330
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|279
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|270
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\UI\FullScreenTracker.cs|52|0|254
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|250
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
@@ -40,7 +40,7 @@ src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|154
-src\PlainCEETimer\Modules\Startup.cs|26|7|152
+src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|12|0|127
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|39|18|122
@@ -54,8 +54,8 @@ src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|100
+src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|99
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
-src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|98
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
@@ -286,4 +286,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3703|451|18042
+SUM:|3706|451|18064
