@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.33 s (876.5 files/s, 70903.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (424.1 files/s, 34403.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -211,7 +211,6 @@ src\PlainCEETimer\Modules\JsonConverters\Win32ColorFormatConverter.cs|3|0|13
 src\PlainCEETimer\Modules\Configuration\WindowSizeObject.cs|3|0|12
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|12
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|12
-src\PlainCEETimer\Modules\Internals\MessageDecoder.cs|3|0|12
 src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
@@ -290,4 +289,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3814|456|18866
+SUM:|3811|456|18854
