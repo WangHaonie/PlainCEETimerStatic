@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (425.6 files/s, 33997.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.52 s (554.6 files/s, 44867.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,6 +7,7 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|628
 src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|582
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
+src\PlainCEETimer\WPF\Appearance\Default.xaml|18|0|423
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|71|0|371
 src\PlainCEETimer\Modules\App.cs|50|0|348
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
@@ -34,7 +35,6 @@ src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
 src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|175
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
-src\PlainCEETimer\WPF\Appearance\Default.xaml|10|0|167
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
@@ -142,9 +142,11 @@ src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
+src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|5|0|31
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
+src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|5|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|28
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
@@ -173,7 +175,6 @@ src\PlainCEETimer\UI\ContextMenuBuilder.cs|5|0|22
 src\PlainCEETimer\UI\ControlRenderer.cs|6|6|22
 src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|22
-src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|3|0|22
 src\PlainCEETimer\Modules\Internals\LabelInternals.cs|5|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
 src\PlainCEETimer\UI\Extensions\ScreenExtensions.cs|1|0|21
@@ -183,7 +184,6 @@ src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\UI\DipFont.cs|6|0|20
-src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|3|0|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Modules\ArrayCache.cs|4|0|19
@@ -223,11 +223,11 @@ src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\Modules\Internals\StringInternals.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|2|0|11
+src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\UI\Core\IScreenService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\UI\FullScreenWindowEventArgs.cs|4|0|10
-src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|10
 src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
@@ -262,6 +262,7 @@ src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
 src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
 src\PlainCEETimer\UI\IAppMessageFilter.cs|2|0|6
+src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\Modules\IDebounceState.cs|1|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
@@ -269,7 +270,6 @@ src\PlainCEETimer\UI\IHasParentWindow.cs|1|0|5
 src\PlainCEETimer\UI\IMessageBox.cs|1|0|5
 src\PlainCEETimer\UI\IThemeAware.cs|1|0|5
 src\PlainCEETimer\UI\TopMostStateChangedEventArgs.cs|1|0|5
-src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|5
 src\PlainCEETimer\WPF\Modules\IConfirmClose.cs|1|0|5
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.h|2|0|4
 src\PlainCEETimer.Natives\Win32\User.h|2|0|4
@@ -290,4 +290,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3802|456|18590
+SUM:|3814|456|18866
