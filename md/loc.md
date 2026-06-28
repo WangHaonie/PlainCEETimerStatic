@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (424.2 files/s, 34421.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (434.3 files/s, 35312.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -9,9 +9,9 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Appearance\Default.xaml|18|0|426
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
+src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|68|0|370
 src\PlainCEETimer\Modules\App.cs|50|0|348
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
-src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|62|0|333
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|279
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
@@ -114,12 +114,12 @@ src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|9|0|46
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|9|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
+src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|8|0|43
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
-src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|41
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|6|0|40
 src\PlainCEETimer\Modules\Throttler.cs|7|0|39
@@ -289,4 +289,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3813|456|18859
+SUM:|3819|456|18899
