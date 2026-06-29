@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (434.2 files/s, 35293.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.70 s (406.0 files/s, 33015.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,10 +6,10 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|628
 src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|586
+src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|454
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
-src\PlainCEETimer\WPF\Appearance\Default.xaml|18|0|426
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
-src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|68|0|359
+src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
 src\PlainCEETimer\Modules\App.cs|50|0|348
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
@@ -77,8 +77,8 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|15|0|69
+src\PlainCEETimer\WPF\WPFApp.cs|12|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
-src\PlainCEETimer\WPF\WPFApp.cs|12|0|66
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\ColorPair.cs|16|12|64
@@ -112,9 +112,9 @@ src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|9|0|46
+src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|45
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|9|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
-src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|8|0|43
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
@@ -136,17 +136,18 @@ src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
 src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
+src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|6|0|35
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Interop\Win32.cs|10|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
+src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
-src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|5|0|31
+src\PlainCEETimer\Modules\Internals\FrameworkAppContextSwitches.cs|5|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\SystemVersion.cs|9|0|29
-src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|5|0|29
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|29
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|28
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
@@ -215,6 +216,7 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
+src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
@@ -222,7 +224,6 @@ src\PlainCEETimer\Modules\Internals\Command.cs|3|0|11
 src\PlainCEETimer\Modules\Internals\StringInternals.cs|3|0|11
 src\PlainCEETimer\UI\Core\WPFWindowInitializer.cs|3|0|11
 src\PlainCEETimer\UI\Core\WinFormsWindowInitializer.cs|2|0|11
-src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|11
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.h|2|0|10
 src\PlainCEETimer\UI\Core\IScreenService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
@@ -251,6 +252,7 @@ src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\PreferredColors.cs|3|0|7
 src\PlainCEETimer\UI\ThemeChangedEventArgs.cs|3|0|7
+src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -261,7 +263,6 @@ src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
 src\PlainCEETimer\UI\Core\IUnifiedFontService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
 src\PlainCEETimer\UI\IAppMessageFilter.cs|2|0|6
-src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\Modules\IDebounceState.cs|1|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
@@ -289,4 +290,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3820|456|18888
+SUM:|3833|456|18966
