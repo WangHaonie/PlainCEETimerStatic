@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.70 s (406.0 files/s, 33015.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (425.5 files/s, 34665.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|628
 src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|586
-src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|454
+src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|459
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
@@ -70,6 +70,7 @@ src\PlainCEETimer\UI\Enums.cs|16|21|85
 src\PlainCEETimer\Interop\NativeStringUni.cs|20|0|84
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
+src\PlainCEETimer\WPF\WPFApp.cs|15|0|77
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
@@ -77,7 +78,6 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|15|0|70
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|15|0|69
-src\PlainCEETimer\WPF\WPFApp.cs|12|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32\Win32.cpp|14|0|65
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -189,6 +189,8 @@ src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Modules\ArrayCache.cs|4|0|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
+src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|3|0|19
+src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
@@ -216,7 +218,6 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
-src\PlainCEETimer\WPF\Appearance\RoundCorner.xaml|1|0|12
 src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
@@ -252,7 +253,6 @@ src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\PreferredColors.cs|3|0|7
 src\PlainCEETimer\UI\ThemeChangedEventArgs.cs|3|0|7
-src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|0|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -290,4 +290,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3833|456|18966
+SUM:|3842|457|18999
