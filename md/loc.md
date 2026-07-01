@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (432.0 files/s, 35116.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (437.3 files/s, 35515.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,8 +10,8 @@ src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|459
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
-src\PlainCEETimer\Modules\App.cs|50|0|348
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
+src\PlainCEETimer\Modules\App.cs|47|0|330
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|279
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
@@ -31,9 +31,9 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Interop\Win32UI.cs|82|5|190
 src\PlainCEETimer\Modules\Arguments.cs|46|7|188
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
+src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
-src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|175
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
@@ -291,4 +291,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3845|472|19012
+SUM:|3842|472|18995
