@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.55 s (523.4 files/s, 42518.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (540.1 files/s, 43886.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|628
-src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|586
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
+src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|586
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|459
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|84|6|440
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
@@ -55,7 +55,7 @@ src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|100
-src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|99
+src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
@@ -291,4 +291,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3843|472|18999
+SUM:|3843|472|19004
