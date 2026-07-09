@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.53 s (540.1 files/s, 43886.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (426.6 files/s, 34671.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -13,10 +13,10 @@ src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Modules\App.cs|47|0|330
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|50|0|279
 src\PlainCEETimer\Interop\Structs.cs|63|12|273
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
-src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|258
+src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|260
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|46|0|258
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|34|0|250
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|245
 src\PlainCEETimer\Interop\Constants.cs|30|0|227
@@ -28,6 +28,7 @@ src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|208
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\Controls\PlainListView.cs|47|10|203
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
+src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\Interop\Win32UI.cs|82|5|190
 src\PlainCEETimer\Modules\Arguments.cs|46|7|188
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
@@ -37,7 +38,6 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer\UI\AppMessageBox.cs|50|16|165
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
@@ -291,4 +291,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3843|472|19004
+SUM:|3845|472|19011
