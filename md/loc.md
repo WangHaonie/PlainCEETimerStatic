@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (426.7 files/s, 34684.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.49 s (580.7 files/s, 47175.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -45,9 +45,9 @@ src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|39|18|122
-src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|26|8|118
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
+src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|24|8|107
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|105
@@ -291,4 +291,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3845|472|19011
+SUM:|3843|472|19000
