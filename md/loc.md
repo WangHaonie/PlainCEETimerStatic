@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (430.8 files/s, 35141.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (438.8 files/s, 35740.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -13,7 +13,7 @@ src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
 src\PlainCEETimer\Modules\App.cs|48|0|341
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
-src\PlainCEETimer\Interop\Structs.cs|66|12|286
+src\PlainCEETimer\Interop\Structs.cs|67|12|288
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|260
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|46|0|258
@@ -139,6 +139,7 @@ src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|6|0|35
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
+src\PlainCEETimer\Interop\FastStringBuffer.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|6|0|33
@@ -291,4 +292,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3859|472|19083
+SUM:|3868|472|19118
