@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (438.8 files/s, 35740.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (434.5 files/s, 35083.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -64,13 +64,13 @@ src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
+src\PlainCEETimer\WPF\WPFApp.cs|17|0|91
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer.Natives\Utils.h|27|8|85
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Enums.cs|16|21|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
-src\PlainCEETimer\WPF\WPFApp.cs|16|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
@@ -158,6 +158,7 @@ src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
 src\PlainCEETimer\Modules\Internals\LabelInternals.cs|5|0|24
+src\PlainCEETimer\Modules\Internals\RoutedCommandInternals.cs|7|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\UI\Colors.cs|2|0|24
 src\PlainCEETimer\UI\ControlDebounceHelper.cs|5|0|24
@@ -168,6 +169,7 @@ src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\ArrayCache.cs|5|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|23
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|23
+src\PlainCEETimer\Modules\Internals\RoutedUICommandInternals.cs|6|0|23
 src\PlainCEETimer\Modules\Update\AppUpdateInfo.cs|9|0|23
 src\PlainCEETimer\UI\Core\UnifiedFont.cs|5|0|23
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|4|0|23
@@ -193,7 +195,9 @@ src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|3|0|19
 src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
+src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
+src\PlainCEETimer\Modules\Internals\Delegates.cs|7|21|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
 src\PlainCEETimer\Modules\Extensions\ActionInvokerExtensions.cs|2|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
@@ -212,10 +216,10 @@ src\PlainCEETimer\Modules\Internals\Command.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\Win32ColorFormatConverter.cs|3|0|13
+src\PlainCEETimer\WPF\Modules\AppCommands.cs|2|0|13
 src\PlainCEETimer\Modules\Configuration\WindowSizeObject.cs|3|0|12
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|12
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|12
-src\PlainCEETimer\Modules\Internals\Delegates.cs|5|15|12
 src\PlainCEETimer\Modules\Internals\StringInternals.cs|3|0|12
 src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
@@ -292,4 +296,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3868|472|19118
+SUM:|3890|478|19210
