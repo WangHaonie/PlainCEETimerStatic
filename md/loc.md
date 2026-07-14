@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (504.9 files/s, 40765.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.66 s (444.9 files/s, 35924.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -280,10 +280,10 @@ src\PlainCEETimer\WPF\Modules\IConfirmClose.cs|1|0|5
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.h|2|0|4
 src\PlainCEETimer.Natives\Win32\User.h|2|0|4
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.h|2|0|4
+src\PlainCEETimer\Modules\Annotations\Fody\CompilerRemoveAttribute.cs|2|3|4
+src\PlainCEETimer\Modules\Annotations\Fody\ConstantAttribute.cs|2|3|4
+src\PlainCEETimer\Modules\Annotations\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer\Modules\Configuration\InvalidTamperingException.cs|2|0|4
-src\PlainCEETimer\Modules\Fody\CompilerRemoveAttribute.cs|2|3|4
-src\PlainCEETimer\Modules\Fody\ConstantAttribute.cs|2|3|4
-src\PlainCEETimer\Modules\Fody\NoConstantsAttribute.cs|2|3|4
 src\PlainCEETimer.Natives\Win32\Win32.h|1|0|3
 src\PlainCEETimer.Natives\framework.h|0|0|3
 src\PlainCEETimer\Modules\Internals\RequiredMemberAttribute.cs|1|0|3
