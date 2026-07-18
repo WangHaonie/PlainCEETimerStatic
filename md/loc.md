@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.58 s (503.4 files/s, 40877.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.69 s (423.2 files/s, 34369.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
 src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|586
-src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|459
+src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
@@ -189,11 +189,11 @@ src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\UI\DipFont.cs|6|0|20
+src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|3|0|20
+src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
-src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|3|0|19
-src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -295,4 +295,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3899|478|19255
+SUM:|3899|478|19258
