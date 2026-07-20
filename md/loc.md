@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.69 s (422.0 files/s, 34271.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.67 s (437.6 files/s, 35281.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -145,6 +145,7 @@ src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
+src\PlainCEETimer.SourceGenerators\ReflectionGenerator.cs|6|0|31
 src\PlainCEETimer\Modules\Internals\FrameworkAppContextSwitches.cs|5|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
@@ -199,6 +200,7 @@ src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\Modules\Internals\Delegates.cs|7|21|17
 src\PlainCEETimer\UI\Core\SystemBorderColorService.cs|4|0|17
+src\PlainCEETimer.SourceGenerators\Base\PlainIncrementalGenerator.cs|6|0|16
 src\PlainCEETimer\Modules\Extensions\ActionInvokerExtensions.cs|2|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
@@ -236,6 +238,7 @@ src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\UI\FullScreenWindowEventArgs.cs|4|0|10
 src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
+src\PlainCEETimer.SourceGenerators\Models\ReflectionModel.cs|2|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|2|0|9
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|2|0|9
@@ -295,4 +298,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|3899|478|19258
+SUM:|3913|478|19314
