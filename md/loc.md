@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (866.0 files/s, 71375.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.69 s (433.3 files/s, 35723.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|112|0|864
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
 src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|586
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|91|0|470
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|92|0|475
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
@@ -32,7 +32,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Interop\Win32UI.cs|84|5|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|188
+src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|187
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
 src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -302,4 +302,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4058|487|20016
+SUM:|4059|487|20020
