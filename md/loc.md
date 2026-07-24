@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.69 s (432.8 files/s, 35660.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (866.0 files/s, 71375.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -32,7 +32,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Interop\Win32UI.cs|84|5|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|29|0|181
+src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|188
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
 src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -115,10 +115,10 @@ src\PlainCEETimer\Modules\Enums.cs|6|0|46
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|9|0|46
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|45
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.h|14|0|44
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|9|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|44
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.h|14|0|43
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|8|0|43
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
@@ -302,4 +302,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4057|487|20010
+SUM:|4058|487|20016
