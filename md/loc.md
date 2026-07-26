@@ -1,17 +1,17 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.70 s (428.0 files/s, 35361.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.70 s (427.8 files/s, 35347.6 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|122|0|950
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
-src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|587
+src\PlainCEETimer\UI\Controls\AppForm.cs|124|67|589
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|92|0|475
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|366
-src\PlainCEETimer\Modules\App.cs|48|0|341
+src\PlainCEETimer\Modules\App.cs|49|0|342
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\Interop\Structs.cs|67|12|288
@@ -34,7 +34,7 @@ src\PlainCEETimer\Interop\Win32UI.cs|84|5|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|187
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|179
-src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|176
+src\PlainCEETimer\UI\DpiHelperEx.cs|41|11|177
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
@@ -66,8 +66,8 @@ src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer.Natives\Utils.h|29|8|93
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
+src\PlainCEETimer\WPF\WPFApp.cs|17|0|92
 src\PlainCEETimer\UI\HotKey.cs|22|0|91
-src\PlainCEETimer\WPF\WPFApp.cs|17|0|91
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
@@ -305,4 +305,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4105|489|20272
+SUM:|4106|489|20277
