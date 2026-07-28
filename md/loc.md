@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (419.9 files/s, 34667.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (420.0 files/s, 34703.8 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
-src\PlainCEETimer\UI\Controls\AppForm.cs|128|67|603
+src\PlainCEETimer\UI\Controls\AppForm.cs|129|67|622
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|92|0|475
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
@@ -55,11 +55,11 @@ src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\UI\Extensions\Extensions.cs|19|0|102
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|101
-src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
+src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|100
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
@@ -306,4 +306,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4120|489|20323
+SUM:|4121|489|20341
