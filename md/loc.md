@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (418.5 files/s, 34571.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (419.9 files/s, 34667.1 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
-src\PlainCEETimer\UI\Controls\AppForm.cs|125|67|594
+src\PlainCEETimer\UI\Controls\AppForm.cs|128|67|603
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|92|0|475
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
@@ -36,7 +36,7 @@ src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|187
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|177
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
-src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|174
+src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
@@ -55,6 +55,7 @@ src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\UI\Extensions\Extensions.cs|19|0|102
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|101
+src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
@@ -62,7 +63,6 @@ src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
-src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer.Natives\Utils.h|29|8|93
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
@@ -124,6 +124,7 @@ src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|8|0|43
 src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
+src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|6|0|40
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
@@ -305,4 +306,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4107|489|20270
+SUM:|4120|489|20323
