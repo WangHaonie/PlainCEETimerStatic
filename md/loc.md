@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.70 s (430.8 files/s, 35675.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.84 s (358.8 files/s, 29710.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -30,8 +30,8 @@ src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|46|5|208
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
-src\PlainCEETimer\Interop\Win32UI.cs|84|5|194
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|31|0|194
+src\PlainCEETimer\Interop\Win32UI.cs|83|5|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|177
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -307,4 +307,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4148|489|20453
+SUM:|4147|489|20451
