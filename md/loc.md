@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.46 s (655.0 files/s, 54188.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.34 s (893.3 files/s, 73916.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,7 +8,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|131|67|635
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|630
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|91|0|471
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|86|6|456
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|400
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
 src\PlainCEETimer\Modules\App.cs|50|0|342
@@ -306,4 +306,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4128|489|20368
+SUM:|4129|489|20371
