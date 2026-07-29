@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (420.0 files/s, 34703.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (419.8 files/s, 34664.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|632
 src\PlainCEETimer\UI\Controls\AppForm.cs|129|67|622
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|92|0|475
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|91|0|471
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|85|6|453
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|72|0|377
@@ -32,7 +32,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\Interop\Win32UI.cs|84|5|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|187
+src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|30|0|185
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|177
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|33|6|175
@@ -48,11 +48,11 @@ src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|39|18|122
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
-src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|24|8|113
 src\PlainCEETimer\Interop\NativeStringUni.cs|25|0|112
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer.Natives\Win32\User.cpp|22|0|106
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
+src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|24|8|104
 src\PlainCEETimer\UI\Extensions\Extensions.cs|19|0|102
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
@@ -306,4 +306,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4121|489|20341
+SUM:|4120|489|20326
