@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (425.4 files/s, 35274.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (425.6 files/s, 35296.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -95,6 +95,7 @@ src\PlainCEETimer\UI\Controls\PlainComboBox.cs|17|7|61
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\Modules\ComboTrigger.cs|12|0|58
 src\PlainCEETimer\Modules\ConsoleHelper.cs|13|0|58
+src\PlainCEETimer\UI\Controls\PlainFlyout.cs|14|0|58
 src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
@@ -102,7 +103,6 @@ src\PlainCEETimer\Modules\Debouncer.cs|10|0|57
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
-src\PlainCEETimer\UI\Controls\PlainFlyout.cs|14|0|54
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|0|54
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|12|0|52
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
@@ -310,4 +310,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4204|494|20674
+SUM:|4204|494|20678
