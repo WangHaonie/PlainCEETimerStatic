@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.72 s (425.6 files/s, 35296.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.36 s (856.6 files/s, 71566.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -7,8 +7,8 @@ src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
 src\PlainCEETimer\UI\Controls\AppForm.cs|136|67|663
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|630
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|103|0|520
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|99|6|520
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|86|6|456
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|399
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
 src\PlainCEETimer\Modules\App.cs|50|0|342
@@ -17,21 +17,21 @@ src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\Interop\Structs.cs|67|12|288
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|47|2|270
+src\PlainCEETimer\UI\Controls\PlainListView.cs|56|10|262
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|261
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|46|0|258
+src\PlainCEETimer\Interop\Constants.cs|32|0|239
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|30|0|235
-src\PlainCEETimer\Interop\Constants.cs|31|0|233
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|40|0|219
-src\PlainCEETimer\UI\Controls\PlainListView.cs|49|10|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|206
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
+src\PlainCEETimer\Interop\Win32UI.cs|85|5|196
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|31|0|194
-src\PlainCEETimer\Interop\Win32UI.cs|83|5|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\ThemeManager.cs|40|9|177
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -40,13 +40,13 @@ src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer.Natives\Win32\IATHook.h|36|9|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|44|18|156
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|40|0|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|39|18|122
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Interop\NativeStringUni.cs|25|0|112
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
@@ -218,6 +218,7 @@ src\PlainCEETimer\Modules\WindowsVersions.cs|12|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|10|0|15
+src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|14
 src\PlainCEETimer.Natives\resource.h|3|6|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
 src\PlainCEETimer\Modules\JsonConverters\SizeFormatConverter.cs|3|0|14
@@ -238,7 +239,6 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
-src\PlainCEETimer.Natives\Win32UI\Theme.h|4|0|11
 src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Interop\Win32Controls.cs|3|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
@@ -310,4 +310,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4204|494|20678
+SUM:|4232|494|20838
