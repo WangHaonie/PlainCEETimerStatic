@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (516.1 files/s, 43163.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.61 s (503.6 files/s, 42125.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -26,9 +26,9 @@ src\PlainCEETimer\UI\ControlBuilder.cs|40|0|219
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|207
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|206
-src\PlainCEETimer\Interop\Win32UI.cs|87|5|202
+src\PlainCEETimer\Interop\Win32UI.cs|88|5|206
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|31|0|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
@@ -311,4 +311,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4258|495|20921
+SUM:|4259|495|20926
