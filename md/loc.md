@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.48 s (639.0 files/s, 53389.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.59 s (516.1 files/s, 43163.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -19,7 +19,7 @@ src\PlainCEETimer\Interop\Structs.cs|67|12|288
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|47|2|270
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|263
-src\PlainCEETimer\UI\Controls\PlainListView.cs|56|10|262
+src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|259
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|30|0|235
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|40|0|219
@@ -28,7 +28,7 @@ src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|206
-src\PlainCEETimer\Interop\Win32UI.cs|87|5|200
+src\PlainCEETimer\Interop\Win32UI.cs|87|5|202
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|31|0|194
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
@@ -68,7 +68,7 @@ src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
 src\PlainCEETimer.Natives\Utils.h|29|8|93
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|15|0|92
 src\PlainCEETimer\WPF\WPFApp.cs|17|0|92
-src\PlainCEETimer\UI\HotKey.cs|22|0|91
+src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\UI\Enums.cs|16|21|86
@@ -132,6 +132,7 @@ src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|6|0|40
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
+src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
@@ -164,7 +165,7 @@ src\PlainCEETimer\UI\Controls\NavigationPage.cs|7|0|28
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|28
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
-src\PlainCEETimer\Interop\Extensions\Extensions.cs|7|9|26
+src\PlainCEETimer\Interop\Extensions\Extensions.cs|9|10|26
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
@@ -176,7 +177,6 @@ src\PlainCEETimer\UI\Colors.cs|2|0|24
 src\PlainCEETimer\UI\ControlDebounceHelper.cs|5|0|24
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|7|0|24
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|23
-src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|6|0|23
 src\PlainCEETimer\Interop\Win32User.cs|12|8|23
 src\PlainCEETimer\Modules\ArrayCache.cs|5|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|23
@@ -311,4 +311,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4250|494|20908
+SUM:|4258|495|20921
