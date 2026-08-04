@@ -1,13 +1,13 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.47 s (208.9 files/s, 17534.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.49 s (206.5 files/s, 17350.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
-src\PlainCEETimer\UI\Controls\AppForm.cs|146|67|705
+src\PlainCEETimer\UI\Controls\AppForm.cs|147|67|710
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|630
+src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|103|0|520
-src\PlainCEETimer\UI\Controls\ListViewDialog.cs|99|6|520
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|399
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
@@ -20,13 +20,13 @@ src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|48|0|271
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|48|2|269
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|263
 src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|259
-src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|30|0|235
+src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|40|0|219
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|215
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|47|5|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\Interop\Win32UI.cs|88|5|206
 src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|198
@@ -311,4 +311,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4278|495|20997
+SUM:|4282|495|21012
