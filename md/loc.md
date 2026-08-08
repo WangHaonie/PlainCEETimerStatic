@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (218.0 files/s, 18402.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.57 s (196.0 files/s, 16564.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|125|0|962
 src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|104|0|630
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.cpp|108|2|529
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|108|2|529
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|460
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|399
@@ -47,8 +47,8 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
+src\PlainCEETimer.Natives\Utils.h|39|8|143
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
-src\PlainCEETimer.Natives\Utils.h|32|8|117
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Interop\NativeStringUni.cs|25|0|112
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
@@ -121,7 +121,7 @@ src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\BlurOverlay.cs|7|0|45
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|1|0|45
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|45
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick.h|14|0|44
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|14|0|44
 src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|9|0|44
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|8|0|44
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|8|0|43
@@ -311,4 +311,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4310|498|21109
+SUM:|4317|498|21135
