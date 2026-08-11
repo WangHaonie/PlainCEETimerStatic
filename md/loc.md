@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (256.0 files/s, 21960.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.53 s (203.7 files/s, 17495.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -76,7 +76,7 @@ src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
-src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|79
+src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|81
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
@@ -104,6 +104,7 @@ src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\Modules\Debouncer.cs|10|0|57
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|12|0|56
+src\PlainCEETimer\Modules\StringHashCodeProvider.cs|14|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|0|54
@@ -148,7 +149,6 @@ src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
 src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
-src\PlainCEETimer\Modules\StringHashCodeProvider.cs|10|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|6|0|35
 src\PlainCEETimer\Modules\AppParams.cs|10|0|34
@@ -316,4 +316,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4460|496|21811
+SUM:|4464|496|21834
