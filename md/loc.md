@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.47 s (212.2 files/s, 18166.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (256.0 files/s, 21960.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -48,6 +48,7 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
+src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|28|0|141
 src\PlainCEETimer.Natives\Utils.h|40|8|139
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|114
@@ -64,7 +65,6 @@ src\PlainCEETimer.Fody\ModuleWeaver.cs|26|0|100
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
-src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|19|0|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|96
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
@@ -316,4 +316,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4451|496|21767
+SUM:|4460|496|21811
