@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.49 s (210.0 files/s, 18127.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.25 s (249.6 files/s, 21540.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -139,12 +139,12 @@ src\PlainCEETimer\Interop\Win32.cs|13|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
-src\PlainCEETimer\Modules\AppParams.cs|10|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
 src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|8|0|37
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|6|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
+src\PlainCEETimer\Modules\AppParams.cs|10|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
@@ -316,4 +316,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4485|496|21949
+SUM:|4485|496|21947
