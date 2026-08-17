@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (222.5 files/s, 19263.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.47 s (212.5 files/s, 18391.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -134,7 +134,6 @@ src\PlainCEETimer\Modules\AppParams.cs|11|0|42
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
-src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|5|0|40
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|6|0|40
 src\PlainCEETimer\Interop\Win32.cs|13|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
@@ -146,6 +145,7 @@ src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|9|0|37
 src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|8|0|37
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|6|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
+src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|4|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
@@ -317,4 +317,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4513|496|22091
+SUM:|4512|496|22087
