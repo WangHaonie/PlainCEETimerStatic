@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.58 s (199.6 files/s, 17556.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.48 s (212.2 files/s, 18670.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -12,8 +12,8 @@ src\PlainCEETimer\WPF\Appearance\Default.xaml|21|0|462
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|439
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|399
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|79|18|349
 src\PlainCEETimer\Modules\App.cs|52|0|347
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|83|23|341
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|314
@@ -51,7 +51,7 @@ src\PlainCEETimer.Natives\Utils.h|43|8|149
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|29|0|142
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
-src\PlainCEETimer.Natives\Win32UI\Theme.h|26|0|117
+src\PlainCEETimer.Natives\Win32UI\Theme.h|30|5|117
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Interop\NativeStringUni.cs|25|0|112
@@ -319,4 +319,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4616|496|22598
+SUM:|4624|506|22590
