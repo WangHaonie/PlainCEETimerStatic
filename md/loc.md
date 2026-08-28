@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (224.5 files/s, 20004.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.36 s (232.4 files/s, 20711.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -32,7 +32,7 @@ src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
-src\PlainCEETimer\UI\PagedContextMenu.cs|28|0|199
+src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer\UI\ThemeManager.cs|42|9|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\Interop\Constants.cs|36|0|178
@@ -320,4 +320,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4688|512|22959
+SUM:|4691|512|22958
