@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.28 s (245.9 files/s, 21922.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.53 s (206.2 files/s, 18384.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -139,8 +139,8 @@ src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
+src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|10|0|40
 src\PlainCEETimer\Interop\Win32.cs|13|0|39
-src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|10|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
@@ -163,9 +163,9 @@ src\PlainCEETimer\Interop\FastStringBuffer.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
 src\PlainCEETimer\UI\Controls\NavigationPage.cs|8|0|33
+src\PlainCEETimer\UI\ThemeHelper.cs|7|0|33
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
-src\PlainCEETimer\UI\ThemeHelper.cs|7|0|32
 src\PlainCEETimer.SourceGenerators\ReflectionGenerator.cs|6|0|31
 src\PlainCEETimer\Modules\SystemVersion.cs|10|0|31
 src\PlainCEETimer\WPF\Converters\ColorOpacityToBrushConverter.cs|5|0|31
@@ -320,4 +320,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4695|512|22961
+SUM:|4695|512|22963
