@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.44 s (219.4 files/s, 19567.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (259.1 files/s, 23107.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -50,7 +50,7 @@ src\PlainCEETimer.Natives\Win32UI\Theme.h|38|6|152
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|29|0|142
-src\PlainCEETimer.Natives\Win32\IATHook.h|32|9|141
+src\PlainCEETimer.Natives\Win32\IATHook.h|33|9|139
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
@@ -320,4 +320,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4697|512|22971
+SUM:|4698|512|22969
