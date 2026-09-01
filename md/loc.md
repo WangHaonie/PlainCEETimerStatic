@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (224.5 files/s, 20043.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.39 s (227.5 files/s, 20249.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -70,7 +70,7 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
-src\PlainCEETimer\WPF\WPFApp.cs|17|0|92
+src\PlainCEETimer\WPF\WPFApp.cs|16|0|93
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|87
@@ -212,7 +212,6 @@ src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\UI\DipFont.cs|6|0|20
-src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|3|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
@@ -228,6 +227,7 @@ src\PlainCEETimer\Modules\Extensions\ActionInvokerExtensions.cs|2|0|16
 src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
+src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|2|0|16
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|10|0|15
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.h|4|0|14
@@ -283,6 +283,7 @@ src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\PreferredColors.cs|3|0|7
 src\PlainCEETimer\UI\ThemeChangedEventArgs.cs|3|0|7
+src\PlainCEETimer\WPF\Appearance\Basics.xaml|0|0|7
 src\PlainCEETimer\WPF\Models\FontWeightItem.cs|3|0|7
 src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
@@ -320,4 +321,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4698|512|22999
+SUM:|4696|512|23003
