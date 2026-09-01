@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.42 s (222.7 files/s, 19822.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.35 s (234.0 files/s, 20830.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -70,7 +70,7 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|96
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
-src\PlainCEETimer\WPF\WPFApp.cs|16|0|93
+src\PlainCEETimer\WPF\WPFApp.cs|17|0|93
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|87
@@ -216,6 +216,7 @@ src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
+src\PlainCEETimer\WPF\Appearance\Basics.xaml|3|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -251,7 +252,6 @@ src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
 src\PlainCEETimer\UI\IAppWindow.cs|6|0|12
-src\PlainCEETimer\WPF\Appearance\Basics.xaml|1|0|12
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.h|4|0|11
 src\PlainCEETimer\Countdown\ICountdownService.cs|7|0|11
 src\PlainCEETimer\Modules\AppInfo.cs|2|0|11
@@ -321,4 +321,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4696|512|23003
+SUM:|4699|512|23010
