@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.33 s (238.6 files/s, 21244.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.60 s (198.5 files/s, 17675.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|141|0|1050
 src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|707
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|638
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|122|28|573
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|122|28|577
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
@@ -44,7 +44,7 @@ src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|42|0|156
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
-src\PlainCEETimer.Natives\Win32UI\Theme.h|38|6|154
+src\PlainCEETimer.Natives\Win32UI\Theme.h|38|6|155
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
@@ -321,4 +321,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4700|512|23011
+SUM:|4700|512|23016
