@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.13 s (282.6 files/s, 25363.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.39 s (228.5 files/s, 20502.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,8 +10,8 @@ src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|638
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|75|0|438
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|74|0|426
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|77|0|400
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
 src\PlainCEETimer\Modules\App.cs|52|0|347
@@ -33,7 +33,7 @@ src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
-src\PlainCEETimer\UI\ThemeManager.cs|42|9|192
+src\PlainCEETimer\UI\ThemeManager.cs|42|9|195
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\Interop\Constants.cs|38|0|188
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -322,4 +322,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4756|512|23275
+SUM:|4755|512|23266
