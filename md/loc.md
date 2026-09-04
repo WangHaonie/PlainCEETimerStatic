@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.44 s (220.4 files/s, 19659.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.44 s (221.1 files/s, 19751.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,22 +11,22 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|76|0|399
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|69|0|408
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|77|0|400
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|365
 src\PlainCEETimer\Modules\App.cs|52|0|347
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|336
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|49|0|317
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|314
 src\PlainCEETimer\Interop\Structs.cs|67|12|288
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|48|2|268
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|263
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|48|0|260
-src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|259
+src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|257
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|226
-src\PlainCEETimer\Interop\Win32UI.cs|94|5|223
+src\PlainCEETimer\Interop\Win32UI.cs|95|5|225
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|215
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
@@ -35,7 +35,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|207
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer\UI\ThemeManager.cs|42|9|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\Interop\Constants.cs|36|0|178
+src\PlainCEETimer\Interop\Constants.cs|36|0|181
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Utils.h|46|8|175
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|34|6|175
@@ -55,8 +55,8 @@ src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Interop\NativeStringUni.cs|25|0|112
-src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|16|0|111
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
+src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|17|0|109
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|17|0|108
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|105
@@ -96,7 +96,7 @@ src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
 src\PlainCEETimer\Countdown\ColorPair.cs|16|12|64
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
-src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|64
+src\PlainCEETimer\UI\Controls\PlainButton.cs|14|0|64
 src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|15|0|62
 src\PlainCEETimer\WPF\Modules\TextBoxHelper.cs|12|0|62
@@ -139,8 +139,8 @@ src\PlainCEETimer\UI\FileDialogHelper.cs|5|0|43
 src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
-src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|10|0|40
 src\PlainCEETimer\Interop\Win32.cs|13|0|39
+src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|10|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|38
@@ -212,6 +212,7 @@ src\PlainCEETimer\Interop\Win32TaskScheduler.cs|8|3|20
 src\PlainCEETimer\UI\Controls\PlainFontDialog.cs|5|0|20
 src\PlainCEETimer\UI\Core\WinFormsFontService.cs|5|0|20
 src\PlainCEETimer\UI\DipFont.cs|6|0|20
+src\PlainCEETimer\UI\NativeWindowHelper.cs|3|0|20
 src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
@@ -321,4 +322,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4705|512|23054
+SUM:|4732|512|23166
