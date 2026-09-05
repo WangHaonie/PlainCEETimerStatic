@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.33 s (239.0 files/s, 21606.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.66 s (191.7 files/s, 17350.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -72,6 +72,7 @@ src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
 src\PlainCEETimer\WPF\WPFApp.cs|17|0|93
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
+src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|87
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
@@ -110,7 +111,6 @@ src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|8|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
-src\PlainCEETimer\Modules\Debouncer.cs|10|0|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|8|0|54
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
@@ -322,4 +322,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4787|512|23445
+SUM:|4793|512|23479
