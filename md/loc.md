@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.36 s (233.7 files/s, 21176.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.25 s (254.3 files/s, 23045.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -46,10 +46,10 @@ src\PlainCEETimer.Natives\Win32UI\Theme.h|40|6|159
 src\PlainCEETimer.Natives\Win32\IATHook.h|34|9|158
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|42|0|156
 src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
+src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|31|0|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
-src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|30|0|149
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|19|0|134
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
@@ -322,4 +322,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4795|512|23505
+SUM:|4796|512|23510
