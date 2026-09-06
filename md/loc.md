@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.66 s (191.7 files/s, 17350.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.42 s (223.4 files/s, 20241.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -36,7 +36,7 @@ src\PlainCEETimer.Natives\Win32UI\Control.cpp|40|6|198
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer\UI\ThemeManager.cs|42|9|195
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\Interop\Constants.cs|38|0|189
+src\PlainCEETimer\Interop\Constants.cs|38|0|190
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.Natives\Utils.h|46|8|175
 src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
@@ -51,12 +51,12 @@ src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|30|0|149
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
+src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|19|0|134
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
-src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|17|0|109
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|17|0|108
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|105
@@ -322,4 +322,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4793|512|23479
+SUM:|4795|512|23505
