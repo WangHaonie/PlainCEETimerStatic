@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.69 s (188.4 files/s, 17132.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.34 s (237.9 files/s, 21540.8 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|141|0|1050
 src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|707
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|142|28|702
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|142|28|700
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|105|0|638
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|86|0|505
@@ -84,9 +84,9 @@ src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
 src\PlainCEETimer\UI\SystemBackdrop.cs|16|0|78
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
+src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|75
 src\PlainCEETimer\Interop\ConstEnums.cs|7|0|75
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
-src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|74
 src\PlainCEETimer\Modules\ConsoleHelper.cs|16|0|73
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer.Natives\Win32\Win32.cpp|15|0|71
@@ -149,6 +149,7 @@ src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|8|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|4|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
+src\PlainCEETimer.Natives\pch.h|15|0|35
 src\PlainCEETimer\Countdown\Enums.cs|3|0|35
 src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
@@ -156,7 +157,6 @@ src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|6|0|35
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|35
-src\PlainCEETimer.Natives\pch.h|15|0|34
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|7|0|34
 src\PlainCEETimer\UI\Controls\PlainRadioButton.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
@@ -181,6 +181,7 @@ src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|9|10|26
 src\PlainCEETimer\Interop\Win32Controls.cs|9|0|26
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
+src\PlainCEETimer.Natives\Collections\BrushTable.cpp|5|0|25
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|25
 src\PlainCEETimer\Interop\Win32User.cs|12|8|25
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
@@ -233,6 +234,7 @@ src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|2|0|16
+src\PlainCEETimer.Natives\Collections\BrushTable.h|6|0|15
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|10|0|15
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.h|4|0|14
@@ -322,4 +324,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4814|512|23593
+SUM:|4825|512|23633
