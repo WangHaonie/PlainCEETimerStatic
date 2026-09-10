@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.51 s (212.5 files/s, 19242.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.56 s (204.5 files/s, 18517.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -54,7 +54,7 @@ src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|19|0|135
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|25|0|115
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|17|0|108
@@ -324,4 +324,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4825|512|23642
+SUM:|4826|512|23642
