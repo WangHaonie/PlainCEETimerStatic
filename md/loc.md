@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.31 s (244.2 files/s, 22170.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.38 s (233.8 files/s, 21133.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -19,10 +19,10 @@ src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|46|0|329
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|314
 src\PlainCEETimer\Interop\Structs.cs|67|12|288
+src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|49|0|269
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|48|2|268
 src\PlainCEETimer\Interop\Win32UI.cs|105|5|265
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
-src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|48|0|260
 src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|257
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
@@ -225,6 +225,7 @@ src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\WPF\Appearance\Basics.xaml|3|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
+src\PlainCEETimer\UI\Controls\PlainControlBase.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
 src\PlainCEETimer\Modules\Internals\Delegates.cs|7|21|17
 src\PlainCEETimer\Modules\WindowsVersions.cs|13|0|17
@@ -237,6 +238,7 @@ src\PlainCEETimer\UI\Core\MainServiceHub.cs|12|0|16
 src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|2|0|16
 src\PlainCEETimer.Natives\Collections\BrushTable.h|6|0|15
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
+src\PlainCEETimer\UI\ControlDpiScaleFix.cs|4|0|15
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|10|0|15
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.h|4|0|14
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|10|0|14
@@ -325,4 +327,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4852|540|23749
+SUM:|4861|540|23791
