@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.45 s (220.8 files/s, 20032.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.05 s (306.5 files/s, 27826.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,7 +8,7 @@ src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|707
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|142|28|700
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|106|0|641
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
-src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|87|0|511
+src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
@@ -71,11 +71,11 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
 src\PlainCEETimer\WPF\WPFApp.cs|17|0|93
+src\PlainCEETimer\WPF\Extensions\Extensions.cs|20|0|91
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|89
 src\PlainCEETimer\UI\Enums.cs|16|21|87
-src\PlainCEETimer\WPF\Extensions\Extensions.cs|19|0|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
@@ -325,4 +325,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4848|540|23733
+SUM:|4852|540|23749
