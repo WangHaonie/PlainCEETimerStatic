@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.38 s (233.8 files/s, 21133.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.44 s (224.6 files/s, 20299.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -175,12 +175,12 @@ src\PlainCEETimer\Modules\Internals\FrameworkAppContextSwitches.cs|5|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainButtonBase.cs|7|0|29
+src\PlainCEETimer\Interop\Win32Controls.cs|9|20|28
 src\PlainCEETimer\UI\Colors.cs|2|0|28
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|28
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|9|10|26
-src\PlainCEETimer\Interop\Win32Controls.cs|9|20|26
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer.Natives\Collections\BrushTable.cpp|5|0|25
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|25
@@ -327,4 +327,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4861|540|23791
+SUM:|4861|540|23793
