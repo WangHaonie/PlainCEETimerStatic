@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.16 s (279.3 files/s, 25241.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.47 s (219.9 files/s, 19874.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -158,13 +158,13 @@ src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|6|0|35
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|35
+src\PlainCEETimer\UI\Controls\NavigationPage.cs|8|0|34
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|7|0|34
 src\PlainCEETimer\UI\Controls\PlainRadioButton.cs|7|0|34
 src\PlainCEETimer\UI\Dialogs\RulesManager.cs|7|0|34
 src\PlainCEETimer\Interop\FastStringBuffer.cs|8|0|33
 src\PlainCEETimer\Modules\Configuration\BorderColorObject.cs|8|0|33
 src\PlainCEETimer\Modules\JsonConverters\PointFormatConverter.cs|6|0|33
-src\PlainCEETimer\UI\Controls\NavigationPage.cs|8|0|33
 src\PlainCEETimer\UI\ThemeHelper.cs|7|0|33
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|6|0|33
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
@@ -327,4 +327,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4862|540|23793
+SUM:|4862|540|23794
