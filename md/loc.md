@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.30 s (252.9 files/s, 22935.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.49 s (220.8 files/s, 20024.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,13 +6,13 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|144|0|1061
 src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|708
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|142|28|700
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|110|0|654
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|110|0|655
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|79|0|410
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|78|0|406
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\Modules\App.cs|54|0|355
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
@@ -332,4 +332,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4960|540|24251
+SUM:|4959|540|24248
