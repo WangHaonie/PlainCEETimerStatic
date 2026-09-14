@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.44 s (227.9 files/s, 20667.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.30 s (252.9 files/s, 22935.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -105,7 +105,7 @@ src\PlainCEETimer\WPF\Modules\TextBoxHelper.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|17|7|61
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
-src\PlainCEETimer\WPF\ViewModels\ImmersiveWindowViewModel.cs|15|0|59
+src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|15|0|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
 src\PlainCEETimer\Modules\ComboTrigger.cs|12|0|58
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|58
@@ -187,17 +187,18 @@ src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Interop\Extensions\Extensions.cs|9|10|26
 src\PlainCEETimer\Modules\JsonConverters\FontFormatConverter.cs|5|0|26
 src\PlainCEETimer.Natives\Collections\BrushTable.cpp|5|0|25
+src\PlainCEETimer\Countdown\CountdownManager.cs|8|0|25
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|25
 src\PlainCEETimer\Interop\Win32User.cs|12|8|25
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
-src\PlainCEETimer\Countdown\CountdownHelper.cs|7|0|24
 src\PlainCEETimer\Modules\Internals\ControlInternals.cs|6|0|24
 src\PlainCEETimer\Modules\Internals\LabelInternals.cs|5|0|24
 src\PlainCEETimer\Modules\Internals\RoutedCommandInternals.cs|7|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\UI\ControlDebounceHelper.cs|5|0|24
 src\PlainCEETimer\WPF\Views\FontDialog.xaml.cs|7|0|24
+src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|0|0|23
 src\PlainCEETimer\Modules\ArrayCache.cs|5|0|23
 src\PlainCEETimer\Modules\Configuration\DisplayObject.cs|10|0|23
 src\PlainCEETimer\Modules\Internals\RoutedUICommandInternals.cs|6|0|23
@@ -227,7 +228,6 @@ src\PlainCEETimer.Natives\resource.h|6|6|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\WPF\Appearance\Basics.xaml|3|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
-src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|0|0|18
 src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer\UI\Controls\PlainControlBase.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -332,4 +332,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|4959|540|24245
+SUM:|4960|540|24251
