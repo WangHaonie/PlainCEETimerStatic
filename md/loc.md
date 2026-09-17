@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.33 s (253.4 files/s, 22978.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.33 s (253.7 files/s, 23003.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -96,8 +96,8 @@ src\PlainCEETimer\Modules\PathUtils.cs|17|5|75
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
-src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|9|0|71
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|69
+src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|9|0|69
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|20|7|67
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -341,4 +341,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5103|541|24911
+SUM:|5103|541|24909
