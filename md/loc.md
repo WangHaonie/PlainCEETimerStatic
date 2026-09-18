@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.33 s (253.7 files/s, 23003.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.52 s (222.2 files/s, 20157.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -54,7 +54,7 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|31|0|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
-src\PlainCEETimer\Modules\ConsoleHelper.cs|25|0|137
+src\PlainCEETimer\Modules\PlainConsole.cs|27|0|145
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|19|0|135
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
@@ -96,8 +96,8 @@ src\PlainCEETimer\Modules\PathUtils.cs|17|5|75
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
+src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|9|0|70
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|69
-src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|9|0|69
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|20|7|67
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
@@ -129,10 +129,10 @@ src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|50
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|10|0|50
+src\PlainCEETimer\Interop\Win32.cs|21|0|49
 src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|10|0|49
 src\PlainCEETimer\Modules\AppParams.cs|12|0|48
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|48
-src\PlainCEETimer\Interop\Win32.cs|20|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
@@ -284,7 +284,7 @@ src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\UI\Core\IWindowStyles.cs|6|0|10
 src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
-src\PlainCEETimer.Natives\Win32\Win32.h|1|0|9
+src\PlainCEETimer.Natives\Win32\Win32.h|2|0|9
 src\PlainCEETimer.SourceGenerators\Models\ReflectionModel.cs|1|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\UI\Core\ITrayIconLoader.cs|4|0|9
@@ -341,4 +341,4 @@ src\PlainCEETimer\Modules\Internals\IsExternalInit.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5103|541|24909
+SUM:|5107|541|24920
