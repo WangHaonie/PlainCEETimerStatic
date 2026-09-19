@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.23 s (276.9 files/s, 24920.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.52 s (225.3 files/s, 20283.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,8 +11,8 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|439
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|431
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\Modules\App.cs|53|0|362
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
@@ -25,7 +25,7 @@ src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|48|2|268
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
 src\PlainCEETimer\UI\Controls\PlainListView.cs|57|10|254
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|47|0|251
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|50|6|242
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|49|6|241
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|226
@@ -65,6 +65,7 @@ src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|17|0|108
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|105
+src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|23|0|105
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|24|8|104
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|103
 src\PlainCEETimer\UI\Extensions\Extensions.cs|19|0|102
@@ -74,7 +75,6 @@ src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
 src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
-src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|22|0|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|20|0|91
 src\PlainCEETimer\UI\Forms\MainForm.cs|16|0|90
@@ -184,10 +184,10 @@ src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\UI\Controls\PlainButtonBase.cs|7|0|29
 src\PlainCEETimer.Natives\Win32UI\Control.h|8|0|28
+src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|0|0|28
 src\PlainCEETimer\Interop\Win32Controls.cs|9|20|28
 src\PlainCEETimer\UI\Colors.cs|2|0|28
 src\PlainCEETimer\WPF\Models\FontSizeItem.cs|9|0|28
-src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|0|0|27
 src\PlainCEETimer\Interop\DpiAwarenessContextHandle.cs|4|0|27
 src\PlainCEETimer\Modules\Http\HttpService.cs|6|0|27
 src\PlainCEETimer\Countdown\CountdownManager.cs|7|0|26
@@ -346,4 +346,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5140|541|25094
+SUM:|5140|541|25110
