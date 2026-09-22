@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.52 s (225.3 files/s, 20283.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (210.3 files/s, 18933.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -61,7 +61,7 @@ src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
-src\PlainCEETimer\UI\SystemMenu.cs|24|0|110
+src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|17|0|108
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|105
@@ -346,4 +346,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5140|541|25110
+SUM:|5140|541|25109
