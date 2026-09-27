@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.69 s (202.6 files/s, 18238.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.49 s (230.8 files/s, 20735.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,7 +11,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
 src\PlainCEETimer\WPF\Appearance\Default.xaml|20|0|457
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|439
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|440
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\Modules\App.cs|53|0|362
@@ -67,6 +67,7 @@ src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|23|0|105
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|23|0|105
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|24|8|104
+src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|103
 src\PlainCEETimer\UI\Extensions\Extensions.cs|19|0|102
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
@@ -76,7 +77,6 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
-src\PlainCEETimer\WPF\Extensions\Extensions.cs|20|0|91
 src\PlainCEETimer\UI\Forms\MainForm.cs|16|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
@@ -297,6 +297,7 @@ src\PlainCEETimer\UI\Core\IWindowScreenChangeService.cs|3|0|8
 src\PlainCEETimer\UI\IDialogService.cs|4|0|8
 src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
+src\PlainCEETimer\WPF\Modules\KnownResources.cs|2|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer\Modules\Annotations\SourceGenerators\BackingFieldAttribute.cs|2|0|7
 src\PlainCEETimer\UI\Core\ScreenChangedEventArgs.cs|3|0|7
@@ -346,4 +347,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5140|541|25109
+SUM:|5145|541|25130
