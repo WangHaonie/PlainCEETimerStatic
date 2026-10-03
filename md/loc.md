@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.47 s (233.8 files/s, 20983.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (272.2 files/s, 24382.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|146|0|1067
-src\PlainCEETimer\UI\Controls\AppForm.cs|148|67|708
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|147|0|1069
+src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|715
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|143|28|704
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|622
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
@@ -133,6 +133,7 @@ src\PlainCEETimer\Interop\Win32.cs|21|0|49
 src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|10|0|49
 src\PlainCEETimer\Modules\AppParams.cs|12|0|48
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|48
+src\PlainCEETimer\Modules\ActionInvoker.cs|11|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\AppDialog.cs|10|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
@@ -160,7 +161,6 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|7|0|36
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer.Natives\pch.h|15|0|35
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|13|0|35
-src\PlainCEETimer\Modules\ActionInvoker.cs|8|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
 src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
@@ -320,6 +320,7 @@ src\PlainCEETimer\UI\Core\IWindowInitializer.cs|2|0|6
 src\PlainCEETimer\UI\IAppMessageFilter.cs|2|0|6
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\Modules\IDebounceState.cs|1|0|5
+src\PlainCEETimer\Modules\IInvokable.cs|1|0|5
 src\PlainCEETimer\UI\Core\IRequireWindowInitializer.cs|1|0|5
 src\PlainCEETimer\UI\Core\IRequireWindowStyles.cs|1|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
@@ -348,4 +349,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5156|541|25180
+SUM:|5162|538|25206
