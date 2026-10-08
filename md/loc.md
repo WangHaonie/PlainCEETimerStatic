@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.52 s (232.5 files/s, 21275.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.26 s (281.2 files/s, 25746.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|147|0|1069
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|151|28|753
 src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|715
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|622
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|122|0|630
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
@@ -79,12 +79,12 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
+src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|19|0|91
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
-src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|18|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|13|0|83
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
@@ -156,9 +156,9 @@ src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|14|0|41
 src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|8|0|41
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|40
+src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|16|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
-src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|15|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|8|0|38
@@ -358,4 +358,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5410|538|26448
+SUM:|5414|538|26462
