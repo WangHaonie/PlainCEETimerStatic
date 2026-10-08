@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.66 s (213.3 files/s, 19512.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.70 s (207.8 files/s, 19025.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|145|0|1058
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|151|28|753
 src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|715
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|119|0|626
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|634
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|523
@@ -16,9 +16,9 @@ src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|447
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
 src\PlainCEETimer\Modules\App.cs|53|0|363
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
+src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|341
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|54|0|330
-src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|68|0|328
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|49|0|269
@@ -358,4 +358,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5407|538|26442
+SUM:|5411|538|26463
