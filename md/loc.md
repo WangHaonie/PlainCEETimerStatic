@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.56 s (226.4 files/s, 20686.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (279.7 files/s, 25567.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -18,7 +18,7 @@ src\PlainCEETimer\Modules\App.cs|53|0|363
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|54|0|330
-src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|68|0|326
+src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|68|0|328
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|49|0|269
@@ -84,13 +84,13 @@ src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
+src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|18|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|13|0|83
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|83
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|81
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|17|0|80
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
-src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|17|0|78
 src\PlainCEETimer\UI\SystemBackdrop.cs|16|0|78
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|17|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
@@ -158,10 +158,10 @@ src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|8|0|41
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|40
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
+src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|15|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|38
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|8|0|38
-src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|14|0|37
 src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|8|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|4|0|36
@@ -358,4 +358,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5401|538|26406
+SUM:|5403|538|26417
