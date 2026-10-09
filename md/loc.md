@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.31 s (270.2 files/s, 24641.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=2.38 s (149.2 files/s, 13607.5 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -18,7 +18,7 @@ src\PlainCEETimer\Modules\App.cs|53|0|363
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
-src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|54|0|330
+src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|48|2|268
@@ -127,7 +127,7 @@ src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|11|0|54
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
-src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|11|0|52
+src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|10|0|52
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|12|0|52
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
 src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|7|0|51
@@ -359,4 +359,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5408|538|26430
+SUM:|5406|538|26426
