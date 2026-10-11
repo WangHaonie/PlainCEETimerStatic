@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.37 s (260.1 files/s, 23871.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (291.0 files/s, 26715.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -19,7 +19,7 @@ src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|66|6|305
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|66|6|301
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
@@ -38,9 +38,9 @@ src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
+src\PlainCEETimer.Natives\Utils.h|50|8|197
 src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
 src\PlainCEETimer\UI\ThemeManager.cs|42|9|196
-src\PlainCEETimer.Natives\Utils.h|49|8|191
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|38|0|173
@@ -359,4 +359,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5444|536|26604
+SUM:|5445|536|26606
