@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.59 s (222.6 files/s, 20459.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.25 s (284.7 files/s, 26147.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -37,10 +37,10 @@ src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
+src\PlainCEETimer\UI\ThemeManager.cs|43|9|201
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer.Natives\Utils.h|50|8|197
 src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
-src\PlainCEETimer\UI\ThemeManager.cs|42|9|196
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|38|0|173
@@ -128,6 +128,7 @@ src\PlainCEETimer\UI\Controls\AppDialog.cs|13|0|57
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|10|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
+src\PlainCEETimer\Modules\EfficientInvocationList.cs|11|0|54
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|11|0|54
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|10|0|52
@@ -359,4 +360,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5451|536|26637
+SUM:|5463|536|26696
