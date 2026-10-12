@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (291.0 files/s, 26715.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.59 s (222.6 files/s, 20459.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -64,10 +64,10 @@ src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
+src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
-src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|28|9|106
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|104
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
@@ -79,6 +79,7 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|90
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
@@ -92,7 +93,6 @@ src\PlainCEETimer\UI\ThemeHelper.cs|15|0|81
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|17|0|80
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
 src\PlainCEETimer\UI\SystemBackdrop.cs|16|0|78
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|17|0|76
 src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|12|0|76
@@ -111,6 +111,7 @@ src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|64
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
 src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
 src\PlainCEETimer\WPF\Modules\TextBoxAdditions.cs|12|0|63
+src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|13|0|62
 src\PlainCEETimer\Modules\ViewModelBuilder.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
@@ -138,7 +139,6 @@ src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|50
 src\PlainCEETimer\Interop\Win32.cs|21|0|49
-src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|10|0|49
 src\PlainCEETimer\Modules\ActionInvoker.cs|11|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|7|0|47
@@ -359,4 +359,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5445|536|26606
+SUM:|5451|536|26637
