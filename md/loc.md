@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.97 s (367.2 files/s, 33726.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (219.0 files/s, 20112.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -310,6 +310,7 @@ src\PlainCEETimer\UI\IListViewChildDialog.cs|3|0|8
 src\PlainCEETimer\UI\IListViewData.cs|4|0|8
 src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.h|2|0|7
 src\PlainCEETimer\Modules\Annotations\SourceGenerators\BackingFieldAttribute.cs|2|0|7
+src\PlainCEETimer\Modules\IValueConverter.cs|3|0|7
 src\PlainCEETimer\UI\Core\ScreenChangedEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\HotKeyPressEventArgs.cs|3|0|7
 src\PlainCEETimer\UI\NavigationViewEventArgs.cs|3|0|7
@@ -320,7 +321,6 @@ src\PlainCEETimer\WPF\Modules\Enums.cs|1|0|7
 src\PlainCEETimer\Countdown\CountdownBuildResult.cs|2|0|6
 src\PlainCEETimer\Countdown\ExamSwitchedEventArgs.cs|2|0|6
 src\PlainCEETimer\Countdown\PhParsedToken.cs|1|0|6
-src\PlainCEETimer\Modules\IValueConverter.cs|2|0|6
 src\PlainCEETimer\Modules\Internals\CallerArgumentExpressionAttribute.cs|1|0|6
 src\PlainCEETimer\UI\Core\IBorderColorService.cs|2|0|6
 src\PlainCEETimer\UI\Core\IHasContextMenu.cs|2|0|6
@@ -360,4 +360,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5463|536|26696
+SUM:|5464|536|26697
