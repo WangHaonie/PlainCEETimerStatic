@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.72 s (207.4 files/s, 19001.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.73 s (205.8 files/s, 18871.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -19,7 +19,7 @@ src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|66|6|301
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|325
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
@@ -361,4 +361,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5465|536|26711
+SUM:|5469|536|26735
