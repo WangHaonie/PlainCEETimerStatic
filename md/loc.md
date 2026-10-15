@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (220.1 files/s, 20153.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.60 s (225.0 files/s, 20612.1 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|143|0|1046
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|151|28|753
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|165|28|847
 src\PlainCEETimer\UI\Controls\AppForm.cs|150|64|719
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|634
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
@@ -25,11 +25,11 @@ src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|48|0|263
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
-src\PlainCEETimer\UI\Controls\PlainListView.cs|56|10|248
+src\PlainCEETimer\UI\Controls\PlainListView.cs|55|10|242
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|224
-src\PlainCEETimer\Interop\Constants.cs|43|0|221
+src\PlainCEETimer\Interop\Constants.cs|44|0|223
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|219
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|36|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|213
@@ -45,10 +45,10 @@ src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|38|0|173
 src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
+src\PlainCEETimer.Natives\Win32UI\Theme.h|43|6|172
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Countdown\DefaultCountdownBuilder.cs|24|0|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
-src\PlainCEETimer.Natives\Win32UI\Theme.h|42|6|165
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|5|0|164
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|32|0|159
 src\PlainCEETimer.Natives\Win32\IATHook.h|34|9|158
@@ -130,6 +130,7 @@ src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|10|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\EfficientInvocationList.cs|11|0|54
+src\PlainCEETimer\UI\Controls\PlainTrackBar.cs|10|0|54
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|11|0|54
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|10|0|52
@@ -241,6 +242,7 @@ src\PlainCEETimer\WPF\Appearance\Default.Windows11.xaml|3|1|20
 src\PlainCEETimer\WPF\Converters\InverseBooleanConverter.cs|4|0|20
 src\PlainCEETimer.Natives\Win32UI\RoundCorner.cpp|7|7|19
 src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
+src\PlainCEETimer\UI\ToolTipStyles.cs|4|0|19
 src\PlainCEETimer\WPF\Appearance\Images.xaml|4|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
 src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
@@ -362,4 +364,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5474|536|26765
+SUM:|5503|536|26935
