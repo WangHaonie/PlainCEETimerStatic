@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.58 s (228.1 files/s, 20939.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (255.5 files/s, 23460.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -37,10 +37,10 @@ src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
+src\PlainCEETimer.Natives\Utils.h|52|8|201
 src\PlainCEETimer\UI\ThemeManager.cs|43|9|201
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
-src\PlainCEETimer.Natives\Utils.h|50|8|197
-src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
+src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|195
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer.Natives\Win32UI\Theme.h|45|6|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
@@ -107,7 +107,7 @@ src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|69
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
-src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|64
+src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|65
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|64
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
 src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
@@ -364,4 +364,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5513|536|27002
+SUM:|5515|536|27006
