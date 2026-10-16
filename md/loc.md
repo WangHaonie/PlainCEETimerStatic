@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.60 s (225.0 files/s, 20612.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.30 s (277.4 files/s, 25415.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -70,6 +70,7 @@ src\PlainCEETimer\WPF\WPFApp.cs|18|0|108
 src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|20|0|102
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
@@ -79,7 +80,6 @@ src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
 src\PlainCEETimer\Modules\BitmapFilter.cs|30|5|94
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|19|0|90
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
@@ -364,4 +364,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5503|536|26935
+SUM:|5504|536|26947
