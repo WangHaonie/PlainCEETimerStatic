@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.30 s (277.4 files/s, 25415.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.58 s (228.1 files/s, 20939.6 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|143|0|1046
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|165|28|847
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|170|28|892
 src\PlainCEETimer\UI\Controls\AppForm.cs|150|64|719
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|634
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
@@ -21,7 +21,7 @@ src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|325
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
-src\PlainCEETimer\Interop\Win32UI.cs|108|5|271
+src\PlainCEETimer\Interop\Win32UI.cs|110|5|275
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|48|0|263
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
@@ -42,10 +42,10 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer.Natives\Utils.h|50|8|197
 src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
+src\PlainCEETimer.Natives\Win32UI\Theme.h|45|6|176
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|38|0|173
 src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
-src\PlainCEETimer.Natives\Win32UI\Theme.h|43|6|172
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Countdown\DefaultCountdownBuilder.cs|24|0|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
@@ -126,11 +126,11 @@ src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\UI\Controls\AppDialog.cs|13|0|57
+src\PlainCEETimer\UI\Controls\PlainTrackBar.cs|10|0|56
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|10|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\EfficientInvocationList.cs|11|0|54
-src\PlainCEETimer\UI\Controls\PlainTrackBar.cs|10|0|54
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|11|0|54
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|10|0|52
@@ -364,4 +364,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5504|536|26947
+SUM:|5513|536|27002
