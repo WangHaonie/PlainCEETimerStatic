@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.41 s (255.5 files/s, 23460.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.28 s (280.9 files/s, 25795.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -61,8 +61,8 @@ src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|145
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|118
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
@@ -104,8 +104,8 @@ src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|69
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
 src\PlainCEETimer\Modules\Http\Downloader.cs|8|0|67
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|65
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|64
@@ -364,4 +364,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5515|536|27006
+SUM:|5515|536|27008
