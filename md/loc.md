@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.58 s (228.0 files/s, 20937.4 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (222.0 files/s, 20365.1 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -28,8 +28,8 @@ src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
 src\PlainCEETimer\UI\Controls\PlainListView.cs|55|10|242
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
+src\PlainCEETimer\Interop\Constants.cs|44|0|224
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|224
-src\PlainCEETimer\Interop\Constants.cs|44|0|223
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|219
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|36|0|213
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|213
@@ -67,10 +67,10 @@ src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|108
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|20|0|102
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
@@ -112,9 +112,9 @@ src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|64
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
 src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
 src\PlainCEETimer\WPF\Modules\TextBoxAdditions.cs|12|0|63
-src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|13|0|62
 src\PlainCEETimer\Modules\ViewModelBuilder.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
+src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|11|0|60
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|17|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|59
@@ -142,6 +142,7 @@ src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|50
 src\PlainCEETimer\Interop\Win32.cs|21|0|49
+src\PlainCEETimer\Modules\Reflection\ReflectionUtils.cs|10|0|49
 src\PlainCEETimer\Modules\ActionInvoker.cs|11|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|7|0|47
@@ -364,4 +365,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5516|536|27001
+SUM:|5524|536|27054
