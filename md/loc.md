@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (222.0 files/s, 20365.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.69 s (213.9 files/s, 19651.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -59,15 +59,15 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|19|0|149
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|145
-src\PlainCEETimer\Modules\Internals\DpiHelper.cs|13|0|123
+src\PlainCEETimer\Modules\Internals\DpiHelper.cs|14|0|129
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|118
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|22|0|113
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|108
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\UI\Extensions\Extensions.cs|20|0|107
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
@@ -103,6 +103,7 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
+src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|12|0|72
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
@@ -114,7 +115,6 @@ src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
 src\PlainCEETimer\WPF\Modules\TextBoxAdditions.cs|12|0|63
 src\PlainCEETimer\Modules\ViewModelBuilder.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
-src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|11|0|60
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|17|0|59
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|59
@@ -164,8 +164,9 @@ src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
 src\PlainCEETimer\UI\Controls\PlainColorDialog.cs|8|0|38
 src\PlainCEETimer\WPF\Appearance\Default.Light.xaml|8|0|38
 src\PlainCEETimer\Modules\Configuration\AppParamsInfo.cs|9|0|37
-src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|8|0|37
+src\PlainCEETimer\Modules\Internals\FontFamilyInternals.cs|7|0|37
 src\PlainCEETimer\UI\Dialogs\ExamManager.cs|9|0|37
+src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|9|0|36
 src\PlainCEETimer\Modules\JsonConverters\FontModelConverter.cs|4|0|36
 src\PlainCEETimer\UI\Controls\PlainLinkLabel.cs|6|0|36
 src\PlainCEETimer\WPF\Appearance\Default.Dark.xaml|8|0|36
@@ -173,7 +174,7 @@ src\PlainCEETimer.Natives\Win32COM\TaskbarProgress.cpp|10|7|35
 src\PlainCEETimer.Natives\pch.h|15|0|35
 src\PlainCEETimer\Countdown\CountdownStartInfo.cs|13|0|35
 src\PlainCEETimer\Modules\Extensions\CollectionExtensions.cs|7|0|35
-src\PlainCEETimer\Modules\Internals\ApplicationInternals.cs|8|0|35
+src\PlainCEETimer\UI\Controls\PlainToolTip.cs|8|0|35
 src\PlainCEETimer\UI\Core\WPFWindowDragService.cs|9|0|35
 src\PlainCEETimer\WPF\Views\MainWindow.xaml|0|0|35
 src\PlainCEETimer\UI\Controls\PlainCheckBox.cs|7|0|34
@@ -188,10 +189,10 @@ src\PlainCEETimer\UI\ContextMenuBuilder.cs|7|0|32
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer.Natives\Win32UI\Control.h|8|0|31
 src\PlainCEETimer\Modules\SystemVersion.cs|10|0|31
-src\PlainCEETimer\UI\Controls\PlainToolTip.cs|7|0|31
 src\PlainCEETimer\WPF\Converters\ColorOpacityToBrushConverter.cs|5|0|31
 src\PlainCEETimer.SourceGenerators\ReflectionGenerator.cs|6|1|30
 src\PlainCEETimer\Modules\Internals\FrameworkAppContextSwitches.cs|5|0|30
+src\PlainCEETimer\Modules\Internals\LabelInternals.cs|7|0|30
 src\PlainCEETimer\Modules\HashCode.cs|7|0|29
 src\PlainCEETimer\Modules\JsonConverters\ExamTimeConverter.cs|4|0|29
 src\PlainCEETimer\Modules\Extensions\UnsafeExtensions.cs|5|0|28
@@ -208,10 +209,10 @@ src\PlainCEETimer\Modules\MemberNames.cs|5|0|26
 src\PlainCEETimer.Natives\Collections\BrushTable.cpp|5|0|25
 src\PlainCEETimer\Interop\DisplayHelper.cs|6|0|25
 src\PlainCEETimer\Interop\Win32User.cs|13|8|25
+src\PlainCEETimer\Modules\Internals\ControlInternals.cs|6|0|25
 src\PlainCEETimer\UI\Core\WPFWindowScreenChangeService.cs|5|0|25
 src\PlainCEETimer.Appcom\App.cpp|5|0|24
-src\PlainCEETimer\Modules\Internals\ControlInternals.cs|6|0|24
-src\PlainCEETimer\Modules\Internals\LabelInternals.cs|5|0|24
+src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|6|0|24
 src\PlainCEETimer\Modules\Internals\RoutedCommandInternals.cs|7|0|24
 src\PlainCEETimer\Modules\Xml.cs|6|0|24
 src\PlainCEETimer\UI\ControlDebounceHelper.cs|5|0|24
@@ -246,7 +247,6 @@ src\PlainCEETimer\Modules\JsonReadHelper.cs|4|0|19
 src\PlainCEETimer\UI\ToolTipStyles.cs|4|0|19
 src\PlainCEETimer\WPF\Appearance\Images.xaml|4|0|19
 src\PlainCEETimer.Natives\Win32COM\ShellLink.h|3|0|18
-src\PlainCEETimer\Modules\Internals\ApplicationCommandsInternals.cs|4|0|18
 src\PlainCEETimer\Modules\ServiceHost.cs|4|0|18
 src\PlainCEETimer\UI\Controls\PlainControlBase.cs|4|0|18
 src\PlainCEETimer.Natives\Win32\MemoryCleaner.cpp|12|10|17
@@ -262,6 +262,8 @@ src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|2|0|16
 src\PlainCEETimer.Natives\Collections\BrushTable.h|6|0|15
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
+src\PlainCEETimer\Modules\Internals\Command.cs|4|0|15
+src\PlainCEETimer\Modules\Internals\StringInternals.cs|4|3|15
 src\PlainCEETimer\UI\ControlDpiScaleFix.cs|4|0|15
 src\PlainCEETimer\UI\Core\IWindowBounds.cs|10|0|15
 src\PlainCEETimer\WPF\ViewModels\ImmersiveExamItem.cs|6|0|15
@@ -271,7 +273,6 @@ src\PlainCEETimer\Modules\SystemInformationEx.cs|2|0|14
 src\PlainCEETimer\WPF\Models\FontFamilyWrapper.cs|6|0|14
 src\PlainCEETimer\Countdown\ICountdownService.cs|9|0|13
 src\PlainCEETimer\Modules\IActionInvoker.cs|3|0|13
-src\PlainCEETimer\Modules\Internals\Command.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\BorderColorConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\HotKeyConverter.cs|3|0|13
 src\PlainCEETimer\Modules\JsonConverters\TimeSpanTicksConverter.cs|3|0|13
@@ -281,7 +282,6 @@ src\PlainCEETimer.SourceGenerators\Extensions\Extensions.cs|2|0|12
 src\PlainCEETimer\Modules\Configuration\WindowSizeObject.cs|3|0|12
 src\PlainCEETimer\Modules\Extensions\Win32Extensions.cs|4|0|12
 src\PlainCEETimer\Modules\FileFilter.cs|2|0|12
-src\PlainCEETimer\Modules\Internals\StringInternals.cs|3|3|12
 src\PlainCEETimer\Properties\AssemblyInfo.cs|1|0|12
 src\PlainCEETimer\UI\Core\IHasContextMenuWrapper.cs|3|0|12
 src\PlainCEETimer\UI\DpiAwarenessContextScope.cs|3|0|12
@@ -365,4 +365,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5524|536|27054
+SUM:|5535|536|27101
