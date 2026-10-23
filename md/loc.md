@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.83 s (197.9 files/s, 18296.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.66 s (218.3 files/s, 20247.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|143|0|1046
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|187|28|974
 src\PlainCEETimer\UI\Controls\AppForm.cs|150|64|719
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|634
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|633
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
@@ -26,6 +26,7 @@ src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|50|0|270
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
 src\PlainCEETimer\UI\Controls\PlainListView.cs|55|10|242
+src\PlainCEETimer\Modules\Update\Updater.cs|42|0|241
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\Interop\Constants.cs|44|0|224
@@ -54,7 +55,6 @@ src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|5|0|164
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|32|0|159
 src\PlainCEETimer.Natives\Win32\IATHook.h|34|9|158
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|42|0|156
-src\PlainCEETimer\Modules\Update\Updater.cs|25|0|156
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|31|0|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
@@ -95,7 +95,6 @@ src\PlainCEETimer\UI\ThemeHelper.cs|15|0|81
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|17|0|80
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
 src\PlainCEETimer\UI\SystemBackdrop.cs|16|0|78
-src\PlainCEETimer\Modules\Http\NetworkedAction.cs|11|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|75
 src\PlainCEETimer\Interop\ConstEnums.cs|7|0|75
@@ -367,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5595|536|27427
+SUM:|5601|536|27435
