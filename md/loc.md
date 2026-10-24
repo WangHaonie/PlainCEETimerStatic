@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (285.7 files/s, 26504.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.34 s (269.2 files/s, 24971.0 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -11,7 +11,7 @@ src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
 src\PlainCEETimer\WPF\Appearance\Default.xaml|19|0|473
-src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|96|0|462
+src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|93|0|462
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|447
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
 src\PlainCEETimer\Modules\App.cs|53|0|363
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5603|536|27449
+SUM:|5600|536|27449
