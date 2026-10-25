@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (285.6 files/s, 26496.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.61 s (224.5 files/s, 20839.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -88,6 +88,7 @@ src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|19|0|88
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
+src\PlainCEETimer\Modules\Http\Downloader.cs|11|0|84
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|13|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|81
 src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|81
@@ -103,7 +104,6 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
-src\PlainCEETimer\Modules\Http\Downloader.cs|9|0|73
 src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|12|0|72
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5600|536|27449
+SUM:|5602|536|27460
