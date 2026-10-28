@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.66 s (218.4 files/s, 20238.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.94 s (186.6 files/s, 17291.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -108,10 +108,10 @@ src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|65
+src\PlainCEETimer\Modules\BitmapFilter.cs|15|5|64
 src\PlainCEETimer\Modules\Extensions\NumericExtensions.cs|9|0|64
 src\PlainCEETimer\Modules\SafeExecutionContext.cs|10|0|64
 src\PlainCEETimer\UI\Controls\PlainFlyout.cs|15|0|64
-src\PlainCEETimer\Modules\BitmapFilter.cs|15|5|63
 src\PlainCEETimer\WPF\Modules\TextBoxAdditions.cs|12|0|63
 src\PlainCEETimer\Modules\ViewModelBuilder.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5586|536|27427
+SUM:|5586|536|27428
