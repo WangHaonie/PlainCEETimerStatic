@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.14 s (317.0 files/s, 29382.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.38 s (263.1 files/s, 24401.2 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -12,7 +12,7 @@ src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
 src\PlainCEETimer\WPF\Appearance\Default.xaml|19|0|473
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|93|0|462
-src\PlainCEETimer\WPF\Controls\AppWindow.cs|85|0|447
+src\PlainCEETimer\WPF\Controls\AppWindow.cs|87|0|456
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
 src\PlainCEETimer\Modules\App.cs|53|0|363
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
@@ -61,12 +61,12 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|145
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|15|0|130
+src\PlainCEETimer\Modules\Extensions\Extensions.cs|24|0|119
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|118
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
-src\PlainCEETimer\Modules\Extensions\Extensions.cs|22|0|113
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|108
@@ -95,6 +95,7 @@ src\PlainCEETimer\UI\ThemeHelper.cs|15|0|81
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|17|0|80
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
 src\PlainCEETimer\UI\SystemBackdrop.cs|16|0|78
+src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|12|0|76
 src\PlainCEETimer\Modules\UacHelper.cs|21|7|76
 src\PlainCEETimer.Natives\Win32COM\TaskScheduler.cpp|13|0|75
 src\PlainCEETimer\Interop\ConstEnums.cs|7|0|75
@@ -103,7 +104,6 @@ src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
-src\PlainCEETimer\Modules\Reflection\ReflectionExtensions.cs|12|0|72
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5586|536|27428
+SUM:|5590|536|27447
