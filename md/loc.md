@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.30 s (278.9 files/s, 25921.2 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.77 s (204.6 files/s, 19018.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -6,7 +6,7 @@ File|blank|comment|code
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|145|0|1061
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|187|28|977
 src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|717
-src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|120|0|634
+src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|121|0|639
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|116|0|586
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
@@ -44,7 +44,7 @@ src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
 src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|195
 src\PlainCEETimer.Natives\Win32UI\Theme.h|47|6|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
-src\PlainCEETimer\UI\HotKeyManager.cs|50|7|176
+src\PlainCEETimer\UI\HotKeyManager.cs|50|7|177
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|38|0|173
 src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
 src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
@@ -83,6 +83,7 @@ src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
+src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|88
 src\PlainCEETimer\UI\Dialogs\ImmersiveOptionsDialog.cs|19|0|88
 src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
@@ -90,7 +91,6 @@ src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\Modules\Http\Downloader.cs|11|0|84
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|13|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|81
-src\PlainCEETimer\UI\Dialogs\HotKeyDialog.cs|16|0|81
 src\PlainCEETimer\UI\ThemeHelper.cs|15|0|81
 src\PlainCEETimer\UI\Extensions\ContextMenuExtensions.cs|17|0|80
 src\PlainCEETimer\Interop\MemoryCleaner.cs|14|0|78
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5603|536|27500
+SUM:|5604|536|27513
