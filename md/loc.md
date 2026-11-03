@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.77 s (204.6 files/s, 19018.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (296.3 files/s, 27535.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -17,8 +17,8 @@ src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|
 src\PlainCEETimer\Modules\App.cs|53|0|363
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
-src\PlainCEETimer.Natives\Win32UI\Control.cpp|73|6|337
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
+src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|326
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\Interop\Win32UI.cs|112|5|285
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5604|536|27513
+SUM:|5601|536|27502
