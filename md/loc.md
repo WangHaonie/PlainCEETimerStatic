@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.22 s (296.3 files/s, 27535.8 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (285.6 files/s, 26542.6 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -116,12 +116,12 @@ src\PlainCEETimer\WPF\Modules\TextBoxAdditions.cs|12|0|63
 src\PlainCEETimer\Modules\ViewModelBuilder.cs|12|0|62
 src\PlainCEETimer.Natives\Win32COM\ShellLink.cpp|7|0|61
 src\PlainCEETimer\UI\Core\WPFWindowStyles.cs|11|0|61
+src\PlainCEETimer\Modules\ComboTrigger.cs|12|0|60
 src\PlainCEETimer\Modules\Configuration\GeneralObject.cs|18|0|60
 src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|59
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|17|7|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
-src\PlainCEETimer\Modules\ComboTrigger.cs|12|0|58
 src\PlainCEETimer\Modules\ConsoleColorString.cs|11|0|58
 src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5601|536|27502
+SUM:|5601|536|27504
