@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.27 s (285.6 files/s, 26542.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.71 s (212.3 files/s, 19732.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -41,7 +41,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
 src\PlainCEETimer.Natives\Utils.h|53|8|203
 src\PlainCEETimer\UI\ThemeManager.cs|43|9|201
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
-src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|195
+src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
 src\PlainCEETimer.Natives\Win32UI\Theme.h|47|6|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|177
@@ -122,12 +122,12 @@ src\PlainCEETimer\Modules\StringHashCodeProvider.cs|15|0|60
 src\PlainCEETimer\UI\Controls\PlainButton.cs|13|0|59
 src\PlainCEETimer\UI\Controls\PlainComboBox.cs|17|7|59
 src\PlainCEETimer\Interop\ConstStructs.cs|32|95|58
-src\PlainCEETimer\Modules\ConsoleColorString.cs|11|0|58
 src\PlainCEETimer\UI\Controls\PlainTextCounter.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowDragService.cs|11|0|58
 src\PlainCEETimer\UI\Core\WinFormsWindowStyles.cs|12|0|58
 src\PlainCEETimer\UI\ListViewItemSet.cs|13|0|58
 src\PlainCEETimer\UI\Controls\AppDialog.cs|13|0|57
+src\PlainCEETimer\Modules\ConsoleColorString.cs|11|0|56
 src\PlainCEETimer\UI\Controls\PlainTrackBar.cs|10|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
@@ -262,6 +262,7 @@ src\PlainCEETimer\Modules\Extensions\TaskExtensions.cs|6|0|16
 src\PlainCEETimer\Modules\JsonConverters\SimpleJsonConverter.cs|5|0|16
 src\PlainCEETimer\WPF\Appearance\Default.Windows10.xaml|2|0|16
 src\PlainCEETimer.Natives\Collections\BrushTable.h|6|0|15
+src\PlainCEETimer.Natives\Win32\Win32.h|4|0|15
 src\PlainCEETimer\Interop\FunctionPointers.cs|8|0|15
 src\PlainCEETimer\Modules\Internals\Command.cs|4|0|15
 src\PlainCEETimer\Modules\Internals\StringInternals.cs|4|3|15
@@ -300,7 +301,6 @@ src\PlainCEETimer\UI\Core\IWindowDragService.cs|5|0|10
 src\PlainCEETimer\WPF\Appearance\Default.Windows7.xaml|2|0|10
 src\PlainCEETimer\WPF\Modules\Resource.cs|2|0|10
 src\PlainCEETimer.Fody\Extensions.cs|2|0|9
-src\PlainCEETimer.Natives\Win32\Win32.h|2|0|9
 src\PlainCEETimer.SourceGenerators\Models\ReflectionModel.cs|1|0|9
 src\PlainCEETimer\Modules\Internals\CompilerFeatureRequiredAttribute.cs|4|0|9
 src\PlainCEETimer\UI\Core\ITrayIconLoader.cs|4|0|9
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5601|536|27504
+SUM:|5603|536|27509
