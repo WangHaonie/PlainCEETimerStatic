@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.64 s (220.4 files/s, 20492.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (222.7 files/s, 20707.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -40,8 +40,8 @@ src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
 src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
 src\PlainCEETimer.Natives\Utils.h|53|8|203
 src\PlainCEETimer\UI\ThemeManager.cs|43|9|201
+src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|199
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
-src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|196
 src\PlainCEETimer.Natives\Win32UI\Theme.h|47|6|192
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|177
@@ -59,7 +59,7 @@ src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|31|0|154
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|20|0|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
-src\PlainCEETimer\Modules\PlainConsole.cs|27|0|145
+src\PlainCEETimer\Modules\PlainConsole.cs|27|0|151
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|15|0|130
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|24|0|119
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5604|536|27514
+SUM:|5604|536|27523
