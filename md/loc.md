@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.63 s (222.7 files/s, 20707.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.57 s (231.1 files/s, 21506.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -106,6 +106,7 @@ src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
+src\PlainCEETimer\UI\WindowManager.cs|15|0|69
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
 src\PlainCEETimer.Natives\Win32UI\CommonDialogs.cpp|14|0|65
 src\PlainCEETimer\Modules\BitmapFilter.cs|15|5|64
@@ -138,7 +139,6 @@ src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|12|0|52
 src\PlainCEETimer\UI\Core\WindowScreenChangeService.cs|13|0|52
 src\PlainCEETimer\Countdown\Console\ConsoleCountdown.cs|7|0|51
 src\PlainCEETimer\Modules\Update\AppUpdate.cs|8|0|51
-src\PlainCEETimer\UI\WindowManager.cs|12|0|51
 src\PlainCEETimer\UI\Core\AppTrayIconLoader.cs|10|0|50
 src\PlainCEETimer\UI\Core\WinFormsWindowBounds.cs|10|0|50
 src\PlainCEETimer\Interop\Win32.cs|21|0|49
@@ -366,4 +366,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5604|536|27523
+SUM:|5607|536|27541
