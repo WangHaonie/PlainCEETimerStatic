@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.74 s (211.3 files/s, 19847.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.03 s (356.2 files/s, 33409.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -27,8 +27,8 @@ src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|50|0|270
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
 src\PlainCEETimer\UI\Controls\PlainListView.cs|55|10|242
-src\PlainCEETimer\Modules\Update\Updater.cs|42|0|241
 src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
+src\PlainCEETimer\Modules\Update\Updater.cs|42|0|233
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\Interop\Constants.cs|44|0|224
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|224
@@ -81,6 +81,7 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
+src\PlainCEETimer\UI\WindowManager.cs|20|0|93
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
 src\PlainCEETimer\UI\HotKey.cs|22|0|90
 src\PlainCEETimer\Modules\Debouncer.cs|16|0|89
@@ -106,7 +107,6 @@ src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
 src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
-src\PlainCEETimer\UI\WindowManager.cs|17|0|72
 src\PlainCEETimer\Modules\SystemSettings.cs|16|0|71
 src\PlainCEETimer\Modules\Extensions\DateTimeExtensions.cs|21|7|69
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.cpp|14|0|68
@@ -236,6 +236,7 @@ src\PlainCEETimer\UI\ControlRenderer.cs|6|6|22
 src\PlainCEETimer\UI\Core\WinFormsWindowScreenChangeService.cs|5|0|22
 src\PlainCEETimer\UI\Forms\FileDialogWrapper.cs|5|0|22
 src\PlainCEETimer\Modules\Configuration\Enums.cs|1|0|21
+src\PlainCEETimer\Modules\Internals\DispatcherInternals.cs|4|0|21
 src\PlainCEETimer\UI\Core\WPFFontService.cs|5|0|21
 src\PlainCEETimer\WPF\Appearance\Basics.xaml|4|0|21
 src\PlainCEETimer.Natives\Win32\DisplayHelper.h|5|0|20
@@ -371,4 +372,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5732|536|28203
+SUM:|5739|536|28237
