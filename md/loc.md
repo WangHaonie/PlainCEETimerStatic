@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.76 s (211.3 files/s, 19720.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.45 s (255.0 files/s, 23848.3 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|145|0|1061
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|187|28|977
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|195|28|1026
 src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|717
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|121|0|639
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
@@ -22,7 +22,7 @@ src\PlainCEETimer\UI\Controls\ColorBlock.cs|55|0|337
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|326
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
 src\PlainCEETimer\Interop\Structs.cs|68|12|290
-src\PlainCEETimer\Interop\Win32UI.cs|112|5|285
+src\PlainCEETimer\Interop\Win32UI.cs|113|5|287
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|50|0|270
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
@@ -42,7 +42,7 @@ src\PlainCEETimer\UI\Dialogs\ExamDialog.cs|30|0|205
 src\PlainCEETimer.Natives\Utils.h|53|8|203
 src\PlainCEETimer.Natives\Win32\Win32.cpp|45|0|199
 src\PlainCEETimer\UI\PagedContextMenu.cs|31|0|198
-src\PlainCEETimer.Natives\Win32UI\Theme.h|47|6|192
+src\PlainCEETimer.Natives\Win32UI\Theme.h|49|6|195
 src\PlainCEETimer\UI\AppMessageBox.cs|56|16|191
 src\PlainCEETimer\UI\HotKeyManager.cs|50|7|177
 src\PlainCEETimer\UI\DpiHelperEx.cs|40|11|173
@@ -54,9 +54,9 @@ src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|5|0|164
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|32|0|159
 src\PlainCEETimer.Natives\Win32\IATHook.h|34|9|158
 src\PlainCEETimer.Natives\Win32\DisplayHelper.cpp|42|0|156
+src\PlainCEETimer\UI\ThemeManager.cs|34|9|155
 src\PlainCEETimer\Modules\Extensions\DebugExtensions.cs|31|0|154
 src\PlainCEETimer\UI\Forms\DownloaderForm.cs|20|0|154
-src\PlainCEETimer\UI\ThemeManager.cs|34|9|154
 src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|151
@@ -375,4 +375,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5762|536|28330
+SUM:|5773|536|28385
