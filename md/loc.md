@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=0.96 s (388.5 files/s, 36274.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.31 s (283.2 files/s, 26433.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,7 +8,7 @@ src\PlainCEETimer.Natives\Win32UI\Theme.cpp|195|28|1026
 src\PlainCEETimer\UI\Controls\AppForm.cs|147|64|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|121|0|639
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
-src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|101|0|569
+src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|96|0|555
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
 src\PlainCEETimer\WPF\Appearance\Default.xaml|19|0|473
@@ -68,11 +68,11 @@ src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.h|26|0|11
 src\PlainCEETimer\Interop\NativeStringUni.cs|26|0|117
 src\PlainCEETimer\UI\Extensions\Extensions.cs|22|0|115
 src\PlainCEETimer\Modules\ArrayEqualityComparer.cs|27|0|114
+src\PlainCEETimer\WPF\Extensions\Extensions.cs|24|0|114
 src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|106
-src\PlainCEETimer\WPF\Extensions\Extensions.cs|23|0|103
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
@@ -150,7 +150,6 @@ src\PlainCEETimer\UI\Controls\PlainNumericUpDown.cs|10|0|49
 src\PlainCEETimer\Modules\ActionInvoker.cs|11|0|47
 src\PlainCEETimer\Modules\JsonConverters\GlobalRulesConverter.cs|8|0|47
 src\PlainCEETimer\UI\Controls\PlainGroupBox.cs|7|0|47
-src\PlainCEETimer\WPF\Modules\Win32ContextMenu.cs|12|0|47
 src\PlainCEETimer\WPF\Views\MainWindow.xaml.cs|8|0|47
 src\PlainCEETimer\Modules\RegistryHelper.cs|11|0|46
 src\PlainCEETimer\UI\Controls\BlurOverlay.cs|7|0|45
@@ -162,6 +161,7 @@ src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|8|0|41
 src\PlainCEETimer.Natives\pch.h|16|0|40
 src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|40
+src\PlainCEETimer\WPF\Modules\Win32ContextMenu.cs|9|0|40
 src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|16|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
 src\PlainCEETimer\Interop\Extensions\IntPtrExtensions.cs|11|0|38
@@ -376,4 +376,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5780|536|28419
+SUM:|5773|536|28409
