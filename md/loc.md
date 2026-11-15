@@ -1,11 +1,11 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.86 s (199.4 files/s, 18653.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.35 s (276.4 files/s, 25804.9 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|145|0|1061
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|195|28|1026
-src\PlainCEETimer\UI\Controls\AppForm.cs|149|64|717
+src\PlainCEETimer\UI\Controls\AppForm.cs|147|64|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|121|0|639
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
 src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|101|0|569
@@ -32,9 +32,9 @@ src\PlainCEETimer\Modules\Update\Updater.cs|42|0|233
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\Interop\Constants.cs|44|0|224
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|224
+src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|219
 src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|219
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|36|0|213
-src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
 src\PlainCEETimer\Modules\Extensions\StringExtensions.cs|67|10|211
@@ -194,6 +194,7 @@ src\PlainCEETimer\Interop\Win32Controls.cs|11|20|32
 src\PlainCEETimer\UI\ContextMenuBuilder.cs|7|0|32
 src\PlainCEETimer\UI\Core\ScreenHelper.cs|11|0|32
 src\PlainCEETimer\Modules\SystemVersion.cs|10|0|31
+src\PlainCEETimer\UI\Controls\PlainDropDown.cs|7|0|31
 src\PlainCEETimer\WPF\Converters\ColorOpacityToBrushConverter.cs|5|0|31
 src\PlainCEETimer.SourceGenerators\ReflectionGenerator.cs|6|1|30
 src\PlainCEETimer\Modules\Internals\LabelInternals.cs|7|0|30
@@ -375,4 +376,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5774|536|28388
+SUM:|5779|536|28419
