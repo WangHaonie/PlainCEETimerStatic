@@ -1,10 +1,10 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.31 s (283.2 files/s, 26433.9 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.61 s (230.9 files/s, 21546.2 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
 src\PlainCEETimer\UI\Forms\SettingsForm.cs|145|0|1061
-src\PlainCEETimer.Natives\Win32UI\Theme.cpp|195|28|1026
+src\PlainCEETimer.Natives\Win32UI\Theme.cpp|195|28|1022
 src\PlainCEETimer\UI\Controls\AppForm.cs|147|64|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|121|0|639
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
@@ -376,4 +376,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5773|536|28409
+SUM:|5773|536|28405
