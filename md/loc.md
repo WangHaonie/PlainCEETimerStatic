@@ -1,9 +1,9 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.05 s (356.1 files/s, 33316.1 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.38 s (271.5 files/s, 25400.7 lines/s)
 --- | ---
 
 File|blank|comment|code
 :-------|-------:|-------:|-------:
-src\PlainCEETimer\UI\Forms\SettingsForm.cs|146|0|1073
+src\PlainCEETimer\UI\Forms\SettingsForm.cs|144|0|1069
 src\PlainCEETimer.Natives\Win32UI\Theme.cpp|197|28|1024
 src\PlainCEETimer\UI\Controls\AppForm.cs|147|64|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|123|0|650
@@ -17,7 +17,7 @@ src\PlainCEETimer\WPF\Controls\AppWindow.cs|87|0|457
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|87|0|431
 src\PlainCEETimer\Modules\App.cs|54|0|369
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
-src\PlainCEETimer\UI\Controls\ColorBlock.cs|57|0|362
+src\PlainCEETimer\UI\Controls\ColorBlock.cs|56|0|360
 src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|326
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
@@ -33,7 +33,7 @@ src\PlainCEETimer\Interop\Constants.cs|46|0|229
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
 src\PlainCEETimer\UI\ControlBuilder.cs|41|0|224
 src\PlainCEETimer\UI\Controls\PlainTextBox.cs|48|5|219
-src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|39|0|219
+src\PlainCEETimer\UI\Dialogs\RuleDialog.cs|36|0|214
 src\PlainCEETimer\Countdown\DefaultCountdownService.cs|36|0|213
 src\PlainCEETimer\WPF\ViewModels\FontDialogViewModel.cs|46|5|212
 src\PlainCEETimer\Modules\Arguments.cs|53|7|211
@@ -93,6 +93,7 @@ src\PlainCEETimer\UI\Enums.cs|16|21|87
 src\PlainCEETimer\UI\AppMessageFilter.cs|15|0|86
 src\PlainCEETimer\Modules\ProcessHelper.cs|18|5|85
 src\PlainCEETimer\Modules\Http\Downloader.cs|11|0|84
+src\PlainCEETimer\Countdown\ColorPair.cs|21|12|83
 src\PlainCEETimer\UI\Controls\PlainTabControl.cs|13|0|82
 src\PlainCEETimer\Countdown\PhTokenParser.cs|15|0|81
 src\PlainCEETimer\UI\ThemeHelper.cs|15|0|81
@@ -106,7 +107,6 @@ src\PlainCEETimer\Interop\ConstEnums.cs|7|0|75
 src\PlainCEETimer\Modules\PathUtils.cs|17|5|75
 src\PlainCEETimer\UI\Forms\AboutForm.cs|14|0|75
 src\PlainCEETimer\WPF\Appearance\Controls.xaml|3|0|75
-src\PlainCEETimer\Countdown\ColorPair.cs|19|12|74
 src\PlainCEETimer\Countdown\Immersive\ImmersiveCountdownController.cs|21|0|74
 src\PlainCEETimer\Modules\TimeSpanFormat.cs|17|0|72
 src\PlainCEETimer\Modules\SystemSettings.cs|16|0|71
@@ -378,4 +378,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5818|536|28636
+SUM:|5814|536|28634
