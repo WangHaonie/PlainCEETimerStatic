@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.38 s (271.5 files/s, 25400.7 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.28 s (292.0 files/s, 27324.3 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -8,9 +8,9 @@ src\PlainCEETimer.Natives\Win32UI\Theme.cpp|197|28|1024
 src\PlainCEETimer\UI\Controls\AppForm.cs|147|64|711
 src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|123|0|650
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
-src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|96|0|555
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
+src\PlainCEETimer\WPF\Modules\SmoothScroll.ScrollAnimator.cs|87|0|505
 src\PlainCEETimer\WPF\Appearance\Default.xaml|19|0|473
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|93|0|462
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|87|0|457
@@ -61,6 +61,7 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|151
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|29|0|143
+src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|24|0|142
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|15|0|130
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|24|0|119
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
@@ -378,4 +379,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5814|536|28634
+SUM:|5829|536|28726
