@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.28 s (292.0 files/s, 27324.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.36 s (275.4 files/s, 25786.9 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -10,7 +10,7 @@ src\PlainCEETimer\WPF\ViewModels\MainViewModel.cs|123|0|650
 src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml.cs|119|0|603
 src\PlainCEETimer\UI\Controls\ListViewDialog.cs|100|6|523
 src\PlainCEETimer\UI\Controls\PlainCommonDialog.cs|90|0|521
-src\PlainCEETimer\WPF\Modules\SmoothScroll.ScrollAnimator.cs|87|0|505
+src\PlainCEETimer\WPF\Modules\SmoothScroll.ScrollAnimator.cs|88|0|516
 src\PlainCEETimer\WPF\Appearance\Default.xaml|19|0|473
 src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.UI.cpp|93|0|462
 src\PlainCEETimer\WPF\Controls\AppWindow.cs|87|0|457
@@ -18,7 +18,7 @@ src\PlainCEETimer.Natives\Controls\PlainTimeSpanPick\PlainTimeSpanPick.Core.cpp|
 src\PlainCEETimer\Modules\App.cs|54|0|369
 src\PlainCEETimer\WPF\Controls\FontFamilyInputBox.cs|72|0|363
 src\PlainCEETimer\UI\Controls\ColorBlock.cs|56|0|360
-src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|339
+src\PlainCEETimer\WPF\ViewModels\ImmersiveViewModel.cs|71|0|340
 src\PlainCEETimer.Natives\Win32UI\Control.cpp|70|6|326
 src\PlainCEETimer\Modules\Configuration\ConfigValidator.cs|53|0|326
 src\PlainCEETimer\Interop\Win32UI.cs|115|5|291
@@ -50,7 +50,7 @@ src\PlainCEETimer\Countdown\CountdownRule.cs|40|0|171
 src\PlainCEETimer\Countdown\DefaultCountdownBuilder.cs|24|0|166
 src\PlainCEETimer\Countdown\Exam.cs|36|0|166
 src\PlainCEETimer.Natives\Images.h|28|0|165
-src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|5|0|164
+src\PlainCEETimer\Countdown\Immersive\ImmersiveWindow.xaml|5|0|165
 src\PlainCEETimer\UI\Controls\PlainLabel.cs|32|0|159
 src\PlainCEETimer.Natives\Win32\IATHook.h|34|9|158
 src\PlainCEETimer\UI\ThemeManager.cs|35|9|158
@@ -61,7 +61,7 @@ src\PlainCEETimer\Modules\Startup.cs|26|7|153
 src\PlainCEETimer.Natives\Win32\User.cpp|35|1|151
 src\PlainCEETimer\Modules\PlainConsole.cs|27|0|151
 src\PlainCEETimer.SourceGenerators\PropertyBackingFieldGenerator.cs|29|0|143
-src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|24|0|142
+src\PlainCEETimer\WPF\Modules\SmoothScroll.cs|25|0|143
 src\PlainCEETimer\Modules\Internals\DpiHelper.cs|15|0|130
 src\PlainCEETimer\Modules\Extensions\Extensions.cs|24|0|119
 src\PlainCEETimer.Fody\ModuleWeaver.cs|29|0|118
@@ -379,4 +379,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5829|536|28726
+SUM:|5831|536|28740
