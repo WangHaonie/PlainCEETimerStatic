@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.64 s (228.5 files/s, 21394.5 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.31 s (285.3 files/s, 26718.4 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -74,6 +74,7 @@ src\PlainCEETimer\Modules\Linq\ArrayLinq.cs|29|9|110
 src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|106
+src\PlainCEETimer\UI\Controls\PlainDragImage.cs|19|0|102
 src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
@@ -82,7 +83,6 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
-src\PlainCEETimer\UI\Controls\PlainDragImage.cs|19|0|94
 src\PlainCEETimer\UI\WindowManager.cs|20|0|93
 src\PlainCEETimer\UI\SystemBackdrop.cs|17|0|91
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
@@ -379,4 +379,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5831|536|28743
+SUM:|5831|536|28751
