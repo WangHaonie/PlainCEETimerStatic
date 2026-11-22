@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.28 s (292.1 files/s, 27359.3 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.64 s (228.4 files/s, 21395.8 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -349,12 +349,12 @@ src\PlainCEETimer.Natives\Win32UI\CommonDialogs.h|2|0|5
 src\PlainCEETimer\Modules\IDebounceState.cs|1|0|5
 src\PlainCEETimer\Modules\IInvokable.cs|1|0|5
 src\PlainCEETimer\Modules\ISystemSetting.cs|1|0|5
+src\PlainCEETimer\UI\Core\IRequireDialog.cs|1|0|5
 src\PlainCEETimer\UI\Core\IRequireWindowInitializer.cs|1|0|5
 src\PlainCEETimer\UI\Core\IRequireWindowStyles.cs|1|0|5
 src\PlainCEETimer\UI\DialogEndEventArgs.cs|1|0|5
 src\PlainCEETimer\UI\IHasParentWindow.cs|1|0|5
 src\PlainCEETimer\UI\IMessageBox.cs|1|0|5
-src\PlainCEETimer\UI\IRequireDialog.cs|1|0|5
 src\PlainCEETimer\UI\IThemeAware.cs|1|0|5
 src\PlainCEETimer\UI\TopMostStateChangedEventArgs.cs|1|0|5
 src\PlainCEETimer\WPF\Modules\IConfirmClose.cs|1|0|5
