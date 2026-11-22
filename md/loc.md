@@ -1,4 +1,4 @@
-cloc|github.com/AlDanial/cloc v 2.06  T=1.01 s (372.6 files/s, 34903.0 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=1.69 s (222.1 files/s, 20811.7 lines/s)
 --- | ---
 
 File|blank|comment|code
@@ -26,8 +26,8 @@ src\PlainCEETimer\Interop\Structs.cs|68|12|290
 src\PlainCEETimer\UI\Controls\PlainTimeSpanPicker.cs|50|0|270
 src\PlainCEETimer\UI\Controls\PlainDateTimePicker.cs|42|0|269
 src\PlainCEETimer\UI\FullScreenTracker.cs|53|0|262
+src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|33|0|247
 src\PlainCEETimer\UI\Controls\PlainListView.cs|55|10|242
-src\PlainCEETimer\UI\Dialogs\ConsoleWindow.cs|31|0|238
 src\PlainCEETimer\Modules\Update\Updater.cs|42|0|233
 src\PlainCEETimer\Interop\Constants.cs|46|0|229
 src\PlainCEETimer\UI\Controls\NavigationView.cs|33|0|227
@@ -75,7 +75,6 @@ src\PlainCEETimer\UI\SystemMenu.cs|24|0|109
 src\PlainCEETimer\Modules\Configuration\AppConfig.cs|24|0|106
 src\PlainCEETimer\WPF\WPFApp.cs|18|0|106
 src\PlainCEETimer\UI\Controls\PlainDragImage.cs|19|0|102
-src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|16|0|101
 src\PlainCEETimer\UI\HotKeyService.cs|21|0|101
 src\PlainCEETimer\WPF\Views\FontDialog.xaml|5|0|101
 src\PlainCEETimer\Modules\OptimizationHelper.cs|12|0|100
@@ -83,6 +82,7 @@ src\PlainCEETimer\WPF\Models\FontModel.cs|20|0|99
 src\PlainCEETimer\Interop\ShellLink.cs|18|0|98
 src\PlainCEETimer\Modules\Configuration\DefaultValues.cs|25|5|97
 src\PlainCEETimer\UI\Controls\PlainHotKeyControl.cs|23|8|97
+src\PlainCEETimer\UI\Controls\PlainProgressBar.cs|14|0|96
 src\PlainCEETimer\UI\WindowManager.cs|20|0|93
 src\PlainCEETimer\UI\SystemBackdrop.cs|17|0|91
 src\PlainCEETimer\UI\Forms\MainForm.cs|17|0|90
@@ -138,6 +138,7 @@ src\PlainCEETimer\UI\Controls\PlainTrackBar.cs|10|0|56
 src\PlainCEETimer\Countdown\Ph.cs|9|3|55
 src\PlainCEETimer\Countdown\ExamSettings.cs|11|0|54
 src\PlainCEETimer\Modules\EfficientInvocationList.cs|11|0|54
+src\PlainCEETimer\Interop\TaskbarProgress.cs|12|0|52
 src\PlainCEETimer\Modules\Enums.cs|7|0|52
 src\PlainCEETimer\Modules\JsonConverters\CountdownRuleConverter.cs|10|0|52
 src\PlainCEETimer\UI\Core\WPFWindowBounds.cs|12|0|52
@@ -163,7 +164,6 @@ src\PlainCEETimer\Modules\RandomUID.cs|9|0|42
 src\PlainCEETimer\UI\DeviceContext.cs|10|0|41
 src\PlainCEETimer\WPF\Converters\ColorToBrushConverter.cs|8|0|41
 src\PlainCEETimer.Natives\pch.h|16|0|40
-src\PlainCEETimer\Interop\TaskbarProgress.cs|11|0|40
 src\PlainCEETimer\WPF\Modules\Win32ContextMenu.cs|9|0|40
 src\PlainCEETimer\Modules\Configuration\ImmersiveObject.cs|16|0|39
 src\PlainCEETimer\Interop\Enums.cs|6|3|38
@@ -379,4 +379,4 @@ src\PlainCEETimer\UI\Core\IImmersiveServiceHub.cs|1|0|2
 src\PlainCEETimer\UI\HotKeyPressEventHandler.cs|1|0|2
 src\PlainCEETimer.Natives\pch.cpp|0|0|1
 --------|--------|--------|--------
-SUM:|5833|536|28761
+SUM:|5834|536|28777
